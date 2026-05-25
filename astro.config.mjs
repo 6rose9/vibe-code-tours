@@ -8,8 +8,8 @@ import sitemap from "@astrojs/sitemap";
 //   site: "https://vibecode.tours", base: "/"
 // The link helper in src/i18n/utils.ts reads BASE_URL, so links adapt automatically.
 export default defineConfig({
-  site: "https://vibe-code-tours.github.io",
-  base: "/vibe-code-tours-site",
+  site: "https://vibecode.tours",
+  base: "/",
   trailingSlash: "ignore",
   i18n: {
     defaultLocale: "en",
