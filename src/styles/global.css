@@ -2,10 +2,6 @@
 @import '@fontsource/noto-sans-myanmar/600.css';
 @import '@fontsource/noto-sans-myanmar/700.css';
 
-
-/* Pyidaungsu — primary Burmese face, self-hosted woff2 (no runtime CDN).
-   local() first so users who have it installed skip the download.
-   "Pyidaungsu Book" is the family MCF ships on the bold file. */
 @font-face {
   font-family: 'Pyidaungsu';
   src: local('Pyidaungsu'), url('/fonts/pyidaungsu/Pyidaungsu-Regular.woff2') format('woff2');
@@ -28,33 +24,29 @@
 
 @layer base {
   :root {
-    color-scheme: light;
+    color-scheme: dark;
   }
   html {
     scroll-behavior: smooth;
   }
   body {
-    @apply bg-white text-gray-800 antialiased;
+    @apply bg-surface-base text-gray-300 antialiased;
+    background-image: radial-gradient(circle at 1px 1px, #ffffff08 1px, transparent 0);
+    background-size: 24px 24px;
   }
-  /* Burmese pages get the Myanmar-first font stack + slightly looser leading. */
   html[lang='my'] body {
     @apply font-my leading-relaxed;
   }
   a {
-    @apply text-accent-700 underline-offset-2;
-  }
-  a:hover {
-    @apply text-accent-800;
+    @apply text-accent-500 underline-offset-2 hover:text-accent-400;
   }
   h1,
   h2,
   h3 {
-    @apply text-gray-900 font-bold tracking-tight;
+    @apply text-white font-bold tracking-tight;
   }
-  /* Visible keyboard focus everywhere (WCAG 2.4.7). Amber ring on a white
-     offset so it reads on both white and amber-tinted surfaces. */
   :where(a, button, [role='button'], summary, .card, input, select, textarea):focus-visible {
-    @apply outline-none ring-2 ring-accent-500 ring-offset-2 ring-offset-white rounded-md;
+    @apply outline-none ring-2 ring-accent-500 ring-offset-2 ring-offset-surface-base rounded-md;
   }
 }
 
@@ -66,27 +58,38 @@
     @apply inline-flex items-center justify-center rounded-lg px-5 py-3 text-base font-semibold no-underline transition;
   }
   .btn-primary {
-    @apply bg-accent-600 text-white hover:bg-accent-700;
+    @apply bg-accent-500 text-black font-bold hover:bg-accent-600;
+    box-shadow: 0 0 30px #f59e0b22;
+  }
+  .btn-primary:hover {
+    box-shadow: 0 0 40px #f59e0b33;
   }
   .btn-secondary {
-    @apply border border-gray-300 bg-white text-gray-800 hover:border-accent-600 hover:text-accent-800;
+    @apply border border-white/10 bg-transparent text-gray-300 hover:border-accent-500/30 hover:text-white;
   }
   .card {
-    @apply block rounded-xl border border-gray-200 bg-white p-6 no-underline transition hover:border-accent-300;
+    @apply block rounded-xl border border-white/5 bg-surface-card p-6 no-underline transition;
   }
-  .card-link:hover {
-    @apply -translate-y-0.5 border-accent-500 shadow-md;
+  .card:hover {
+    @apply border-accent-500/20 -translate-y-0.5;
   }
   .tier {
     @apply inline-flex h-6 w-6 items-center justify-center rounded-full text-xs font-bold;
   }
   .tier-a {
-    @apply bg-gray-200 text-gray-700;
+    @apply bg-white/5 text-gray-500;
   }
   .tier-b {
-    @apply bg-blue-100 text-blue-800;
+    background: #3b82f611;
+    @apply text-blue-400;
+    border: 1px solid #3b82f622;
   }
   .tier-c {
-    @apply bg-accent-100 text-accent-800;
+    background: #f59e0b11;
+    @apply text-accent-500;
+    border: 1px solid #f59e0b22;
+  }
+  .section-label {
+    @apply text-xs font-bold uppercase tracking-widest text-accent-500 text-center;
   }
 }

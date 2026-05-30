@@ -1,37 +1,122 @@
 ---
 import { t, getLocale, localizedPath, type Locale } from '../i18n/utils';
+import { chapters } from '../data/chapters';
+import ChapterCard from './ChapterCard.astro';
 
 const locale: Locale = getLocale(Astro.url.pathname);
 const s = t(locale).home;
 
-const cards = [
-  { title: s.card1Title, body: s.card1Body },
-  { title: s.card2Title, body: s.card2Body },
-  { title: s.card3Title, body: s.card3Body },
+const features = [
+  { icon: '⌨️', title: 'Claude Code Deep Dive', desc: 'Permission modes, CLAUDE.md, cost control, prompting patterns' },
+  { icon: '🔌', title: 'MCP Ecosystem', desc: 'Context7, claude-mem, custom MCP servers for your workflow' },
+  { icon: '🤖', title: 'Agents & Skills', desc: 'Subagents, hooks, SDK, methodologies that multiply output' },
+  { icon: '🚀', title: 'Ship to Production', desc: 'Real URLs, security audits, deployment — not toy projects' },
+  { icon: '🧭', title: 'Tool Landscape', desc: 'Beyond Claude: Cursor, Copilot, Aider, Windsurf' },
+  { icon: '👥', title: 'Team Build Sprint', desc: 'Form squads, build together, Demo Day showcase' },
 ];
+
+const tags = ['#VibeCode', '#AI', '#DEV', '#MCP', '#AGENT', '#SKILL'];
+const highlightTags = new Set(['#VibeCode', '#MCP']);
 ---
 
-<section class="mx-auto max-w-3xl px-5 py-16 text-center sm:px-6 sm:py-20">
-  <h1 class="text-4xl font-bold sm:text-5xl">{s.heroTitle}</h1>
-  <p class="mt-4 text-xl font-semibold text-accent-700">{s.heroStat}</p>
-  <p class="mx-auto mt-4 max-w-prose text-lg text-gray-600">{s.heroSub}</p>
-  <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-    <a href={localizedPath('/apply', locale)} class="btn btn-primary">{s.ctaApply}</a>
-    <a href={localizedPath('/curriculum', locale)} class="btn btn-secondary">{s.ctaWork}</a>
+<!-- Hero -->
+<section class="relative overflow-hidden py-20 text-center sm:py-28">
+  <div class="pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 h-[400px] w-[600px] rounded-full" style="background: radial-gradient(circle, #f59e0b0d, transparent 70%)"></div>
+  <div class="relative mx-auto max-w-3xl px-5 sm:px-6">
+    <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-accent-500/30 bg-accent-500/10 px-4 py-1.5 text-sm font-semibold text-accent-500">
+      <span class="h-1.5 w-1.5 rounded-full bg-accent-500 animate-pulse"></span>
+      Cohort 1 in progress · Cohort 2 opening soon
+    </div>
+    <h1 class="text-4xl font-black leading-tight sm:text-6xl" style="background: linear-gradient(135deg, #fff 0%, #f59e0b 80%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+      Master AI-First Development
+    </h1>
+    <p class="mt-4 text-lg font-bold text-accent-500">{s.heroStat}</p>
+    <p class="mx-auto mt-4 max-w-xl text-lg text-gray-400">{s.heroSub}</p>
+    <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+      <a href={localizedPath('/apply', locale)} class="btn btn-primary">{s.ctaApply}</a>
+      <a href={localizedPath('/curriculum', locale)} class="btn btn-secondary">{s.ctaWork}</a>
+    </div>
+    <div class="mt-6 flex flex-wrap justify-center gap-2">
+      {tags.map((tag) => (
+        <span class:list={[
+          'rounded-full px-3 py-1 font-mono text-xs font-semibold transition',
+          highlightTags.has(tag)
+            ? 'border border-accent-500/30 bg-accent-500/10 text-accent-500'
+            : 'border border-white/10 bg-white/5 text-gray-500 hover:text-accent-500 hover:border-accent-500/30'
+        ]}>
+          {tag}
+        </span>
+      ))}
+    </div>
   </div>
 </section>
 
-<section class="mx-auto max-w-5xl px-5 pb-12 sm:px-6">
-  <div class="grid gap-4 md:grid-cols-3 md:gap-5">
-    {cards.map((card) => (
-      <div class="card">
-        <h2 class="text-lg">{card.title}</h2>
-        <p class="mt-2 text-sm text-gray-600">{card.body}</p>
+<!-- Features -->
+<section class="mx-auto max-w-5xl px-5 py-12 sm:px-6">
+  <p class="section-label">What You'll Master</p>
+  <h2 class="mt-2 text-center text-3xl font-extrabold sm:text-4xl">Build with AI, Not Just About AI</h2>
+  <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    {features.map((f) => (
+      <div class="group rounded-xl border border-white/5 bg-surface-card p-6 transition hover:-translate-y-0.5 hover:border-accent-500/20 relative overflow-hidden">
+        <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-accent-500/20 to-transparent opacity-0 transition group-hover:opacity-100"></div>
+        <div class="mb-3 flex h-10 w-10 items-center justify-center rounded-lg border border-accent-500/20 bg-accent-500/10 text-xl">{f.icon}</div>
+        <h3 class="text-base font-bold">{f.title}</h3>
+        <p class="mt-2 text-sm text-gray-500">{f.desc}</p>
       </div>
     ))}
   </div>
 </section>
 
-<section class="mx-auto max-w-5xl px-5 pb-4 sm:px-6">
-  <p class="rounded-lg bg-gray-50 px-5 py-4 text-center text-sm text-gray-600">{s.credibility}</p>
+<!-- Curriculum Roadmap -->
+<section class="mx-auto max-w-5xl px-5 py-16 sm:px-6">
+  <p class="section-label">The Journey</p>
+  <h2 class="mt-2 text-center text-3xl font-extrabold sm:text-4xl">9 Chapters · Zero to Ship</h2>
+  <div class="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+    {chapters.map((ch) => (
+      <a href={localizedPath(`/curriculum/ch-${ch.num}`, locale)} class="group rounded-xl border border-white/5 bg-surface-card p-5 no-underline transition hover:border-accent-500/20">
+        <div class="font-mono text-xs font-bold text-accent-500/70">CH {ch.num}</div>
+        <h4 class="mt-1 text-sm font-bold text-white">{ch.title}</h4>
+        <p class="mt-1 text-xs text-gray-600">{ch.outcome}</p>
+        <div class="mt-3 flex gap-1">
+          {ch.tiers.map((tier) => (
+            <span class:list={['tier', `tier-${tier.toLowerCase()}`]} title={`Tier ${tier}`}>{tier}</span>
+          ))}
+        </div>
+      </a>
+    ))}
+  </div>
+</section>
+
+<!-- Social Proof -->
+<section class="mx-auto max-w-4xl px-5 py-12 sm:px-6">
+  <div class="flex flex-wrap justify-center gap-12 rounded-xl border border-white/5 bg-surface-card px-8 py-8 sm:gap-16">
+    <div class="text-center">
+      <div class="text-3xl font-black text-white">185<span class="text-accent-500">+</span></div>
+      <div class="mt-1 text-xs text-gray-500">Cohort 1 Builders</div>
+    </div>
+    <div class="text-center">
+      <div class="text-3xl font-black text-white">9</div>
+      <div class="mt-1 text-xs text-gray-500">Chapters</div>
+    </div>
+    <div class="text-center">
+      <div class="text-3xl font-black text-white">36<span class="text-accent-500">h</span></div>
+      <div class="mt-1 text-xs text-gray-500">Hands-on Hours</div>
+    </div>
+    <div class="text-center">
+      <div class="text-3xl font-black text-white">$0</div>
+      <div class="mt-1 text-xs text-gray-500">Cost to Join</div>
+    </div>
+  </div>
+</section>
+
+<!-- Final CTA -->
+<section class="mx-auto max-w-3xl px-5 py-16 sm:px-6">
+  <div class="relative overflow-hidden rounded-2xl border border-accent-500/20 p-12 text-center" style="background: linear-gradient(135deg, #f59e0b0d, #09090b)">
+    <div class="pointer-events-none absolute inset-0" style="background: radial-gradient(circle at center, #f59e0b08, transparent 50%)"></div>
+    <h2 class="relative text-3xl font-extrabold">Ready to Vibe Code?</h2>
+    <p class="relative mt-3 text-gray-500">Join the next cohort and build with AI, not just about it.</p>
+    <div class="relative mt-6">
+      <a href={localizedPath('/apply', locale)} class="btn btn-primary text-lg">{s.ctaApply}</a>
+    </div>
+  </div>
 </section>

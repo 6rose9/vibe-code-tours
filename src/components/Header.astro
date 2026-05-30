@@ -7,31 +7,27 @@ const altHref = altLocaleHref(Astro.url.pathname);
 const altLabel = s.meta.altLangLabel;
 
 const nav = [
+  { href: '/curriculum', label: s.nav.curriculum },
   { href: '/about', label: s.nav.about },
   { href: '/team', label: s.nav.team },
-  { href: '/curriculum', label: s.nav.curriculum },
-  { href: '/setup', label: s.nav.setup },
-  { href: '/apply', label: s.nav.apply },
-  { href: '/sponsors', label: s.nav.sponsors },
   { href: '/faq', label: s.nav.faq },
-  { href: '/contact', label: s.nav.contact },
 ];
 ---
 
-<header class="border-b border-gray-200 bg-white">
+<header class="border-b border-white/5">
   <div class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-5 py-4 sm:px-6">
-    <a href={localizedPath('/', locale)} class="flex items-center gap-2 text-lg font-bold tracking-tight text-gray-900 no-underline hover:text-accent-800">
+    <a href={localizedPath('/', locale)} class="flex items-center gap-2 text-lg font-black tracking-tight text-white no-underline hover:text-accent-500">
       <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" width="28" height="28" class="rounded-md" />
-      <span>{s.brand.name}</span>
+      <span>vibe<span class="text-accent-500">code</span>.tours</span>
     </a>
 
     <nav aria-label="Primary" class="order-3 w-full sm:order-2 sm:w-auto">
-      <ul class="-mx-1 flex flex-wrap gap-x-2 gap-y-1 text-sm">
+      <ul class="-mx-1 flex flex-wrap gap-x-4 gap-y-1 text-sm">
         {nav.map((item) => (
           <li>
             <a
               href={localizedPath(item.href, locale)}
-              class="inline-flex min-h-[44px] items-center px-1 text-gray-700 no-underline hover:text-accent-800 sm:min-h-0 sm:py-2"
+              class="inline-flex min-h-[44px] items-center px-1 text-gray-400 no-underline hover:text-white sm:min-h-0 sm:py-2"
             >
               {item.label}
             </a>
@@ -40,12 +36,20 @@ const nav = [
       </ul>
     </nav>
 
-    <a
-      href={altHref}
-      class="order-2 inline-flex min-h-[44px] items-center rounded-md border border-gray-300 px-3 py-1 text-sm font-semibold text-gray-700 no-underline hover:border-accent-600 hover:text-accent-800 sm:order-3 sm:min-h-0 sm:py-1.5"
-      lang={locale === 'en' ? 'my' : 'en'}
-    >
-      {altLabel}
-    </a>
+    <div class="order-2 flex items-center gap-3 sm:order-3">
+      <a
+        href={altHref}
+        class="inline-flex min-h-[44px] items-center rounded-md border border-white/10 px-3 py-1 text-sm font-semibold text-gray-400 no-underline hover:border-accent-500/30 hover:text-white sm:min-h-0 sm:py-1.5"
+        lang={locale === 'en' ? 'my' : 'en'}
+      >
+        {altLabel}
+      </a>
+      <a
+        href={localizedPath('/apply', locale)}
+        class="inline-flex min-h-[44px] items-center rounded-lg bg-accent-500 px-4 py-1.5 text-sm font-bold text-black no-underline hover:bg-accent-600 sm:min-h-0"
+      >
+        {s.nav.apply} →
+      </a>
+    </div>
   </div>
 </header>

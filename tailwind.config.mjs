@@ -4,8 +4,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Accent: warm amber/gold — "caravan / golden land" motif.
-        // 600/700 used for text-on-light to keep WCAG AA contrast.
         accent: {
           50: '#fffbeb',
           100: '#fef3c7',
@@ -18,10 +16,15 @@ export default {
           800: '#92400e',
           900: '#78350f',
         },
+        surface: {
+          base: '#09090b',
+          card: '#0f0f11',
+          elevated: '#18181b',
+        },
       },
       fontFamily: {
-        // System stack for English/Latin; Pyidaungsu + Noto Sans Myanmar appended for Burmese glyphs.
         sans: [
+          'Inter',
           'system-ui',
           '-apple-system',
           'Segoe UI',
@@ -32,10 +35,14 @@ export default {
           'Noto Sans Myanmar',
           'sans-serif',
         ],
+        mono: ['JetBrains Mono', 'ui-monospace', 'monospace'],
         my: ['Pyidaungsu', 'Noto Sans Myanmar', 'system-ui', 'sans-serif'],
       },
       maxWidth: {
         prose: '70ch',
+      },
+      borderColor: {
+        subtle: '#ffffff0a',
       },
     },
   },
