@@ -14,8 +14,13 @@ export const TYPE_LABELS = {
 };
 
 function valid(c) {
-  return c && typeof c.github === "string" && typeof c.title === "string" &&
-    typeof c.repo_url === "string" && TYPE_LABELS[c.type];
+  return (
+    c &&
+    typeof c.github === "string" &&
+    typeof c.title === "string" &&
+    typeof c.repo_url === "string" &&
+    TYPE_LABELS[c.type]
+  );
 }
 
 export function getProjects() {
@@ -28,13 +33,15 @@ export function getProjects() {
 export function typeBuckets(cards) {
   const m = new Map();
   for (const c of cards) m.set(c.type, (m.get(c.type) || 0) + 1);
-  return [...m.entries()].map(([type, count]) => ({ type, count }))
+  return [...m.entries()]
+    .map(([type, count]) => ({ type, count }))
     .sort((a, b) => b.count - a.count || a.type.localeCompare(b.type));
 }
 
 export function stackList(cards) {
   const m = new Map();
   for (const c of cards) for (const s of c.stack) m.set(s, (m.get(s) || 0) + 1);
-  return [...m.entries()].map(([name, count]) => ({ name, count }))
+  return [...m.entries()]
+    .map(([name, count]) => ({ name, count }))
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 }

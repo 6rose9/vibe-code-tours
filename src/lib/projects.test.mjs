@@ -1,11 +1,19 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { getProjects, typeBuckets, stackList, TYPE_LABELS } from "./projects.mjs";
+import {
+  getProjects,
+  typeBuckets,
+  stackList,
+  TYPE_LABELS,
+} from "./projects.mjs";
 
 test("getProjects loads and sorts by name", () => {
   const p = getProjects();
   assert.ok(p.length >= 3);
-  assert.deepEqual([...p].map((c) => c.name), [...p].map((c) => c.name).sort((a, b) => a.localeCompare(b)));
+  assert.deepEqual(
+    [...p].map((c) => c.name),
+    [...p].map((c) => c.name).sort((a, b) => a.localeCompare(b)),
+  );
 });
 
 test("every card has required fields + valid type", () => {

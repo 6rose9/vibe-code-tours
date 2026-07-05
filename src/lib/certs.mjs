@@ -153,7 +153,9 @@ export const skilljarUrl = (code) => SKILLJAR_VERIFY_BASE + code;
 // Some certs (e.g. GitHub Foundations) verify off-Skilljar. Their stored value is
 // the full https URL; build the link as-is. Skilljar codes still expand normally.
 export const certUrl = (code) =>
-  /^https?:\/\//.test(String(code)) ? String(code) : SKILLJAR_VERIFY_BASE + code;
+  /^https?:\/\//.test(String(code))
+    ? String(code)
+    : SKILLJAR_VERIFY_BASE + code;
 
 // Extract a full http(s) URL from a value or a [md](url) link, else "".
 function extractUrl(v) {
@@ -180,7 +182,10 @@ export function normalizeCerts(raw) {
   const out = {};
   for (const [id, val] of Object.entries(raw)) {
     const code = normalizeSkilljar(val);
-    if (code) { out[String(id).trim()] = code; continue; }
+    if (code) {
+      out[String(id).trim()] = code;
+      continue;
+    }
     const url = extractUrl(val); // non-Skilljar cert (e.g. GitHub Foundations)
     if (url) out[String(id).trim()] = url;
   }
