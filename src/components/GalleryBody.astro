@@ -116,7 +116,10 @@ const scriptI18n = JSON.stringify({
     <div class="relative flex max-h-[90vh] w-full max-w-3xl flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#0b0b0d]">
       <button id="lightbox-close" class="absolute right-3 top-3 z-10 rounded-full bg-white/10 p-2 text-white hover:bg-white/20" aria-label="Close">✕</button>
       <div class="overflow-y-auto">
-        <img id="lb-shot" src="" alt="" class="max-h-[42vh] w-full object-contain bg-black/40" />
+        <div class="bg-black/40">
+          <img id="lb-shot" src="" alt="" class="max-h-[42vh] w-full object-contain" />
+          <div id="lb-thumbs" class="flex gap-2 overflow-x-auto px-3 pb-3 pt-1 empty:hidden"></div>
+        </div>
         <div class="p-5">
           <div class="flex items-center gap-3">
             <img id="lb-avatar" src="" alt="" width="32" height="32" class="h-8 w-8 rounded-full border border-white/10" />
@@ -210,6 +213,7 @@ const scriptI18n = JSON.stringify({
 
   const lb = document.getElementById("lightbox");
   const lbShot = document.getElementById("lb-shot") as HTMLImageElement | null;
+  const lbThumbs = document.getElementById("lb-thumbs");
   const lbAvatar = document.getElementById("lb-avatar") as HTMLImageElement | null;
   const lbTitle = document.getElementById("lb-title");
   const lbName = document.getElementById("lb-name");
@@ -233,11 +237,42 @@ const scriptI18n = JSON.stringify({
 
   function openLightbox(c: any) {
     if (!lb) return;
-    const shotSrc = c.screenshot_url ?? ogFallback(c.repo_url);
+    // Screenshot gallery: full set from the report/repo, cover first. Fall back
+    // to the single cover, then the GitHub OG card if a repo has no shots.
+    const shots: string[] = (Array.isArray(c.screenshots) && c.screenshots.length)
+      ? c.screenshots
+      : [c.screenshot_url ?? ogFallback(c.repo_url)].filter(Boolean);
     if (lbShot) {
-      if (shotSrc) { lbShot.src = shotSrc; lbShot.hidden = false; }
+      if (shots.length) { lbShot.src = shots[0]; lbShot.hidden = false; }
       else { lbShot.removeAttribute("src"); lbShot.hidden = true; }
       lbShot.alt = `${c.title} screenshot`;
+    }
+    if (lbThumbs) {
+      lbThumbs.innerHTML = "";
+      if (shots.length > 1) {
+        shots.forEach((src, i) => {
+          const t = document.createElement("button");
+          t.type = "button";
+          t.className =
+            "shrink-0 overflow-hidden rounded-md border transition " +
+            (i === 0 ? "border-accent-500" : "border-white/10 hover:border-white/30");
+          const img = document.createElement("img");
+          img.src = src; img.loading = "lazy"; img.alt = `${c.title} screenshot ${i + 1}`;
+          img.className = "h-14 w-20 object-cover";
+          t.appendChild(img);
+          const select = () => {
+            if (lbShot) lbShot.src = src;
+            for (const el of lbThumbs.children)
+              el.className = el === t
+                ? "shrink-0 overflow-hidden rounded-md border border-accent-500 transition"
+                : "shrink-0 overflow-hidden rounded-md border border-white/10 transition hover:border-white/30";
+          };
+          t.addEventListener("mouseenter", select); // swap on hover
+          t.addEventListener("focus", select);      // keyboard
+          t.addEventListener("click", select);      // touch
+          lbThumbs.appendChild(t);
+        });
+      }
     }
     if (lbAvatar) lbAvatar.src = `https://github.com/${c.github}.png`;
     if (lbTitle) lbTitle.textContent = c.title;
