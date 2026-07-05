@@ -1,0 +1,44 @@
+[
+  {
+    "github": "foo",
+    "name": "Foo Bar",
+    "title": "recipe-keeper",
+    "desc": "Save and share family recipes.",
+    "repo_url": "https://github.com/foo/recipe-keeper",
+    "live_url": "https://recipe.vercel.app",
+    "slides_raw": "https://raw.githubusercontent.com/foo/recipe-keeper/main/slides/product.md",
+    "slides_base": "https://raw.githubusercontent.com/foo/recipe-keeper/main/slides/",
+    "screenshot_url": null,
+    "type": "web-app",
+    "stack": ["JavaScript", "CSS"],
+    "chapter": 4
+  },
+  {
+    "github": "bara",
+    "name": "Bara Kyaw",
+    "title": "task-cli",
+    "desc": "A tiny todo CLI.",
+    "repo_url": "https://github.com/bara/task-cli",
+    "live_url": null,
+    "slides_raw": null,
+    "slides_base": null,
+    "screenshot_url": null,
+    "type": "cli",
+    "stack": ["Python"],
+    "chapter": 5
+  },
+  {
+    "github": "cindy",
+    "name": "Cindy Aung",
+    "title": "helper-bot",
+    "desc": "Discord helper bot.",
+    "repo_url": "https://github.com/cindy/helper-bot",
+    "live_url": null,
+    "slides_raw": "https://raw.githubusercontent.com/cindy/helper-bot/main/deck.md",
+    "slides_base": "https://raw.githubusercontent.com/cindy/helper-bot/main/",
+    "screenshot_url": null,
+    "type": "bot",
+    "stack": ["TypeScript"],
+    "chapter": 6
+  }
+]
