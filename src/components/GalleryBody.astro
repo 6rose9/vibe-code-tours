@@ -89,6 +89,28 @@ const ogFallback = (repoUrl: string) => {
       <p id="gallery-empty" class="mt-10 text-center text-gray-600" hidden>No matches.</p>
     </>
   )}
+
+  <div id="lightbox" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 p-4 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label="Project detail">
+    <div class="relative flex max-h-[90vh] w-full max-w-3xl flex-col overflow-hidden rounded-2xl border border-white/10 bg-[#0b0b0d]">
+      <button id="lightbox-close" class="absolute right-3 top-3 z-10 rounded-full bg-white/10 p-2 text-white hover:bg-white/20" aria-label="Close">✕</button>
+      <div class="overflow-y-auto">
+        <img id="lb-shot" src="" alt="" class="max-h-[42vh] w-full object-contain bg-black/40" />
+        <div class="p-5">
+          <div class="flex items-center gap-3">
+            <img id="lb-avatar" src="" alt="" width="32" height="32" class="h-8 w-8 rounded-full border border-white/10" />
+            <div>
+              <h2 id="lb-title" class="text-lg font-bold text-white"></h2>
+              <p id="lb-name" class="text-sm text-gray-400"></p>
+            </div>
+          </div>
+          <p id="lb-desc" class="mt-3 text-sm text-gray-300"></p>
+          <div id="lb-tags" class="mt-3 flex flex-wrap gap-1.5"></div>
+          <div id="deck-mount" class="mt-5"></div>
+          <div id="lb-links" class="mt-5 flex flex-wrap gap-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <script>
@@ -137,6 +159,81 @@ const ogFallback = (repoUrl: string) => {
   } else {
     cells.forEach((c) => c.classList.add("in"));
   }
+
+  const lb = document.getElementById("lightbox");
+  const lbShot = document.getElementById("lb-shot") as HTMLImageElement | null;
+  const lbAvatar = document.getElementById("lb-avatar") as HTMLImageElement | null;
+  const lbTitle = document.getElementById("lb-title");
+  const lbName = document.getElementById("lb-name");
+  const lbDesc = document.getElementById("lb-desc");
+  const lbTags = document.getElementById("lb-tags");
+  const lbLinks = document.getElementById("lb-links");
+  const deckMount = document.getElementById("deck-mount");
+
+  const TYPE_LABELS: Record<string, string> = {
+    "web-app": "Web app", cli: "CLI", bot: "Bot", api: "API",
+    mobile: "Mobile", game: "Game", library: "Library", other: "Other",
+  };
+
+  function ogFallback(repoUrl: string) {
+    const m = repoUrl.match(/github\.com\/([^/]+)\/([^/#?]+)/i);
+    return m ? `https://opengraph.githubassets.com/1/${m[1]}/${m[2]}` : "";
+  }
+
+  function linkBtn(label: string, href: string) {
+    const a = document.createElement("a");
+    a.href = href; a.target = "_blank"; a.rel = "noopener noreferrer";
+    a.textContent = label;
+    a.className = "rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm font-semibold text-white transition hover:border-accent-500 hover:bg-accent-500";
+    return a;
+  }
+
+  function openLightbox(c: any) {
+    if (!lb) return;
+    if (lbShot) { lbShot.src = c.screenshot_url ?? ogFallback(c.repo_url); lbShot.alt = `${c.title} screenshot`; }
+    if (lbAvatar) lbAvatar.src = `https://github.com/${c.github}.png`;
+    if (lbTitle) lbTitle.textContent = c.title;
+    if (lbName) lbName.textContent = c.name;
+    if (lbDesc) lbDesc.textContent = c.desc ?? "";
+    if (lbTags) {
+      lbTags.innerHTML = "";
+      const type = document.createElement("span");
+      type.className = "rounded-full bg-accent-500/15 px-2 py-0.5 font-mono text-[10px] font-semibold text-accent-300";
+      type.textContent = TYPE_LABELS[c.type] ?? c.type;
+      lbTags.appendChild(type);
+      for (const s of c.stack ?? []) {
+        const el = document.createElement("span");
+        el.className = "rounded-full bg-white/5 px-2 py-0.5 font-mono text-[10px] text-gray-400";
+        el.textContent = s; lbTags.appendChild(el);
+      }
+    }
+    if (lbLinks) {
+      lbLinks.innerHTML = "";
+      if (c.live_url) lbLinks.appendChild(linkBtn("Live site ↗", c.live_url));
+      lbLinks.appendChild(linkBtn("Repo ↗", c.repo_url));
+      if (c.slides_raw) lbLinks.appendChild(linkBtn("Open slides ↗", c.slides_raw));
+    }
+    if (deckMount) deckMount.innerHTML = ""; // Task B4 fills this
+    lb.classList.remove("hidden"); lb.classList.add("flex");
+    document.body.style.overflow = "hidden";
+    (window as any).__renderDeck?.(c); // B4 hook (no-op until B4)
+  }
+
+  function closeLightbox() {
+    if (!lb) return;
+    lb.classList.add("hidden"); lb.classList.remove("flex");
+    document.body.style.overflow = "";
+    if (deckMount) deckMount.innerHTML = "";
+  }
+
+  for (const cell of cells) {
+    cell.addEventListener("click", () => {
+      try { openLightbox(JSON.parse(cell.dataset.project ?? "{}")); } catch {}
+    });
+  }
+  document.getElementById("lightbox-close")?.addEventListener("click", closeLightbox);
+  lb?.addEventListener("click", (e) => { if (e.target === lb) closeLightbox(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLightbox(); });
 </script>
 
 <style>
