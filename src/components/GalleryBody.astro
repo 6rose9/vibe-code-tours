@@ -243,3 +243,51 @@ const ogFallback = (repoUrl: string) => {
     .project-cell { opacity: 1; transform: none; transition: none; }
   }
 </style>
+
+<script>
+  // Inline marp deck renderer. Lazy-loads Marp only when a deck is first shown.
+  function rewriteRelPaths(md: string, base: string) {
+    const b = base.endsWith("/") ? base : base + "/";
+    return md.replace(/(\]\()([^)]+)(\))/g, (m, open, target, close) => {
+      const t = target.trim();
+      if (/^(https?:|data:|#|mailto:)/i.test(t)) return m;
+      return `${open}${b}${t.replace(/^\.?\//, "")}${close}`;
+    });
+  }
+
+  let marpPromise: Promise<any> | null = null;
+  async function getMarp() {
+    if (!marpPromise) {
+      marpPromise = import("@marp-team/marp-core").then(({ Marp }) => new Marp({ html: false }));
+    }
+    return marpPromise;
+  }
+
+  (window as any).__renderDeck = async (c: any) => {
+    const mount = document.getElementById("deck-mount");
+    if (!mount) return;
+    if (!c.slides_raw) { mount.innerHTML = ""; return; }
+    mount.innerHTML = `<p class="font-mono text-xs text-gray-500">Loading slides…</p>`;
+    try {
+      const res = await fetch(c.slides_raw);
+      if (!res.ok) throw new Error(String(res.status));
+      let md = await res.text();
+      // Strip a leading YAML front-matter block Marp doesn't need for preview safety? Keep — Marp parses its own directives.
+      if (c.slides_base) md = rewriteRelPaths(md, c.slides_base);
+      const marp = await getMarp();
+      const { html, css } = marp.render(md);
+      const srcdoc = `<!doctype html><html><head><meta charset="utf8"><style>${css}
+        html,body{margin:0;background:#0b0b0d} .marpit{transform-origin:top left}</style></head>
+        <body>${html}</body></html>`;
+      const iframe = document.createElement("iframe");
+      iframe.setAttribute("sandbox", "allow-same-origin");
+      iframe.className = "h-[46vh] w-full rounded-lg border border-white/10 bg-black";
+      iframe.srcdoc = srcdoc;
+      mount.innerHTML = "";
+      mount.appendChild(iframe);
+    } catch (e) {
+      mount.innerHTML = `<a href="${c.repo_url}" target="_blank" rel="noopener noreferrer"
+        class="font-mono text-xs text-gray-400 underline">Slides unavailable — open on GitHub ↗</a>`;
+    }
+  };
+</script>
