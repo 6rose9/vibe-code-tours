@@ -1,6 +1,13 @@
 ---
 // src/components/GalleryBody.astro
 import { getProjects, typeBuckets, stackList, TYPE_LABELS } from "../lib/projects.mjs";
+import { t } from "../i18n/utils";
+
+interface Props {
+  locale?: "en" | "my";
+}
+const { locale = "en" } = Astro.props;
+const s = t(locale).gallery;
 
 const projects = getProjects();
 const types = typeBuckets(projects);
@@ -13,80 +20,95 @@ const ogFallback = (repoUrl: string) => {
   const m = repoUrl.match(/github\.com\/([^/]+)\/([^/#?]+)/i);
   return m ? `https://opengraph.githubassets.com/1/${m[1]}/${m[2]}` : "";
 };
+
+// Strings + type labels the client-side script needs, serialized once for the island.
+const scriptI18n = JSON.stringify({
+  loadingSlides: s.loadingSlides,
+  slidesUnavailable: s.slidesUnavailable,
+  liveBtn: s.liveBtn,
+  repoBtn: s.repoBtn,
+  slidesBtn: s.slidesBtn,
+  types: s.types,
+});
 ---
 
 <section class="mx-auto max-w-6xl px-5 py-12 sm:px-6">
-  <p class="section-label">Cohort 1</p>
-  <h1 class="mt-2 text-center text-3xl font-extrabold sm:text-4xl">Project Gallery</h1>
+  <p class="section-label">{s.label}</p>
+  <h1 class="mt-2 text-center text-3xl font-extrabold sm:text-4xl">{s.heading}</h1>
   <p class="mx-auto mt-3 max-w-xl text-center text-gray-400">
-    What builders shipped. Click any project to view its slides.
+    {s.intro}
   </p>
 
   {projects.length === 0 ? (
-    <p class="mt-10 text-center text-gray-600">No projects yet — check back soon.</p>
+    <p class="mt-10 text-center text-gray-600">{s.empty}</p>
   ) : (
     <>
       <div class="mt-8 flex flex-col items-center gap-3">
-        <input id="project-search" type="search" placeholder="Search projects…"
+        <input id="project-search" type="search" placeholder={s.searchPlaceholder} aria-label={s.searchPlaceholder}
           class="w-full max-w-sm rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-white placeholder:text-gray-500 focus:border-accent-500 focus:outline-none" />
 
         <div id="type-filter" class="flex flex-wrap justify-center gap-2">
-          <button class={CHIP} data-type="*" aria-pressed="true">All</button>
-          {types.map((t) => (
-            <button class={CHIP} data-type={t.type} aria-pressed="false">
-              {TYPE_LABELS[t.type as keyof typeof TYPE_LABELS]} · {t.count}
+          <button class={CHIP} data-type="*" aria-pressed="true">{s.allTypes}</button>
+          {types.map((ty) => (
+            <button class={CHIP} data-type={ty.type} aria-pressed="false">
+              {TYPE_LABELS[ty.type as keyof typeof TYPE_LABELS]} · {ty.count}
             </button>
           ))}
         </div>
 
         <div id="stack-filter" class="flex flex-wrap justify-center gap-2">
-          <button class={CHIP} data-stack="*" aria-pressed="true">Any stack</button>
-          {stacks.map((s) => (
-            <button class={CHIP} data-stack={s.name} aria-pressed="false">{s.name}</button>
+          <button class={CHIP} data-stack="*" aria-pressed="true">{s.anyStack}</button>
+          {stacks.map((st) => (
+            <button class={CHIP} data-stack={st.name} aria-pressed="false">{st.name}</button>
           ))}
         </div>
 
-        <p id="project-count" class="font-mono text-xs text-gray-500">{projects.length} projects</p>
+        <p id="project-count" class="font-mono text-xs text-gray-500">{projects.length} {s.countUnit}</p>
       </div>
 
-      <div id="gallery-grid" class="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        {projects.map((c) => (
-          <button
-            class="project-cell group relative overflow-hidden rounded-xl border border-white/10 bg-white/5 text-left transition hover:-translate-y-1 hover:border-accent-500/40"
-            data-type={c.type}
-            data-stack={(c.stack ?? []).join("|")}
-            data-project={JSON.stringify(c)}
-          >
-            <div class="aspect-video overflow-hidden bg-black/40">
-              <img
-                src={c.screenshot_url ?? ogFallback(c.repo_url)}
-                alt={`${c.title} screenshot`}
-                loading="lazy"
-                class="h-full w-full object-cover transition duration-300 group-hover:scale-105"
-              />
-            </div>
-            <div class="p-4">
-              <div class="flex items-center gap-2">
-                <img src={`https://github.com/${c.github}.png`} alt="" width="24" height="24"
-                  loading="lazy" class="h-6 w-6 rounded-full border border-white/10" />
-                <span class="truncate font-semibold text-white">{c.title}</span>
+      <div id="gallery-grid" class="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3" data-i18n={scriptI18n}>
+        {projects.map((c) => {
+          const shotSrc = c.screenshot_url ?? ogFallback(c.repo_url);
+          return (
+            <button
+              class="project-cell group relative overflow-hidden rounded-xl border border-white/10 bg-white/5 text-left transition hover:-translate-y-1 hover:border-accent-500/40"
+              data-type={c.type}
+              data-stack={(c.stack ?? []).join("|")}
+              data-project={JSON.stringify(c)}
+            >
+              <div class="aspect-video overflow-hidden bg-black/40">
+                {shotSrc && (
+                  <img
+                    src={shotSrc}
+                    alt={`${c.title} screenshot`}
+                    loading="lazy"
+                    class="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                  />
+                )}
               </div>
-              <p class="mt-1 truncate text-sm text-gray-400">{c.name}</p>
-              {c.desc && <p class="mt-2 line-clamp-2 text-sm text-gray-500">{c.desc}</p>}
-              <div class="mt-3 flex flex-wrap gap-1.5">
-                <span class="rounded-full bg-accent-500/15 px-2 py-0.5 font-mono text-[10px] font-semibold text-accent-300">
-                  {TYPE_LABELS[c.type as keyof typeof TYPE_LABELS]}
-                </span>
-                {(c.stack ?? []).slice(0, 3).map((s) => (
-                  <span class="rounded-full bg-white/5 px-2 py-0.5 font-mono text-[10px] text-gray-400">{s}</span>
-                ))}
+              <div class="p-4">
+                <div class="flex items-center gap-2">
+                  <img src={`https://github.com/${c.github}.png`} alt="" width="24" height="24"
+                    loading="lazy" class="h-6 w-6 rounded-full border border-white/10" />
+                  <span class="truncate font-semibold text-white">{c.title}</span>
+                </div>
+                <p class="mt-1 truncate text-sm text-gray-400">{c.name}</p>
+                {c.desc && <p class="mt-2 line-clamp-2 text-sm text-gray-500">{c.desc}</p>}
+                <div class="mt-3 flex flex-wrap gap-1.5">
+                  <span class="rounded-full bg-accent-500/15 px-2 py-0.5 font-mono text-[10px] font-semibold text-accent-300">
+                    {TYPE_LABELS[c.type as keyof typeof TYPE_LABELS]}
+                  </span>
+                  {(c.stack ?? []).slice(0, 3).map((tag) => (
+                    <span class="rounded-full bg-white/5 px-2 py-0.5 font-mono text-[10px] text-gray-400">{tag}</span>
+                  ))}
+                </div>
               </div>
-            </div>
-          </button>
-        ))}
+            </button>
+          );
+        })}
       </div>
 
-      <p id="gallery-empty" class="mt-10 text-center text-gray-600" hidden>No matches.</p>
+      <p id="gallery-empty" class="mt-10 text-center text-gray-600" hidden>{s.noMatches}</p>
     </>
   )}
 
@@ -119,7 +141,33 @@ const ogFallback = (repoUrl: string) => {
   const stackBar = document.getElementById("stack-filter");
   const count = document.getElementById("project-count");
   const empty = document.getElementById("gallery-empty");
+  const grid = document.getElementById("gallery-grid");
   const cells = Array.from(document.querySelectorAll<HTMLElement>("#gallery-grid .project-cell"));
+
+  interface GalleryI18n {
+    loadingSlides: string;
+    slidesUnavailable: string;
+    liveBtn: string;
+    repoBtn: string;
+    slidesBtn: string;
+    types: Record<string, string>;
+  }
+  const FALLBACK_I18N: GalleryI18n = {
+    loadingSlides: "Loading slides…",
+    slidesUnavailable: "Slides unavailable — open on GitHub ↗",
+    liveBtn: "Live site ↗",
+    repoBtn: "Repo ↗",
+    slidesBtn: "Open slides ↗",
+    types: {
+      "web-app": "Web app", cli: "CLI", bot: "Bot", api: "API",
+      mobile: "Mobile", game: "Game", library: "Library", other: "Other",
+    },
+  };
+  let I18N: GalleryI18n = FALLBACK_I18N;
+  try {
+    const raw = grid?.dataset.i18n;
+    if (raw) I18N = { ...FALLBACK_I18N, ...JSON.parse(raw) };
+  } catch {}
 
   let activeType = "*", activeStack = "*", query = "";
 
@@ -170,11 +218,6 @@ const ogFallback = (repoUrl: string) => {
   const lbLinks = document.getElementById("lb-links");
   const deckMount = document.getElementById("deck-mount");
 
-  const TYPE_LABELS: Record<string, string> = {
-    "web-app": "Web app", cli: "CLI", bot: "Bot", api: "API",
-    mobile: "Mobile", game: "Game", library: "Library", other: "Other",
-  };
-
   function ogFallback(repoUrl: string) {
     const m = repoUrl.match(/github\.com\/([^/]+)\/([^/#?]+)/i);
     return m ? `https://opengraph.githubassets.com/1/${m[1]}/${m[2]}` : "";
@@ -190,7 +233,12 @@ const ogFallback = (repoUrl: string) => {
 
   function openLightbox(c: any) {
     if (!lb) return;
-    if (lbShot) { lbShot.src = c.screenshot_url ?? ogFallback(c.repo_url); lbShot.alt = `${c.title} screenshot`; }
+    const shotSrc = c.screenshot_url ?? ogFallback(c.repo_url);
+    if (lbShot) {
+      if (shotSrc) { lbShot.src = shotSrc; lbShot.hidden = false; }
+      else { lbShot.removeAttribute("src"); lbShot.hidden = true; }
+      lbShot.alt = `${c.title} screenshot`;
+    }
     if (lbAvatar) lbAvatar.src = `https://github.com/${c.github}.png`;
     if (lbTitle) lbTitle.textContent = c.title;
     if (lbName) lbName.textContent = c.name;
@@ -199,7 +247,7 @@ const ogFallback = (repoUrl: string) => {
       lbTags.innerHTML = "";
       const type = document.createElement("span");
       type.className = "rounded-full bg-accent-500/15 px-2 py-0.5 font-mono text-[10px] font-semibold text-accent-300";
-      type.textContent = TYPE_LABELS[c.type] ?? c.type;
+      type.textContent = I18N.types[c.type] ?? c.type;
       lbTags.appendChild(type);
       for (const s of c.stack ?? []) {
         const el = document.createElement("span");
@@ -209,9 +257,9 @@ const ogFallback = (repoUrl: string) => {
     }
     if (lbLinks) {
       lbLinks.innerHTML = "";
-      if (c.live_url) lbLinks.appendChild(linkBtn("Live site ↗", c.live_url));
-      lbLinks.appendChild(linkBtn("Repo ↗", c.repo_url));
-      if (c.slides_raw) lbLinks.appendChild(linkBtn("Open slides ↗", c.slides_raw));
+      if (c.live_url) lbLinks.appendChild(linkBtn(I18N.liveBtn, c.live_url));
+      lbLinks.appendChild(linkBtn(I18N.repoBtn, c.repo_url));
+      if (c.slides_raw) lbLinks.appendChild(linkBtn(I18N.slidesBtn, c.slides_raw));
     }
     if (deckMount) deckMount.innerHTML = ""; // Task B4 fills this
     lb.classList.remove("hidden"); lb.classList.add("flex");
@@ -223,7 +271,7 @@ const ogFallback = (repoUrl: string) => {
     if (!lb) return;
     lb.classList.add("hidden"); lb.classList.remove("flex");
     document.body.style.overflow = "";
-    if (deckMount) deckMount.innerHTML = "";
+    if (deckMount) { deckMount.innerHTML = ""; deckMount.dataset.deckToken = "closed"; }
   }
 
   for (const cell of cells) {
@@ -241,6 +289,9 @@ const ogFallback = (repoUrl: string) => {
   .project-cell.in { opacity: 1; transform: none; transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.2,0.8,0.2,1); }
   @media (prefers-reduced-motion: reduce) {
     .project-cell { opacity: 1; transform: none; transition: none; }
+  }
+  @media (scripting: none) {
+    .project-cell { opacity: 1; transform: none; }
   }
 </style>
 
@@ -263,31 +314,46 @@ const ogFallback = (repoUrl: string) => {
     return marpPromise;
   }
 
+  const grid = document.getElementById("gallery-grid");
+  let deckI18n = { loadingSlides: "Loading slides…", slidesUnavailable: "Slides unavailable — open on GitHub ↗" };
+  try {
+    const raw = grid?.dataset.i18n;
+    if (raw) deckI18n = { ...deckI18n, ...JSON.parse(raw) };
+  } catch {}
+
+  let deckCallToken = 0;
+
   (window as any).__renderDeck = async (c: any) => {
     const mount = document.getElementById("deck-mount");
     if (!mount) return;
+    // Token lives on the DOM node (shared with the lightbox script above) so we can tell,
+    // after an await, whether a newer call has started or the lightbox was closed in the meantime.
+    const token = String(++deckCallToken);
+    mount.dataset.deckToken = token;
     if (!c.slides_raw) { mount.innerHTML = ""; return; }
-    mount.innerHTML = `<p class="font-mono text-xs text-gray-500">Loading slides…</p>`;
+    mount.innerHTML = `<p class="font-mono text-xs text-gray-500">${deckI18n.loadingSlides}</p>`;
     try {
       const res = await fetch(c.slides_raw);
       if (!res.ok) throw new Error(String(res.status));
       let md = await res.text();
-      // Strip a leading YAML front-matter block Marp doesn't need for preview safety? Keep — Marp parses its own directives.
       if (c.slides_base) md = rewriteRelPaths(md, c.slides_base);
       const marp = await getMarp();
       const { html, css } = marp.render(md);
+      // Bail if a newer __renderDeck call started, or the lightbox was closed (deck-mount cleared), while we were fetching/rendering.
+      if (mount.dataset.deckToken !== token) return;
       const srcdoc = `<!doctype html><html><head><meta charset="utf8"><style>${css}
         html,body{margin:0;background:#0b0b0d} .marpit{transform-origin:top left}</style></head>
         <body>${html}</body></html>`;
       const iframe = document.createElement("iframe");
-      iframe.setAttribute("sandbox", "allow-same-origin");
+      iframe.setAttribute("sandbox", "");
       iframe.className = "h-[46vh] w-full rounded-lg border border-white/10 bg-black";
       iframe.srcdoc = srcdoc;
       mount.innerHTML = "";
       mount.appendChild(iframe);
     } catch (e) {
+      if (mount.dataset.deckToken !== token) return;
       mount.innerHTML = `<a href="${c.repo_url}" target="_blank" rel="noopener noreferrer"
-        class="font-mono text-xs text-gray-400 underline">Slides unavailable — open on GitHub ↗</a>`;
+        class="font-mono text-xs text-gray-400 underline">${deckI18n.slidesUnavailable}</a>`;
     }
   };
 </script>

@@ -459,7 +459,31 @@
   },
   "gallery": {
     "title": "Project Gallery — Vibe Code Tours",
-    "description": "Personal projects shipped by Cohort 1 builders."
+    "description": "Personal projects shipped by Cohort 1 builders.",
+    "label": "Cohort 1",
+    "heading": "Project Gallery",
+    "intro": "What builders shipped. Click any project to view its slides.",
+    "searchPlaceholder": "Search projects…",
+    "allTypes": "All",
+    "anyStack": "Any stack",
+    "noMatches": "No matches.",
+    "empty": "No projects yet — check back soon.",
+    "countUnit": "projects",
+    "loadingSlides": "Loading slides…",
+    "slidesUnavailable": "Slides unavailable — open on GitHub ↗",
+    "liveBtn": "Live site ↗",
+    "repoBtn": "Repo ↗",
+    "slidesBtn": "Open slides ↗",
+    "types": {
+      "web-app": "Web app",
+      "cli": "CLI",
+      "bot": "Bot",
+      "api": "API",
+      "mobile": "Mobile",
+      "game": "Game",
+      "library": "Library",
+      "other": "Other"
+    }
   },
   "repoAccess": {
     "title": "Get Your Team Repo — Vibe Code Tours",
