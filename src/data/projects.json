@@ -968,7 +968,7 @@
     "github": "myoaung",
     "name": "myoaung",
     "title": "School-Information-System",
-    "desc": "SchoolHub is a web app for students, teachers, and parents to stay connected with announcements, classes, and a contact form — all in one place.",
+    "desc": "School Information System project",
     "repo_url": "https://github.com/myoaung/School-Information-System",
     "live_url": "https://schoolhub-mu.vercel.app",
     "slides_raw": null,
@@ -988,6 +988,32 @@
       "JavaScript",
       "Python",
       "CSS"
+    ],
+    "chapter": 5
+  },
+  {
+    "github": "myominlin",
+    "name": "myominlin",
+    "title": "mood-flow",
+    "desc": "A privacy-first, offline voice diary with AI-powered mood tracking and optional cloud AI insights.",
+    "repo_url": "https://github.com/MyoMinLin/mood-flow",
+    "live_url": "https://myominlin.github.io/mood-flow",
+    "slides_raw": null,
+    "slides_base": null,
+    "screenshot_url": "https://raw.githubusercontent.com/MyoMinLin/mood-flow/master/screenshots/01.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/MyoMinLin/mood-flow/master/screenshots/01.png",
+      "https://raw.githubusercontent.com/MyoMinLin/mood-flow/master/screenshots/02.png",
+      "https://raw.githubusercontent.com/MyoMinLin/mood-flow/master/screenshots/03.png",
+      "https://raw.githubusercontent.com/MyoMinLin/mood-flow/master/screenshots/04.png",
+      "https://raw.githubusercontent.com/MyoMinLin/mood-flow/master/screenshots/05.png",
+      "https://raw.githubusercontent.com/MyoMinLin/mood-flow/master/screenshots/06.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "JavaScript",
+      "HTML",
+      "Shell"
     ],
     "chapter": 4
   },
@@ -1754,9 +1780,8 @@
     "live_url": "https://ubuntu-localization.vercel.app",
     "slides_raw": null,
     "slides_base": null,
-    "screenshot_url": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/icon.png",
+    "screenshot_url": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/guide-karen.png",
     "screenshots": [
-      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/icon.png",
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/guide-karen.png",
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/template-shan.png",
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/translate-mon.png",
@@ -1903,9 +1928,9 @@
     "github": "zinmar2626",
     "name": "zinmar2626",
     "title": "my-protfolio",
-    "desc": "A responsive, high-performance personal portfolio web application built with Next.js and Tailwind CSS showcasing 6+ years of frontend development experience.",
+    "desc": "My protfolio",
     "repo_url": "https://github.com/zinmar2626/my-protfolio",
-    "live_url": null,
+    "live_url": "https://zinmarwin.vercel.app",
     "slides_raw": null,
     "slides_base": null,
     "screenshot_url": "https://raw.githubusercontent.com/zinmar2626/my-protfolio/main/screenshots/home.png",
@@ -1922,7 +1947,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "zinmimi",
