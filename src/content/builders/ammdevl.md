@@ -11,7 +11,7 @@ certs:
     claude_101: https://verify.skilljar.com/c/ix73n6aqfno8
     claude_code_101: https://verify.skilljar.com/c/qd9atonpwzya
     agent_skills_intro: https://verify.skilljar.com/c/dvi9jfhf99p6
-    subagents_intro: https: https://verify.skilljar.com/c/smw4fhfgk5bx
+    subagents_intro: https://verify.skilljar.com/c/smw4fhfgk5bx
     mcp_intro: https://verify.skilljar.com/c/esdzzvmraivm
 ---
 
