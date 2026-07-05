@@ -96,19 +96,24 @@ const scriptI18n = JSON.stringify({
             const shotSrc = c.screenshot_url ?? ogFallback(c.repo_url);
             return (
               <button
-                class="project-cell group relative overflow-hidden rounded-xl border border-white/10 bg-white/5 text-left transition hover:-translate-y-1 hover:border-accent-500/40"
+                class="project-cell group relative overflow-hidden rounded-xl border border-white/10 bg-white/5 text-left transition hover:-translate-y-1 hover:border-accent-500/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 motion-reduce:transition-none motion-reduce:hover:translate-y-0"
                 data-type={c.type}
                 data-stack={(c.stack ?? []).join("|")}
                 data-project={JSON.stringify(c)}
               >
-                <div class="aspect-video overflow-hidden bg-black/40">
+                <div class="relative aspect-video overflow-hidden bg-black/40">
                   {shotSrc && (
                     <img
                       src={shotSrc}
                       alt={`${c.title} screenshot`}
                       loading="lazy"
-                      class="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                      class="h-full w-full object-cover transition duration-300 group-hover:scale-105 motion-reduce:transition-none motion-reduce:group-hover:scale-100"
                     />
+                  )}
+                  {c.chapter && (
+                    <span class="absolute right-2 top-2 rounded-full bg-black/60 px-2 py-0.5 font-mono text-[10px] font-semibold text-white backdrop-blur-sm">
+                      Ch {c.chapter}
+                    </span>
                   )}
                 </div>
                 <div class="p-4">
@@ -125,7 +130,9 @@ const scriptI18n = JSON.stringify({
                       {c.title}
                     </span>
                   </div>
-                  <p class="mt-1 truncate text-sm text-gray-400">{c.name}</p>
+                  <p class="mt-1 truncate text-sm text-gray-400 transition group-hover:text-accent-300">
+                    @{c.name}
+                  </p>
                   {c.desc && (
                     <p class="mt-2 line-clamp-2 text-sm text-gray-500">
                       {c.desc}
@@ -166,7 +173,7 @@ const scriptI18n = JSON.stringify({
     >
       <button
         id="lightbox-close"
-        class="absolute right-3 top-3 z-10 rounded-full bg-white/10 p-2 text-white hover:bg-white/20"
+        class="absolute right-3 top-3 z-10 rounded-full bg-white/10 p-2 text-white transition hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-500"
         aria-label="Close">✕</button
       >
       <div class="overflow-y-auto">
@@ -195,7 +202,13 @@ const scriptI18n = JSON.stringify({
             />
             <div>
               <h2 id="lb-title" class="text-lg font-bold text-white"></h2>
-              <p id="lb-name" class="text-sm text-gray-400"></p>
+              <a
+                id="lb-name"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm text-gray-400 transition hover:text-accent-300 hover:underline focus-visible:text-accent-300 focus-visible:outline-none"
+              ></a>
             </div>
           </div>
           <p id="lb-desc" class="mt-3 text-sm text-gray-300"></p>
@@ -399,7 +412,10 @@ const scriptI18n = JSON.stringify({
     }
     if (lbAvatar) lbAvatar.src = `https://github.com/${c.github}.png`;
     if (lbTitle) lbTitle.textContent = c.title;
-    if (lbName) lbName.textContent = c.name;
+    if (lbName) {
+      lbName.textContent = `@${c.github}`;
+      (lbName as HTMLAnchorElement).href = `https://github.com/${c.github}`;
+    }
     if (lbDesc) lbDesc.textContent = c.desc ?? "";
     if (lbTags) {
       lbTags.innerHTML = "";
@@ -540,9 +556,13 @@ const scriptI18n = JSON.stringify({
       const { html, css } = marp.render(md);
       // Bail if a newer __renderDeck call started, or the lightbox was closed (deck-mount cleared), while we were fetching/rendering.
       if (mount.dataset.deckToken !== token) return;
+      // Marp emits a bespoke presenter <script>; the iframe is sandboxed (no
+      // allow-scripts) so it can't run and only logs a CSP error. Slides render
+      // static here — strip it.
+      const body = html.replace(/<script[\s\S]*?<\/script>/gi, "");
       const srcdoc = `<!doctype html><html><head><meta charset="utf8"><style>${css}
         html,body{margin:0;background:#0b0b0d} .marpit{transform-origin:top left}</style></head>
-        <body>${html}</body></html>`;
+        <body>${body}</body></html>`;
       const iframe = document.createElement("iframe");
       iframe.setAttribute("sandbox", "");
       iframe.className =
