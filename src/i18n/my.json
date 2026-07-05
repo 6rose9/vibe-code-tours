@@ -19,7 +19,8 @@
     "contact": "ဆက်သွယ်ရန်",
     "setup": "ပြင်ဆင်ရန်",
     "builders": "Builders",
-    "cohort1": "Cohort 1"
+    "cohort1": "Cohort 1",
+    "gallery": "ပရောဂျက်ပြခန်း"
   },
   "footer": {
     "rights": "© 2026 Vibe Code Tours",
@@ -455,6 +456,10 @@
     "intro": "ဒီ Tour မှာ AI နဲ့ တည်ဆောက်နေသူတွေ။ တစ်ယောက်စီ repo ကို fork လုပ်၊ ကိုယ့်အကြောင်း ထည့်၊ တကယ့် PR ဖွင့်ခဲ့ကြတယ်။",
     "empty": "Builders မရှိသေးပါ။ ပထမဆုံးသူ ဖြစ်ပါ — repo ကို fork လုပ်ပြီး ကိုယ့်ကိုယ်ကို ထည့်ပါ။",
     "addYourself": "မိမိပရိုဖိုင်ထည့်ရန် → (fork + PR)"
+  },
+  "gallery": {
+    "title": "ပရောဂျက်ပြခန်း — Vibe Code Tours",
+    "description": "Cohort 1 builder များ တည်ဆောက်ခဲ့သော ကိုယ်ပိုင်ပရောဂျက်များ။"
   },
   "repoAccess": {
     "title": "သင့်အသင်း Repo ရယူရန် — Vibe Code Tours",
