@@ -1,0 +1,148 @@
+---
+// src/components/GalleryBody.astro
+import { getProjects, typeBuckets, stackList, TYPE_LABELS } from "../lib/projects.mjs";
+
+const projects = getProjects();
+const types = typeBuckets(projects);
+const stacks = stackList(projects).slice(0, 12); // top stacks as chips
+
+const CHIP =
+  "cursor-pointer rounded-full border border-white/10 bg-white/5 px-3 py-1 font-mono text-xs font-semibold text-gray-400 transition hover:text-white aria-pressed:border-accent-500 aria-pressed:bg-accent-500 aria-pressed:text-white";
+
+const ogFallback = (repoUrl: string) => {
+  const m = repoUrl.match(/github\.com\/([^/]+)\/([^/#?]+)/i);
+  return m ? `https://opengraph.githubassets.com/1/${m[1]}/${m[2]}` : "";
+};
+---
+
+<section class="mx-auto max-w-6xl px-5 py-12 sm:px-6">
+  <p class="section-label">Cohort 1</p>
+  <h1 class="mt-2 text-center text-3xl font-extrabold sm:text-4xl">Project Gallery</h1>
+  <p class="mx-auto mt-3 max-w-xl text-center text-gray-400">
+    What builders shipped. Click any project to view its slides.
+  </p>
+
+  {projects.length === 0 ? (
+    <p class="mt-10 text-center text-gray-600">No projects yet — check back soon.</p>
+  ) : (
+    <>
+      <div class="mt-8 flex flex-col items-center gap-3">
+        <input id="project-search" type="search" placeholder="Search projects…"
+          class="w-full max-w-sm rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm text-white placeholder:text-gray-500 focus:border-accent-500 focus:outline-none" />
+
+        <div id="type-filter" class="flex flex-wrap justify-center gap-2">
+          <button class={CHIP} data-type="*" aria-pressed="true">All</button>
+          {types.map((t) => (
+            <button class={CHIP} data-type={t.type} aria-pressed="false">
+              {TYPE_LABELS[t.type as keyof typeof TYPE_LABELS]} · {t.count}
+            </button>
+          ))}
+        </div>
+
+        <div id="stack-filter" class="flex flex-wrap justify-center gap-2">
+          <button class={CHIP} data-stack="*" aria-pressed="true">Any stack</button>
+          {stacks.map((s) => (
+            <button class={CHIP} data-stack={s.name} aria-pressed="false">{s.name}</button>
+          ))}
+        </div>
+
+        <p id="project-count" class="font-mono text-xs text-gray-500">{projects.length} projects</p>
+      </div>
+
+      <div id="gallery-grid" class="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {projects.map((c) => (
+          <button
+            class="project-cell group relative overflow-hidden rounded-xl border border-white/10 bg-white/5 text-left transition hover:-translate-y-1 hover:border-accent-500/40"
+            data-type={c.type}
+            data-stack={(c.stack ?? []).join("|")}
+            data-project={JSON.stringify(c)}
+          >
+            <div class="aspect-video overflow-hidden bg-black/40">
+              <img
+                src={c.screenshot_url ?? ogFallback(c.repo_url)}
+                alt={`${c.title} screenshot`}
+                loading="lazy"
+                class="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+              />
+            </div>
+            <div class="p-4">
+              <div class="flex items-center gap-2">
+                <img src={`https://github.com/${c.github}.png`} alt="" width="24" height="24"
+                  loading="lazy" class="h-6 w-6 rounded-full border border-white/10" />
+                <span class="truncate font-semibold text-white">{c.title}</span>
+              </div>
+              <p class="mt-1 truncate text-sm text-gray-400">{c.name}</p>
+              {c.desc && <p class="mt-2 line-clamp-2 text-sm text-gray-500">{c.desc}</p>}
+              <div class="mt-3 flex flex-wrap gap-1.5">
+                <span class="rounded-full bg-accent-500/15 px-2 py-0.5 font-mono text-[10px] font-semibold text-accent-300">
+                  {TYPE_LABELS[c.type as keyof typeof TYPE_LABELS]}
+                </span>
+                {(c.stack ?? []).slice(0, 3).map((s) => (
+                  <span class="rounded-full bg-white/5 px-2 py-0.5 font-mono text-[10px] text-gray-400">{s}</span>
+                ))}
+              </div>
+            </div>
+          </button>
+        ))}
+      </div>
+
+      <p id="gallery-empty" class="mt-10 text-center text-gray-600" hidden>No matches.</p>
+    </>
+  )}
+</section>
+
+<script>
+  const searchEl = document.getElementById("project-search") as HTMLInputElement | null;
+  const typeBar = document.getElementById("type-filter");
+  const stackBar = document.getElementById("stack-filter");
+  const count = document.getElementById("project-count");
+  const empty = document.getElementById("gallery-empty");
+  const cells = Array.from(document.querySelectorAll<HTMLElement>("#gallery-grid .project-cell"));
+
+  let activeType = "*", activeStack = "*", query = "";
+
+  function apply() {
+    let shown = 0;
+    for (const cell of cells) {
+      const okType = activeType === "*" || cell.dataset.type === activeType;
+      const okStack = activeStack === "*" || (cell.dataset.stack ?? "").split("|").includes(activeStack);
+      const okText = query === "" || (cell.textContent ?? "").toLowerCase().includes(query);
+      const show = okType && okStack && okText;
+      cell.classList.toggle("hidden", !show);
+      if (show) shown++;
+    }
+    if (empty) empty.toggleAttribute("hidden", shown !== 0);
+    if (count) count.textContent = shown === cells.length ? `${cells.length} projects` : `${shown} of ${cells.length}`;
+  }
+
+  function wireBar(bar: HTMLElement | null, attr: string, set: (v: string) => void) {
+    bar?.addEventListener("click", (e) => {
+      const btn = (e.target as HTMLElement).closest<HTMLElement>(`[data-${attr}]`);
+      if (!btn) return;
+      set(btn.dataset[attr] ?? "*");
+      bar.querySelectorAll<HTMLElement>(`[data-${attr}]`).forEach((b) => b.setAttribute("aria-pressed", String(b === btn)));
+      apply();
+    });
+  }
+  wireBar(typeBar, "type", (v) => (activeType = v));
+  wireBar(stackBar, "stack", (v) => (activeStack = v));
+  searchEl?.addEventListener("input", () => { query = searchEl.value.trim().toLowerCase(); apply(); });
+
+  // Subtle stagger fade-in on scroll.
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    const io = new IntersectionObserver((entries) => {
+      for (const en of entries) if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); }
+    }, { rootMargin: "0px 0px -10% 0px" });
+    cells.forEach((c) => io.observe(c));
+  } else {
+    cells.forEach((c) => c.classList.add("in"));
+  }
+</script>
+
+<style>
+  .project-cell { opacity: 0; transform: translateY(16px); }
+  .project-cell.in { opacity: 1; transform: none; transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.2,0.8,0.2,1); }
+  @media (prefers-reduced-motion: reduce) {
+    .project-cell { opacity: 1; transform: none; transition: none; }
+  }
+</style>
