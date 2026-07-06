@@ -1601,8 +1601,8 @@
     "type": "web-app",
     "stack": [
       "HTML",
-      "CSS",
-      "JavaScript"
+      "JavaScript",
+      "CSS"
     ],
     "chapter": 5
   },
