@@ -761,8 +761,8 @@
     ],
     "type": "web-app",
     "stack": [
-      "CSS",
       "JavaScript",
+      "CSS",
       "HTML"
     ],
     "chapter": 4
@@ -1909,7 +1909,10 @@
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/template-shan.png",
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/translate-mon.png",
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/contributors-mm.png",
-      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/dashboard-dark-en.png"
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/dashboard-dark-en.png",
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/dashboard-screenshot.png",
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/dashboard-empty-screenshot.png",
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/dashboard-activity-screenshot.png"
     ],
     "type": "web-app",
     "stack": [
