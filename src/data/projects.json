@@ -381,10 +381,10 @@
     "github": "gadayhtun",
     "name": "gadayhtun",
     "title": "warehouse",
-    "desc": "A warehouse and mini-market inventory platform that controls inventory through approvals, transaction history, and reconciliation.",
+    "desc": "",
     "repo_url": "https://github.com/GadayHtun/warehouse",
     "live_url": "https://warehouse-mesm.onrender.com",
-    "slides_raw": "https://raw.githubusercontent.com/GadayHtun/warehouse/main/slides/intro.md",
+    "slides_raw": "https://raw.githubusercontent.com/GadayHtun/warehouse/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/GadayHtun/warehouse/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/GadayHtun/warehouse/main/screenshots/04-stock-in.png",
     "screenshots": [
@@ -404,7 +404,7 @@
       "Blade",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "hanminmyat",
@@ -427,6 +427,32 @@
       "TypeScript",
       "HTML",
       "Python"
+    ],
+    "chapter": 4
+  },
+  {
+    "github": "haymannko",
+    "name": "haymannko",
+    "title": "Beans-Inventory",
+    "desc": "Myanmar bean warehouses run on paper — we replace it with a fast, accurate digital system.",
+    "repo_url": "https://github.com/haymannko/Beans-Inventory",
+    "live_url": "https://beans-app-iota.vercel.app",
+    "slides_raw": "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/slides/pitch.md",
+    "slides_base": "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots/voucher1v2.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots/voucher1v2.png",
+      "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots/arrivals1v2.png",
+      "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots/dashboard1v2.png",
+      "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots-documents/voucher1v2.png",
+      "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots-documents/arrivals1v2.png",
+      "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots-documents/dashboard1v2.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "TypeScript",
+      "Python",
+      "JavaScript"
     ],
     "chapter": 4
   },
@@ -459,10 +485,10 @@
     "github": "heinkhantphyoe",
     "name": "heinkhantphyoe",
     "title": "Trip-Genie",
-    "desc": "An AI-powered React SPA for trip planning with specialized agents for research, budgeting, itineraries, and travel tips.",
+    "desc": "TripGenie — a React single-page application for trip/travel planning",
     "repo_url": "https://github.com/Heinkhantphyoe/Trip-Genie",
     "live_url": "https://ai-trip-genie-77.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/Heinkhantphyoe/Trip-Genie/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/Heinkhantphyoe/Trip-Genie/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/Heinkhantphyoe/Trip-Genie/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/Heinkhantphyoe/Trip-Genie/main/screenshots/home.png",
     "screenshots": [
@@ -481,7 +507,7 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "heinthaw-dev",
@@ -694,10 +720,10 @@
     "github": "kaykhaingmyint6170",
     "name": "kaykhaingmyint6170",
     "title": "attendance_management",
-    "desc": "To manage company attendance and leave requests",
+    "desc": "",
     "repo_url": "https://github.com/kaykhaingmyint6170/attendance_management",
     "live_url": "https://attendance-8eb.pages.dev",
-    "slides_raw": "https://raw.githubusercontent.com/kaykhaingmyint6170/attendance_management/master/slides/pechakucha-6x20.md",
+    "slides_raw": "https://raw.githubusercontent.com/kaykhaingmyint6170/attendance_management/master/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/kaykhaingmyint6170/attendance_management/master/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/kaykhaingmyint6170/attendance_management/master/screenshots/login.png",
     "screenshots": [
@@ -716,7 +742,7 @@
       "PHP",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "khinmyatthu2193",
@@ -830,6 +856,31 @@
       "TypeScript",
       "CSS",
       "JavaScript"
+    ],
+    "chapter": 4
+  },
+  {
+    "github": "linletlettun",
+    "name": "linletlettun",
+    "title": "Klock",
+    "desc": "Kubernetes Cluster Management Portal — a web app to manage K8s clusters, deployments, ConfigMaps, Secrets, and RBAC manifests from a browser.",
+    "repo_url": "https://github.com/linletlettun/Klock",
+    "live_url": "https://klock-portal.vercel.app/",
+    "slides_raw": "https://raw.githubusercontent.com/linletlettun/Klock/main/slides/pitch.md",
+    "slides_base": "https://raw.githubusercontent.com/linletlettun/Klock/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/linletlettun/Klock/main/screenshots/gitops.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/linletlettun/Klock/main/screenshots/gitops.png",
+      "https://raw.githubusercontent.com/linletlettun/Klock/main/screenshots/clusters.png",
+      "https://raw.githubusercontent.com/linletlettun/Klock/main/screenshots/deployment.png",
+      "https://raw.githubusercontent.com/linletlettun/Klock/main/screenshots/application.png",
+      "https://raw.githubusercontent.com/linletlettun/Klock/main/screenshots/config-deploy.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "JavaScript",
+      "Python",
+      "Dockerfile"
     ],
     "chapter": 4
   },
@@ -1058,7 +1109,7 @@
     "stack": [
       "JavaScript",
       "Python",
-      "CSS"
+      "PLpgSQL"
     ],
     "chapter": 5
   },
@@ -1487,14 +1538,15 @@
     "github": "soe-yee-mon-htet",
     "name": "soe-yee-mon-htet",
     "title": "symh-portfolio",
-    "desc": "SYMH Portfolio is a modern and responsive personal portfolio website built with React, Vite, and Tailwind CSS.",
+    "desc": "MCP, SKILLS, AGENTS",
     "repo_url": "https://github.com/Soe-Yee-Mon-Htet/symh-portfolio",
     "live_url": "https://symh-portfolio.vercel.app",
     "slides_raw": "https://raw.githubusercontent.com/Soe-Yee-Mon-Htet/symh-portfolio/main/slides/pechakucha-6x20.md",
     "slides_base": "https://raw.githubusercontent.com/Soe-Yee-Mon-Htet/symh-portfolio/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/Soe-Yee-Mon-Htet/symh-portfolio/main/screenshots/home.png",
+    "screenshot_url": "https://raw.githubusercontent.com/Soe-Yee-Mon-Htet/symh-portfolio/main/screenshots/01.png",
     "screenshots": [
-      "https://raw.githubusercontent.com/Soe-Yee-Mon-Htet/symh-portfolio/main/screenshots/home.png",
+      "https://raw.githubusercontent.com/Soe-Yee-Mon-Htet/symh-portfolio/main/screenshots/01.png",
+      "https://raw.githubusercontent.com/Soe-Yee-Mon-Htet/symh-portfolio/main/screenshots/02.png",
       "https://raw.githubusercontent.com/Soe-Yee-Mon-Htet/symh-portfolio/main/screenshots/about.png",
       "https://raw.githubusercontent.com/Soe-Yee-Mon-Htet/symh-portfolio/main/screenshots/skill.png",
       "https://raw.githubusercontent.com/Soe-Yee-Mon-Htet/symh-portfolio/main/screenshots/contact.png",
@@ -1506,7 +1558,7 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "susandarlin",
