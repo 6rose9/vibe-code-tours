@@ -402,7 +402,7 @@
     "stack": [
       "PHP",
       "Blade",
-      "Shell"
+      "JavaScript"
     ],
     "chapter": 4
   },
@@ -984,6 +984,31 @@
       "JavaScript",
       "HTML",
       "TypeScript"
+    ],
+    "chapter": 4
+  },
+  {
+    "github": "mryeminaung",
+    "name": "mryeminaung",
+    "title": "documentation-assistant",
+    "desc": "A developer utility app that wraps the Claude API to explain code, generate comments and documentation, and improve variable names in developer-pasted code.",
+    "repo_url": "https://github.com/mryeminaung/documentation-assistant",
+    "live_url": "https://documentation-assistant.vercel.app",
+    "slides_raw": "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/slides/product-intro.md",
+    "slides_base": "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/screenshots/01-explain-code.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/screenshots/01-explain-code.png",
+      "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/screenshots/03-generate-docs.png",
+      "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/screenshots/04-summarize-file.png",
+      "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/screenshots/05-refactor-names.png",
+      "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/screenshots/02-generate-comments.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "JavaScript",
+      "CSS",
+      "HTML"
     ],
     "chapter": 4
   },
