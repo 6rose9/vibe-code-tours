@@ -761,8 +761,8 @@
     ],
     "type": "web-app",
     "stack": [
-      "JavaScript",
       "CSS",
+      "JavaScript",
       "HTML"
     ],
     "chapter": 4
@@ -812,10 +812,10 @@
     "github": "kohtun386",
     "name": "kohtun386",
     "title": "POS-system",
-    "desc": "A touch-friendly, multi-tenant POS system for Myanmar coffee shops with 9 payment methods including KBZpay, WavePay, and MPU.",
+    "desc": "A point-of-sale (POS) system is the hardware and software that enables you to make sales, accept payments, and check out customers.Whether you want to open a retail store,you need a POS system to accept payments and sell in person             Email- inctimo.pvt.ltd@gmail.com  password- inctimo",
     "repo_url": "https://github.com/kohtun386/POS-system",
     "live_url": "https://pos-system-gilt-mu.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/kohtun386/POS-system/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/kohtun386/POS-system/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/kohtun386/POS-system/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/kohtun386/POS-system/main/docs/screenshots/reports.png",
     "screenshots": [
@@ -829,7 +829,7 @@
       "PLpgSQL",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "komyo335",
@@ -1042,10 +1042,10 @@
     "github": "mryeminaung",
     "name": "mryeminaung",
     "title": "documentation-assistant",
-    "desc": "A developer utility app that wraps the Claude API to explain code, generate comments and documentation, and improve variable names in developer-pasted code.",
+    "desc": "A lightweight developer utility built with React, Node.js, and Express that wraps the Anthropic Claude API for seamless, zero-config code documentation and analysis.",
     "repo_url": "https://github.com/mryeminaung/documentation-assistant",
-    "live_url": "https://documentation-assistant.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/slides/product-intro.md",
+    "live_url": "https://documentation-assistant.vercel.app/",
+    "slides_raw": "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/screenshots/01-explain-code.png",
     "screenshots": [
@@ -1061,7 +1061,7 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "mshninwuttyi",
@@ -1687,10 +1687,10 @@
     "github": "thet-naing-lin",
     "name": "thet-naing-lin",
     "title": "resume-screening",
-    "desc": "It's an automated resume screening platform that uses NLP (TF-IDF + semantic matching) to score and rank candidates against job descriptions, with AI-powered insights and email capabilities for HR teams.",
+    "desc": "",
     "repo_url": "https://github.com/thet-naing-lin/resume-screening",
-    "live_url": "https://resume-screening-vibe-code-tour.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/thet-naing-lin/resume-screening/main/slides/pitch.md",
+    "live_url": "https://resume-screening-vibe-code-tour.vercel.app/login",
+    "slides_raw": "https://raw.githubusercontent.com/thet-naing-lin/resume-screening/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/thet-naing-lin/resume-screening/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/thet-naing-lin/resume-screening/main/screenshots/03-jobs.png",
     "screenshots": [
@@ -1711,7 +1711,7 @@
       "PHP",
       "Blade"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "thetzinsoe",
