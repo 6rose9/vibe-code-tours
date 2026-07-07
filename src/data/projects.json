@@ -337,10 +337,10 @@
     "github": "dylanfriday",
     "name": "dylanfriday",
     "title": "flashcard-ai-generator",
-    "desc": "easy to make flashcards",
+    "desc": "personal project",
     "repo_url": "https://github.com/DylanFriday/flashcard-ai-generator",
-    "live_url": "https://flashcard-ai-generator-51oajakvz-khezudevs-projects.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/DylanFriday/flashcard-ai-generator/main/slides/pitch.md",
+    "live_url": "https://flashcard-ai-generator-eyfyydi2d-khezudevs-projects.vercel.app/",
+    "slides_raw": "https://raw.githubusercontent.com/DylanFriday/flashcard-ai-generator/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/DylanFriday/flashcard-ai-generator/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/DylanFriday/flashcard-ai-generator/main/screenshots/01.png",
     "screenshots": [
@@ -354,7 +354,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "furryforwhat",
@@ -748,10 +748,10 @@
     "github": "khinmyatthu2193",
     "name": "khinmyatthu2193",
     "title": "May_Mays_Latt_Swal-Cooking-Assistant-Web-App",
-    "desc": "MayMay's Latt Swal is a Myanmar-first cooking assistant that suggests meals and matches recipes from ingredients.",
+    "desc": "AI-powered Myanmar recipe assistant using MCP + Claude Agent for fast meal decisions.",
     "repo_url": "https://github.com/khinmyatthu2193/May_Mays_Latt_Swal-Cooking-Assistant-Web-App",
-    "live_url": "https://may-mays-latt-swal-cooking-assistan-two.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/khinmyatthu2193/May_Mays_Latt_Swal-Cooking-Assistant-Web-App/main/slides/6x20.md",
+    "live_url": "https://may-mays-latt-swal-cooking-assistant-web-app.vercel.app",
+    "slides_raw": "https://raw.githubusercontent.com/khinmyatthu2193/May_Mays_Latt_Swal-Cooking-Assistant-Web-App/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/khinmyatthu2193/May_Mays_Latt_Swal-Cooking-Assistant-Web-App/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/khinmyatthu2193/May_Mays_Latt_Swal-Cooking-Assistant-Web-App/main/screenshots/01-home.png",
     "screenshots": [
@@ -765,7 +765,7 @@
       "JavaScript",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "kingquiet-bot",
