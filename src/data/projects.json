@@ -648,10 +648,10 @@
     "github": "jolly30",
     "name": "jolly30",
     "title": "Quote-Auto-Poster",
-    "desc": "Fully automated TikTok motivational video generator that picks quotes, generates AI voiceover, renders captions on cinematic stock footage, and posts daily via Buffer — 100% free.",
+    "desc": "",
     "repo_url": "https://github.com/Jolly30/Quote-Auto-Poster",
     "live_url": "https://www.tiktok.com/@mr.cheese202",
-    "slides_raw": "https://raw.githubusercontent.com/Jolly30/Quote-Auto-Poster/main/slides/intro.md",
+    "slides_raw": "https://raw.githubusercontent.com/Jolly30/Quote-Auto-Poster/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/Jolly30/Quote-Auto-Poster/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/Jolly30/Quote-Auto-Poster/main/screenshots/01.png",
     "screenshots": [
@@ -663,7 +663,7 @@
     "stack": [
       "Python"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "kaung-myat-code",
@@ -1060,7 +1060,7 @@
     "stack": [
       "JavaScript",
       "HTML",
-      "TypeScript"
+      "C#"
     ],
     "chapter": 4
   },
@@ -1305,6 +1305,29 @@
       "HTML"
     ],
     "chapter": 4
+  },
+  {
+    "github": "oliverhenry-dev",
+    "name": "oliverhenry-dev",
+    "title": "calendar-app-demo",
+    "desc": "",
+    "repo_url": "https://github.com/oliverhenry-dev/calendar-app-demo",
+    "live_url": "https://calendar-app-demo-test-claude.netlify.app/",
+    "slides_raw": "https://raw.githubusercontent.com/oliverhenry-dev/calendar-app-demo/main/slides/tech-stack.md",
+    "slides_base": "https://raw.githubusercontent.com/oliverhenry-dev/calendar-app-demo/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/oliverhenry-dev/calendar-app-demo/main/screenshots/01.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/oliverhenry-dev/calendar-app-demo/main/screenshots/01.png",
+      "https://raw.githubusercontent.com/oliverhenry-dev/calendar-app-demo/main/screenshots/02.png",
+      "https://raw.githubusercontent.com/oliverhenry-dev/calendar-app-demo/main/screenshots/03.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "chapter": 5
   },
   {
     "github": "phyu1788",
