@@ -482,6 +482,32 @@
     "chapter": 4
   },
   {
+    "github": "heinhtet-zaw12",
+    "name": "heinhtet-zaw12",
+    "title": "BiteBalance",
+    "desc": "Bite Balance is an AI-powered food tracker that analyzes your meals, calculates calories, and provides personalized health insights based on your BMI.",
+    "repo_url": "https://github.com/heinhtet-zaw12/BiteBalance",
+    "live_url": "https://bite-balance-88.vercel.app/",
+    "slides_raw": "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/slides/pitch.md",
+    "slides_base": "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/assets/screenshots/01.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/assets/screenshots/01.png",
+      "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/assets/screenshots/02.png",
+      "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/assets/screenshots/03.png",
+      "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/assets/screenshots/Login.png",
+      "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/assets/screenshots/log_food.png",
+      "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/assets/screenshots/daily_analytics.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "Dart",
+      "JavaScript",
+      "HTML"
+    ],
+    "chapter": 4
+  },
+  {
     "github": "heinkhantphyoe",
     "name": "heinkhantphyoe",
     "title": "Trip-Genie",
@@ -1405,6 +1431,25 @@
       "TypeScript",
       "CSS",
       "JavaScript"
+    ],
+    "chapter": 4
+  },
+  {
+    "github": "saiwaiyanphyo",
+    "name": "saiwaiyanphyo",
+    "title": "job-your-love",
+    "desc": "A private, spreadsheet-style job application tracker with per-user Row Level Security.",
+    "repo_url": "https://github.com/saiwaiyanphyo/job-your-love",
+    "live_url": "https://job-your-love.megiapps.workers.dev/",
+    "slides_raw": "https://raw.githubusercontent.com/saiwaiyanphyo/job-your-love/main/slides/pitch.md",
+    "slides_base": "https://raw.githubusercontent.com/saiwaiyanphyo/job-your-love/main/slides/",
+    "screenshot_url": null,
+    "screenshots": [],
+    "type": "web-app",
+    "stack": [
+      "TypeScript",
+      "PLpgSQL",
+      "CSS"
     ],
     "chapter": 4
   },
