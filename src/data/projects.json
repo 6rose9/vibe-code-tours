@@ -1971,16 +1971,16 @@
     "live_url": "https://ubuntu-localization.vercel.app",
     "slides_raw": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/guide-karen.png",
+    "screenshot_url": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/guide-karen.png",
     "screenshots": [
-      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/guide-karen.png",
-      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/template-shan.png",
-      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/translate-mon.png",
-      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/contributors-mm.png",
-      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/docs/screenshots/dashboard-dark-en.png",
-      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/dashboard-screenshot.png",
-      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/dashboard-empty-screenshot.png",
-      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/dashboard-activity-screenshot.png"
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/guide-karen.png",
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/template-shan.png",
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/translate-mon.png",
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/contributors-mm.png",
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/dashboard-dark-en.png",
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/dashboard-screenshot.png",
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/dashboard-empty-screenshot.png",
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/dashboard-activity-screenshot.png"
     ],
     "type": "web-app",
     "stack": [
@@ -2046,10 +2046,10 @@
     "github": "ye-lynn-htet",
     "name": "ye-lynn-htet",
     "title": "ylh-portfolio",
-    "desc": "A single-page portfolio site for a senior mobile developer (iOS + Flutter), built with Next.js, React, Tailwind CSS, and TypeScript.",
+    "desc": "",
     "repo_url": "https://github.com/ye-lynn-htet/ylh-portfolio",
     "live_url": "https://ye-lynn-htet.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/ye-lynn-htet/ylh-portfolio/main/slides/intro.md",
+    "slides_raw": "https://raw.githubusercontent.com/ye-lynn-htet/ylh-portfolio/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/ye-lynn-htet/ylh-portfolio/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/ye-lynn-htet/ylh-portfolio/main/screenshots/home.png",
     "screenshots": [
@@ -2063,7 +2063,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "yeminko-me",
