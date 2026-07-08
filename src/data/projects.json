@@ -624,10 +624,10 @@
     "github": "htunaungkyaw73",
     "name": "htunaungkyaw73",
     "title": "Learn-Programming-Easily",
-    "desc": "A single-author CMS for publishing programming articles, using a hybrid MDX+PostgreSQL content model with an admin panel, client-side search, RSS, and full SEO.",
+    "desc": "",
     "repo_url": "https://github.com/HtunAungKyaw73/Learn-Programming-Easily",
-    "live_url": "https://learn-programming-easily.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/HtunAungKyaw73/Learn-Programming-Easily/main/slides/intro.md",
+    "live_url": "https://articles.htunaungkyaw.online",
+    "slides_raw": "https://raw.githubusercontent.com/HtunAungKyaw73/Learn-Programming-Easily/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/HtunAungKyaw73/Learn-Programming-Easily/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/HtunAungKyaw73/Learn-Programming-Easily/main/screenshots/home.png",
     "screenshots": [
@@ -642,7 +642,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "jolly30",
