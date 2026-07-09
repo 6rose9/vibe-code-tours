@@ -1684,10 +1684,10 @@
     "github": "swezinpreciousai-sys",
     "name": "swezinpreciousai-sys",
     "title": "Project-Idea-Scorer",
-    "desc": "A single-page Next.js app that scores startup ideas across 5 criteria and gives an instant build/don't-build recommendation — no backend, no signup, client-side only.",
+    "desc": "Score your project idea before you build it",
     "repo_url": "https://github.com/swezinpreciousai-sys/Project-Idea-Scorer",
-    "live_url": "https://ai-project-idea-scorer.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/swezinpreciousai-sys/Project-Idea-Scorer/main/slides/product-intro.md",
+    "live_url": "https://ai-project-idea-scorer.vercel.app",
+    "slides_raw": "https://raw.githubusercontent.com/swezinpreciousai-sys/Project-Idea-Scorer/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/swezinpreciousai-sys/Project-Idea-Scorer/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/swezinpreciousai-sys/Project-Idea-Scorer/main/screenshots/mobile-home-375x812.png",
     "screenshots": [
@@ -1701,7 +1701,7 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "thantz-cloud",
