@@ -1,20 +1,24 @@
 [
   {
-    "github": "6rose9",
-    "name": "6rose9",
-    "title": "rice-agent",
-    "desc": "A professional networking and marketplace platform for Myanmar's rice industry, connecting farmers, traders, and agents through profiles, posts, and business discovery.",
-    "repo_url": "https://github.com/6rose9/rice-agent",
-    "live_url": "https://rice-agent.vercel.app/feed",
-    "slides_raw": "https://raw.githubusercontent.com/6rose9/rice-agent/master/slides/intro.md",
-    "slides_base": "https://raw.githubusercontent.com/6rose9/rice-agent/master/slides/",
-    "screenshot_url": null,
-    "screenshots": [],
+    "github": "ahk1542001-wq",
+    "name": "ahk1542001-wq",
+    "title": "url-shortener-api",
+    "desc": "A premium, self-hosted URL shortener with built-in click tracking, custom vanity codes, and military-grade security.",
+    "repo_url": "https://github.com/ahk1542001-wq/url-shortener-api",
+    "live_url": "https://swoo-sh.onrender.com",
+    "slides_raw": "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/slides/pitch.md",
+    "slides_base": "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/01.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/01.png",
+      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/02.png",
+      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/03.png"
+    ],
     "type": "web-app",
     "stack": [
-      "TypeScript",
-      "Python",
-      "PLpgSQL"
+      "JavaScript",
+      "HTML",
+      "Python"
     ],
     "chapter": 4
   },
@@ -886,6 +890,25 @@
     "chapter": 4
   },
   {
+    "github": "kyawminht",
+    "name": "kyawminht",
+    "title": "road-safety",
+    "desc": "A mobile-first learning app that teaches road safety to Myanmar children through visual flip cards and interactive games",
+    "repo_url": "https://github.com/kyawminht/road-safety",
+    "live_url": "https://road-safety-mm.vercel.app",
+    "slides_raw": "https://raw.githubusercontent.com/kyawminht/road-safety/main/slides/pitch.md",
+    "slides_base": "https://raw.githubusercontent.com/kyawminht/road-safety/main/slides/",
+    "screenshot_url": null,
+    "screenshots": [],
+    "type": "web-app",
+    "stack": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "chapter": 4
+  },
+  {
     "github": "linletlettun",
     "name": "linletlettun",
     "title": "Klock",
@@ -1461,10 +1484,10 @@
     "github": "saiwaiyanphyo",
     "name": "saiwaiyanphyo",
     "title": "job-your-love",
-    "desc": "A private, spreadsheet-style job application tracker with per-user Row Level Security.",
+    "desc": "Job Your Love is a full-stack, spreadsheet-style job application tracker built with modern web technologies. It provides a clean, intuitive interface for managing and organizing your job search journey.",
     "repo_url": "https://github.com/saiwaiyanphyo/job-your-love",
     "live_url": "https://job-your-love.megiapps.workers.dev/",
-    "slides_raw": "https://raw.githubusercontent.com/saiwaiyanphyo/job-your-love/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/saiwaiyanphyo/job-your-love/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/saiwaiyanphyo/job-your-love/main/slides/",
     "screenshot_url": null,
     "screenshots": [],
@@ -1474,7 +1497,7 @@
       "PLpgSQL",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "samm24tt",
