@@ -1,5 +1,24 @@
 [
   {
+    "github": "6rose9",
+    "name": "6rose9",
+    "title": "rice-agent",
+    "desc": "A professional networking and marketplace platform for Myanmar's rice industry, connecting farmers, traders, and agents through profiles, posts, and business discovery.",
+    "repo_url": "https://github.com/6rose9/rice-agent",
+    "live_url": "https://rice-agent.vercel.app/feed",
+    "slides_raw": "https://raw.githubusercontent.com/6rose9/rice-agent/master/slides/intro.md",
+    "slides_base": "https://raw.githubusercontent.com/6rose9/rice-agent/master/slides/",
+    "screenshot_url": null,
+    "screenshots": [],
+    "type": "web-app",
+    "stack": [
+      "TypeScript",
+      "Python",
+      "PLpgSQL"
+    ],
+    "chapter": 4
+  },
+  {
     "github": "ahk1542001-wq",
     "name": "ahk1542001-wq",
     "title": "url-shortener-api",
@@ -715,34 +734,6 @@
       "CSS",
       "JavaScript",
       "C#"
-    ],
-    "chapter": 4
-  },
-  {
-    "github": "kaungmyatshwe1397",
-    "name": "kaungmyatshwe1397",
-    "title": "my-portfolio",
-    "desc": "This is my portfolio website",
-    "repo_url": "https://github.com/kaungmyatshwe1397/my-portfolio",
-    "live_url": "https://kaungmyatshwe1397.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/kaungmyatshwe1397/my-portfolio/main/pitch/slides.md",
-    "slides_base": "https://raw.githubusercontent.com/kaungmyatshwe1397/my-portfolio/main/pitch/",
-    "screenshot_url": "https://raw.githubusercontent.com/kaungmyatshwe1397/my-portfolio/main/screenshots/about-mobile.png",
-    "screenshots": [
-      "https://raw.githubusercontent.com/kaungmyatshwe1397/my-portfolio/main/screenshots/about-mobile.png",
-      "https://raw.githubusercontent.com/kaungmyatshwe1397/my-portfolio/main/screenshots/about-desktop.png",
-      "https://raw.githubusercontent.com/kaungmyatshwe1397/my-portfolio/main/screenshots/github-mobile.png",
-      "https://raw.githubusercontent.com/kaungmyatshwe1397/my-portfolio/main/screenshots/github-desktop.png",
-      "https://raw.githubusercontent.com/kaungmyatshwe1397/my-portfolio/main/screenshots/techstack-mobile.png",
-      "https://raw.githubusercontent.com/kaungmyatshwe1397/my-portfolio/main/screenshots/cta-footer-mobile.png",
-      "https://raw.githubusercontent.com/kaungmyatshwe1397/my-portfolio/main/screenshots/techstack-desktop.png",
-      "https://raw.githubusercontent.com/kaungmyatshwe1397/my-portfolio/main/screenshots/cta-footer-desktop.png"
-    ],
-    "type": "web-app",
-    "stack": [
-      "TypeScript",
-      "Shell",
-      "PowerShell"
     ],
     "chapter": 4
   },
