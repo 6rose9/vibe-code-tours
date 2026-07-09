@@ -304,7 +304,7 @@
     "github": "chanoodev",
     "name": "chanoodev",
     "title": "specflow-lite",
-    "desc": "A lightweight spec-driven development assistant that helps teams capture requirements, generate specifications, create tasks, and track implementation progress.",
+    "desc": "specflow-lite",
     "repo_url": "https://github.com/ChanOoDev/specflow-lite",
     "live_url": "https://specflow-lite.vercel.app",
     "slides_raw": "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/slides/pitch.md",
@@ -328,7 +328,7 @@
       "Shell",
       "PLpgSQL"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "david-sang96",
@@ -1985,16 +1985,18 @@
     "live_url": "https://ubuntu-localization.vercel.app",
     "slides_raw": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/guide-karen.png",
+    "screenshot_url": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/guide-page.png",
     "screenshots": [
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/guide-page.png",
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/guide-karen.png",
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/template-shan.png",
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/translate-mon.png",
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/templates-page.png",
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/translate-page.png",
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/contributors-mm.png",
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/dashboard-mobile.png",
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/dashboard-dark-en.png",
-      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/dashboard-screenshot.png",
-      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/dashboard-empty-screenshot.png",
-      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/dashboard-activity-screenshot.png"
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/dashboard-screenshot.png"
     ],
     "type": "web-app",
     "stack": [
