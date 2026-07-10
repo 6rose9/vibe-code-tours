@@ -668,6 +668,36 @@
     "chapter": 5
   },
   {
+    "github": "iamyeaung",
+    "name": "iamyeaung",
+    "title": "yeaung",
+    "desc": "",
+    "repo_url": "https://github.com/iamyeaung/yeaung",
+    "live_url": "https://yeaung.vercel.app",
+    "slides_raw": "https://raw.githubusercontent.com/iamyeaung/yeaung/main/slides/tech-stack.md",
+    "slides_base": "https://raw.githubusercontent.com/iamyeaung/yeaung/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/iamyeaung/yeaung/main/screenshots/01.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/iamyeaung/yeaung/main/screenshots/01.png",
+      "https://raw.githubusercontent.com/iamyeaung/yeaung/main/screenshots/02.png",
+      "https://raw.githubusercontent.com/iamyeaung/yeaung/main/screenshots/03.png",
+      "https://raw.githubusercontent.com/iamyeaung/yeaung/main/screenshots/login.png",
+      "https://raw.githubusercontent.com/iamyeaung/yeaung/main/screenshots/01-mobile.png",
+      "https://raw.githubusercontent.com/iamyeaung/yeaung/main/screenshots/02-mobile.png",
+      "https://raw.githubusercontent.com/iamyeaung/yeaung/main/screenshots/03-mobile.png",
+      "https://raw.githubusercontent.com/iamyeaung/yeaung/main/screenshots/dashboard.png",
+      "https://raw.githubusercontent.com/iamyeaung/yeaung/main/screenshots/landing-1.png",
+      "https://raw.githubusercontent.com/iamyeaung/yeaung/main/screenshots/landing-2.png"
+    ],
+    "type": "other",
+    "stack": [
+      "TypeScript",
+      "Shell",
+      "PowerShell"
+    ],
+    "chapter": 5
+  },
+  {
     "github": "jolly30",
     "name": "jolly30",
     "title": "Quote-Auto-Poster",
@@ -1073,8 +1103,8 @@
     "type": "web-app",
     "stack": [
       "JavaScript",
-      "HTML",
-      "C#"
+      "C#",
+      "TypeScript"
     ],
     "chapter": 4
   },
