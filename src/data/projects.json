@@ -228,31 +228,6 @@
     "chapter": 4
   },
   {
-    "github": "billy1437",
-    "name": "billy1437",
-    "title": "kilo_carrier",
-    "desc": "A peer-to-peer cargo marketplace where travellers between Yangon and Bangkok sell their spare luggage space to people who need to send parcels — cheaper than courier, with zero platform fees.",
-    "repo_url": "https://github.com/Billy1437/kilo_carrier",
-    "live_url": "https://kilocarrier.com",
-    "slides_raw": "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/slides/pitch.md",
-    "slides_base": "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/screenshots/post.png",
-    "screenshots": [
-      "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/screenshots/post.png",
-      "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/screenshots/login.png",
-      "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/screenshots/browse.png",
-      "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/screenshots/landing.png",
-      "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/screenshots/trip-detail.png"
-    ],
-    "type": "web-app",
-    "stack": [
-      "TypeScript",
-      "CSS",
-      "JavaScript"
-    ],
-    "chapter": 4
-  },
-  {
     "github": "builtby-ap",
     "name": "builtby-ap",
     "title": "beancalculator",
@@ -457,16 +432,13 @@
     "github": "haymannko",
     "name": "haymannko",
     "title": "Beans-Inventory",
-    "desc": "Myanmar bean warehouses run on paper — we replace it with a fast, accurate digital system.",
+    "desc": "",
     "repo_url": "https://github.com/haymannko/Beans-Inventory",
     "live_url": "https://beans-app-iota.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots/voucher1v2.png",
+    "screenshot_url": "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots-documents/voucher1v2.png",
     "screenshots": [
-      "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots/voucher1v2.png",
-      "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots/arrivals1v2.png",
-      "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots/dashboard1v2.png",
       "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots-documents/voucher1v2.png",
       "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots-documents/arrivals1v2.png",
       "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots-documents/dashboard1v2.png"
@@ -475,9 +447,9 @@
     "stack": [
       "TypeScript",
       "Python",
-      "CSS"
+      "Shell"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "haymarhlaing",
@@ -562,10 +534,10 @@
     "github": "heinthaw-dev",
     "name": "heinthaw-dev",
     "title": "blood-help",
-    "desc": "Connect with nearby blood donors, support patients in need, and appreciate our community heroes.",
+    "desc": "Blood Help is a free app that instantly connects someone who urgently needs blood with nearby donors of the same blood type, built with ReactJS and Supabase",
     "repo_url": "https://github.com/heinthaw-dev/blood-help",
     "live_url": "https://blood-help-ten.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/heinthaw-dev/blood-help/main/slides/intro.md",
+    "slides_raw": "https://raw.githubusercontent.com/heinthaw-dev/blood-help/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/heinthaw-dev/blood-help/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/heinthaw-dev/blood-help/main/screenshots/01-phone-entry.png",
     "screenshots": [
@@ -586,7 +558,7 @@
       "TypeScript",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "htetaungkyaw-gicjp",
@@ -1030,7 +1002,7 @@
     "stack": [
       "TypeScript",
       "Python",
-      "Shell"
+      "CSS"
     ],
     "chapter": 4
   },
