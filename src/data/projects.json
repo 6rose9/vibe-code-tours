@@ -228,6 +228,31 @@
     "chapter": 4
   },
   {
+    "github": "billy1437",
+    "name": "billy1437",
+    "title": "kilo_carrier",
+    "desc": "A peer-to-peer cargo marketplace where travellers between Yangon and Bangkok sell their spare luggage space to people who need to send parcels — cheaper than courier, with zero platform fees.",
+    "repo_url": "https://github.com/Billy1437/kilo_carrier",
+    "live_url": "https://kilocarrier.com",
+    "slides_raw": "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/slides/pitch.md",
+    "slides_base": "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/screenshots/post.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/screenshots/post.png",
+      "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/screenshots/login.png",
+      "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/screenshots/browse.png",
+      "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/screenshots/landing.png",
+      "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/screenshots/trip-detail.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "TypeScript",
+      "CSS",
+      "JavaScript"
+    ],
+    "chapter": 4
+  },
+  {
     "github": "builtby-ap",
     "name": "builtby-ap",
     "title": "beancalculator",
@@ -1752,16 +1777,23 @@
     "github": "thantz-cloud",
     "name": "thantz-cloud",
     "title": "Earthquake-Recovery",
-    "desc": "You can watch earthquake happening around the world and help affected areas via donation section.",
+    "desc": "school website",
     "repo_url": "https://github.com/ThantZ-cloud/Earthquake-Recovery",
     "live_url": "https://earthquake-recovery-six.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/map.png",
+    "screenshot_url": "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (42).png",
     "screenshots": [
-      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/map.png",
-      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/quiz.png",
-      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/recovery.png"
+      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (42).png",
+      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (43).png",
+      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (44).png",
+      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (45).png",
+      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (46).png",
+      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (47).png",
+      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (48).png",
+      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (49).png",
+      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (50).png",
+      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (51).png"
     ],
     "type": "web-app",
     "stack": [
@@ -1769,7 +1801,7 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "thaz1naung",
