@@ -475,7 +475,7 @@
     "stack": [
       "TypeScript",
       "Python",
-      "JavaScript"
+      "CSS"
     ],
     "chapter": 4
   },
@@ -1123,6 +1123,35 @@
       "JavaScript",
       "CSS",
       "HTML"
+    ],
+    "chapter": 4
+  },
+  {
+    "github": "myatsumon253",
+    "name": "myatsumon253",
+    "title": "charm-and-crumb",
+    "desc": "Charm & Crumb is a cozy frontend customizer for designing personalized clay jewelry with selectable bases, finishes, charms, drag-and-drop placement, and order confirmation.",
+    "repo_url": "https://github.com/MyatSuMon253/charm-and-crumb",
+    "live_url": "https://charm-and-crumb.vercel.app/",
+    "slides_raw": "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/slides/intro.md",
+    "slides_base": "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/screenshots/step-1.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/screenshots/step-1.png",
+      "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/screenshots/step-2.png",
+      "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/screenshots/step-3.png",
+      "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/screenshots/step-4.png",
+      "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/screenshots/01-home.png",
+      "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/screenshots/04-placement.png",
+      "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/screenshots/03-charms-tray.png",
+      "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/screenshots/05-confirmation.png",
+      "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/screenshots/02-base-material.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "TypeScript",
+      "CSS",
+      "JavaScript"
     ],
     "chapter": 4
   },
