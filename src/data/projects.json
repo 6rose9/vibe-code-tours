@@ -1186,7 +1186,7 @@
     "github": "myoaung",
     "name": "myoaung",
     "title": "School-Information-System",
-    "desc": "School Information System project",
+    "desc": "Full-stack School Information System with AI-powered chatbot, natural language queries, predictive analytics, report generation, and auto scheduling. Built for Myanmar schools.",
     "repo_url": "https://github.com/myoaung/School-Information-System",
     "live_url": "https://schoolhub-mu.vercel.app",
     "slides_raw": "https://raw.githubusercontent.com/myoaung/School-Information-System/main/slides/tech-stack.md",
