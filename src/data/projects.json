@@ -1505,10 +1505,10 @@
     "github": "royallyre7",
     "name": "royallyre7",
     "title": "lumeokids",
-    "desc": "LumeoKids is an AI-powered learning platform that helps parents create child profiles, discover learning archetypes through strengths assessments, and personalize their child's development journey.",
+    "desc": "",
     "repo_url": "https://github.com/royallyre7/lumeokids",
-    "live_url": "https://github.com/royallyre7/lumeokids/releases/tag/v1.0.0",
-    "slides_raw": "https://raw.githubusercontent.com/royallyre7/lumeokids/main/slides/pitch.md",
+    "live_url": "https://github.com/royallyre7/lumeokids/releases",
+    "slides_raw": "https://raw.githubusercontent.com/royallyre7/lumeokids/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/royallyre7/lumeokids/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/02-login.png",
     "screenshots": [
@@ -1516,8 +1516,12 @@
       "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/01-landing.png",
       "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/03-register.png",
       "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/04-dashboard.png",
+      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/15-error-logs.png",
       "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/05-child-detail.png",
-      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/06-assessment-results.png"
+      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/14-results-full.png",
+      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/17-form-submit-test.png",
+      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/06-assessment-results.png",
+      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/11-interests-selected.png"
     ],
     "type": "web-app",
     "stack": [
@@ -1525,7 +1529,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "saiwaiyanphyo",
