@@ -930,7 +930,7 @@
     "github": "linletlettun",
     "name": "linletlettun",
     "title": "Klock",
-    "desc": "Kubernetes Cluster Management Portal — a web app to manage K8s clusters, deployments, ConfigMaps, Secrets, and RBAC manifests from a browser.",
+    "desc": "Kubernetes Configuration Management",
     "repo_url": "https://github.com/linletlettun/Klock",
     "live_url": "https://klock-portal.vercel.app/",
     "slides_raw": "https://raw.githubusercontent.com/linletlettun/Klock/main/slides/pitch.md",
@@ -949,7 +949,7 @@
       "Python",
       "Dockerfile"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "lwinmoe51",
