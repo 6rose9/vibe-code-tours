@@ -3,10 +3,10 @@
     "github": "6rose9",
     "name": "6rose9",
     "title": "rice-agent",
-    "desc": "A professional networking and marketplace platform for Myanmar's rice industry, connecting farmers, traders, and agents through profiles, posts, and business discovery.",
+    "desc": "",
     "repo_url": "https://github.com/6rose9/rice-agent",
     "live_url": "https://rice-agent.vercel.app/feed",
-    "slides_raw": "https://raw.githubusercontent.com/6rose9/rice-agent/master/slides/intro.md",
+    "slides_raw": "https://raw.githubusercontent.com/6rose9/rice-agent/master/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/6rose9/rice-agent/master/slides/",
     "screenshot_url": null,
     "screenshots": [],
@@ -16,7 +16,7 @@
       "Python",
       "PLpgSQL"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "ahk1542001-wq",
@@ -69,10 +69,10 @@
     "github": "anthtooaung",
     "name": "anthtooaung",
     "title": "my-diary",
-    "desc": "An AI-powered personal diary with mood tracking, calendar view, goal coaching, weekly digests, and full-text search.",
+    "desc": "",
     "repo_url": "https://github.com/anthtooaung/my-diary",
     "live_url": "https://my-diary-bqbj.onrender.com/",
-    "slides_raw": "https://raw.githubusercontent.com/anthtooaung/my-diary/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/anthtooaung/my-diary/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/anthtooaung/my-diary/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/anthtooaung/my-diary/main/screenshots/digit.png",
     "screenshots": [
@@ -93,7 +93,7 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "aungkyawminhtet",
@@ -586,6 +586,32 @@
     "chapter": 5
   },
   {
+    "github": "hlahtunthein09",
+    "name": "hlahtunthein09",
+    "title": "kill_the_laziness",
+    "desc": "A gamified productivity dashboard + browser extension that blocks distractions and tracks focus time through timed tasks with XP rewards.",
+    "repo_url": "https://github.com/hlahtunthein09/kill_the_laziness",
+    "live_url": "https://kill-the-laziness.vercel.app",
+    "slides_raw": "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/slides/pitch.md",
+    "slides_base": "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Timer.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Timer.png",
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Setting.png",
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Projects.png",
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Dashboard.png",
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Extension_Popup.png",
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Extension_Notification.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "TypeScript",
+      "HTML",
+      "CSS"
+    ],
+    "chapter": 4
+  },
+  {
     "github": "htetaungkyaw-gicjp",
     "name": "htetaungkyaw-gicjp",
     "title": "webcomms-pay",
@@ -880,6 +906,29 @@
     "chapter": 5
   },
   {
+    "github": "kokaunghtet",
+    "name": "kokaunghtet",
+    "title": "vibecode-dailyplanner",
+    "desc": "A personal daily planner with task management, calendar view, and dark/light mode, backed by Firebase Firestore.",
+    "repo_url": "https://github.com/kokaunghtet/vibecode-dailyplanner",
+    "live_url": "https://vibecode-dailyplanner.web.app/",
+    "slides_raw": "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/slides/intro.md",
+    "slides_base": "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/login.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/login.png",
+      "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/today.png",
+      "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/calendar.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "TypeScript",
+      "Vue",
+      "JavaScript"
+    ],
+    "chapter": 4
+  },
+  {
     "github": "komyo335",
     "name": "komyo335",
     "title": "M-Pro",
@@ -1035,10 +1084,10 @@
     "github": "minntayza",
     "name": "minntayza",
     "title": "pdf_summarizer",
-    "desc": "A web app that turns lecture PDFs into AI-generated summary notes, key exam points, and interactive flashcards.",
+    "desc": "",
     "repo_url": "https://github.com/minntayza/pdf_summarizer",
-    "live_url": "https://pdf-summarizer.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/minntayza/pdf_summarizer/main/slides/pitch.md",
+    "live_url": "https://pdf-summarizer-topaz.vercel.app",
+    "slides_raw": "https://raw.githubusercontent.com/minntayza/pdf_summarizer/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/minntayza/pdf_summarizer/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/minntayza/pdf_summarizer/main/screenshots/01.png",
     "screenshots": [
@@ -1054,7 +1103,7 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "mrmyintmyataung",
@@ -1291,10 +1340,10 @@
     "github": "naw2",
     "name": "naw2",
     "title": "ds_quiz_generator",
-    "desc": "An AI-powered quiz app that tracks student performance, finds weak topics, and generates personalized practice questions using the Claude API.",
+    "desc": "",
     "repo_url": "https://github.com/naw2/ds_quiz_generator",
     "live_url": "https://dsquizgenerator-selht4jqurewdvmusqxkvg.streamlit.app/",
-    "slides_raw": "https://raw.githubusercontent.com/naw2/ds_quiz_generator/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/naw2/ds_quiz_generator/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/naw2/ds_quiz_generator/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/naw2/ds_quiz_generator/main/screenshots/01.png",
     "screenshots": [
@@ -1306,7 +1355,7 @@
     "stack": [
       "Python"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "noobfrommm",
@@ -1895,10 +1944,10 @@
     "github": "thuyein-thet",
     "name": "thuyein-thet",
     "title": "promoSuperComo",
-    "desc": "A map of current promotion flyers for all Comodi Iida supermarket stores, scraped from Tokubai and kept up to date on a schedule.",
+    "desc": "",
     "repo_url": "https://github.com/Thuyein-Thet/promoSuperComo",
     "live_url": "https://comodi-iida-flyer-map.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/Thuyein-Thet/promoSuperComo/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/Thuyein-Thet/promoSuperComo/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/Thuyein-Thet/promoSuperComo/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/Thuyein-Thet/promoSuperComo/main/screenshots/03-result.png",
     "screenshots": [
@@ -1912,7 +1961,7 @@
       "TypeScript",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "thuzarthaungsein",
@@ -1941,11 +1990,11 @@
     "github": "vibecode-ting",
     "name": "vibecode-ting",
     "title": "myanmardev.com",
-    "desc": "Free `.myanmardev.com` subdomains for Myanmar developers — no credit card, no DNS setup required.",
+    "desc": "Personal Project build with claude for ---  https://vibecode.tours/cohort/1/    live site: https://app.myanmardev.com",
     "repo_url": "https://github.com/vibecode-ting/myanmardev.com",
     "live_url": "https://app.myanmardev.com",
-    "slides_raw": "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/slides/intro.md",
-    "slides_base": "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/slides/",
+    "slides_raw": "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/slides/intro.md",
+    "slides_base": "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/screenshoots/01_main.png",
     "screenshots": [
       "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/screenshoots/01_main.png",
@@ -1965,7 +2014,7 @@
       "Astro",
       "Shell"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "wailynn351",
@@ -2077,10 +2126,10 @@
     "github": "wythwin",
     "name": "wythwin",
     "title": "your-marketer",
-    "desc": "An AI-powered marketing quiz that gives small business owners a personalized start point and to-do checklist, emails it to them, and captures them as a lead.",
+    "desc": "AI-powered marketing quiz that gives small business owners a personalized start point + to-do checklist, emails it to them, and captures them as leads. Node/Express + Groq, deployed on Vercel.",
     "repo_url": "https://github.com/wythwin/your-marketer",
     "live_url": "https://your-marketer.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/wythwin/your-marketer/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/wythwin/your-marketer/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/wythwin/your-marketer/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/wythwin/your-marketer/main/screenshots/home.png",
     "screenshots": [
@@ -2093,7 +2142,7 @@
       "HTML",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "yarzarmyomin97",
@@ -2227,10 +2276,10 @@
     "github": "zinmimi",
     "name": "zinmimi",
     "title": "ai-maintenance-ticket-assistant",
-    "desc": "A responsive web application for managing hotel operations, maintenance requests, and departmental coordination — powered by AI ticket routing, Supabase authentication, and real-time department notifications.",
+    "desc": "Live Demo",
     "repo_url": "https://github.com/ZinMiMi/ai-maintenance-ticket-assistant",
     "live_url": "https://zinmimi.github.io/ai-maintenance-ticket-assistant/",
-    "slides_raw": "https://raw.githubusercontent.com/ZinMiMi/ai-maintenance-ticket-assistant/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/ZinMiMi/ai-maintenance-ticket-assistant/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/ZinMiMi/ai-maintenance-ticket-assistant/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/ZinMiMi/ai-maintenance-ticket-assistant/main/docs/screenshots/login.png",
     "screenshots": [
@@ -2245,6 +2294,6 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 5
   }
 ]
