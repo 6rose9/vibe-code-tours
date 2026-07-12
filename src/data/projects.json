@@ -835,8 +835,8 @@
     ],
     "type": "web-app",
     "stack": [
-      "CSS",
       "JavaScript",
+      "CSS",
       "HTML"
     ],
     "chapter": 5
@@ -1888,19 +1888,22 @@
     "live_url": "https://pomodoro-vibes.vercel.app",
     "slides_raw": "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/screenshots/01-focus-theme.png",
+    "screenshot_url": "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/screenshots/mobile-focus.png",
     "screenshots": [
-      "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/screenshots/01-focus-theme.png",
-      "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/screenshots/02-chill-theme.png",
-      "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/screenshots/05-mobile-view.png",
-      "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/screenshots/04-break-screen.png",
-      "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/screenshots/03-deepwork-theme.png"
+      "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/screenshots/mobile-focus.png",
+      "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/screenshots/mobile-light.png",
+      "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/screenshots/desktop-break.png",
+      "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/screenshots/desktop-chill.png",
+      "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/screenshots/desktop-focus.png",
+      "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/screenshots/desktop-light.png",
+      "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/screenshots/desktop-deepwork.png",
+      "https://raw.githubusercontent.com/thaz1naung/Pomodoro-Timer/main/screenshots/desktop-break-dialog.png"
     ],
     "type": "web-app",
     "stack": [
       "HTML",
-      "JavaScript",
-      "CSS"
+      "CSS",
+      "JavaScript"
     ],
     "chapter": 5
   },
