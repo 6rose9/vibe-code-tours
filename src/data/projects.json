@@ -331,6 +331,32 @@
     "chapter": 5
   },
   {
+    "github": "cidtechmm002",
+    "name": "cidtechmm002",
+    "title": "cloudsec-sentinel",
+    "desc": "",
+    "repo_url": "https://github.com/cidtechmm002/cloudsec-sentinel",
+    "live_url": "https://cidtechmm002.github.io/cloudsec-sentinel/",
+    "slides_raw": "https://raw.githubusercontent.com/cidtechmm002/cloudsec-sentinel/main/slides/tech-stack.md",
+    "slides_base": "https://raw.githubusercontent.com/cidtechmm002/cloudsec-sentinel/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/cidtechmm002/cloudsec-sentinel/main/screenshots/01.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/cidtechmm002/cloudsec-sentinel/main/screenshots/01.png",
+      "https://raw.githubusercontent.com/cidtechmm002/cloudsec-sentinel/main/screenshots/02.png",
+      "https://raw.githubusercontent.com/cidtechmm002/cloudsec-sentinel/main/screenshots/03.png",
+      "https://raw.githubusercontent.com/cidtechmm002/cloudsec-sentinel/main/assets/dashboard_screenshot_1.png",
+      "https://raw.githubusercontent.com/cidtechmm002/cloudsec-sentinel/main/assets/dashboard_screenshot_2.png",
+      "https://raw.githubusercontent.com/cidtechmm002/cloudsec-sentinel/main/assets/dashboard_screenshot_3.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "chapter": 5
+  },
+  {
     "github": "david-sang96",
     "name": "david-sang96",
     "title": "devnest",
@@ -808,7 +834,9 @@
       "https://raw.githubusercontent.com/kaykhaingmyint6170/attendance_management/master/screenshots/my-leaves.png",
       "https://raw.githubusercontent.com/kaykhaingmyint6170/attendance_management/master/screenshots/all-leaves.png",
       "https://raw.githubusercontent.com/kaykhaingmyint6170/attendance_management/master/screenshots/all-records.png",
-      "https://raw.githubusercontent.com/kaykhaingmyint6170/attendance_management/master/screenshots/my-attendance.png"
+      "https://raw.githubusercontent.com/kaykhaingmyint6170/attendance_management/master/screenshots/login-mobile.png",
+      "https://raw.githubusercontent.com/kaykhaingmyint6170/attendance_management/master/screenshots/my-attendance.png",
+      "https://raw.githubusercontent.com/kaykhaingmyint6170/attendance_management/master/screenshots/dashboard-mobile.png"
     ],
     "type": "web-app",
     "stack": [
@@ -1031,7 +1059,7 @@
     "github": "mangsuan",
     "name": "mangsuan",
     "title": "bwai-stock-research",
-    "desc": "BWAI is an AI-powered stock research assistant that uses multiple AI agents to analyze stocks and provide balanced bull/bear insights.",
+    "desc": "",
     "repo_url": "https://github.com/mangsuan/bwai-stock-research",
     "live_url": "https://mangsuan.github.io/bwai-stock-research",
     "slides_raw": "https://raw.githubusercontent.com/mangsuan/bwai-stock-research/main/slides/pitch.md",
@@ -1055,7 +1083,7 @@
       "C",
       "Cython"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "mhkaungpyae",
@@ -1355,7 +1383,7 @@
     "stack": [
       "JavaScript",
       "CSS",
-      "HTML"
+      "TypeScript"
     ],
     "chapter": 5
   },
@@ -2256,7 +2284,7 @@
     "github": "yeminko-me",
     "name": "yeminko-me",
     "title": "attendance-system",
-    "desc": "A full-stack Java Swing + Spring Boot attendance management system with employee registration, clock-in/out, break tracking, salary calculation, and MySQL database — built with Claude Code, MCP servers, and custom AI agents.",
+    "desc": "Java Project",
     "repo_url": "https://github.com/yeminko-me/attendance-system",
     "live_url": "https://github.com/yeminko-me/attendance-system/releases/download/v1.0.0/attendance-system-v1.0.jar",
     "slides_raw": "https://raw.githubusercontent.com/yeminko-me/attendance-system/master/slides/pitch.md",
@@ -2278,7 +2306,7 @@
     "stack": [
       "Java"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "youuu199",
