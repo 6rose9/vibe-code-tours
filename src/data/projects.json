@@ -1081,6 +1081,29 @@
     "chapter": 4
   },
   {
+    "github": "milefisher",
+    "name": "milefisher",
+    "title": "daily-tech-digest",
+    "desc": "Fetches top tech stories from Hacker News and Lobsters, filters out the noise, and writes a clean markdown digest — in English and Burmese",
+    "repo_url": "https://github.com/MileFisher/daily-tech-digest",
+    "live_url": "https://milefisher.github.io/daily-tech-digest/",
+    "slides_raw": "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/slides/pechakucha.md",
+    "slides_base": "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/mobile-dark.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/mobile-dark.png",
+      "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/desktop-dark.png",
+      "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/mobile-light.png",
+      "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/desktop-light.png",
+      "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/desktop-burmese.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "JavaScript"
+    ],
+    "chapter": 4
+  },
+  {
     "github": "minntayza",
     "name": "minntayza",
     "title": "pdf_summarizer",
@@ -1882,6 +1905,35 @@
     "chapter": 5
   },
   {
+    "github": "thedevpp",
+    "name": "thedevpp",
+    "title": "quiz-generator",
+    "desc": "A health education quiz platform for teenagers in Myanmar that generates doctor-reviewed multiple-choice, true/false, and scenario questions from verified medical handbooks using Claude API — with zero user data collection.",
+    "repo_url": "https://github.com/TheDevPP/quiz-generator",
+    "live_url": "https://quiz-generator-rugz.onrender.com/",
+    "slides_raw": "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/slides/intro.md",
+    "slides_base": "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/screenshots/quiz-screen.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/screenshots/quiz-screen.png",
+      "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/screenshots/05-completion.png",
+      "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/screenshots/correct-answer.png",
+      "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/screenshots/04-wrong-answer.png",
+      "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/screenshots/incorrect-answer.png",
+      "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/screenshots/03-correct-answer.png",
+      "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/screenshots/difficulty-change.png",
+      "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/screenshots/01-category-screen.png",
+      "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/screenshots/02-multiple-choice.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "chapter": 4
+  },
+  {
     "github": "thet-naing-lin",
     "name": "thet-naing-lin",
     "title": "resume-screening",
@@ -2222,6 +2274,36 @@
     "type": "other",
     "stack": [
       "Java"
+    ],
+    "chapter": 4
+  },
+  {
+    "github": "youuu199",
+    "name": "youuu199",
+    "title": "phyat-paing",
+    "desc": "AI-powered bill organizer that extracts data from utility bill photos using OCR and AI, with real-time currency conversion and spending analytics.",
+    "repo_url": "https://github.com/youuu199/phyat-paing",
+    "live_url": "https://phyat-paing.vercel.app/",
+    "slides_raw": "https://raw.githubusercontent.com/youuu199/phyat-paing/main/slides/presentation.md",
+    "slides_base": "https://raw.githubusercontent.com/youuu199/phyat-paing/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/01-login.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/01-login.png",
+      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/03-bills.png",
+      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/04-upload.png",
+      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/07-search.png",
+      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/06-sidebar.png",
+      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/08-profile.png",
+      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/06-calendar.png",
+      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/07-settings.png",
+      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/02-dashboard.png",
+      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/05-analytics.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "TypeScript",
+      "JavaScript",
+      "CSS"
     ],
     "chapter": 4
   },
