@@ -204,10 +204,10 @@
     "github": "bhonewai-bot",
     "name": "bhonewai-bot",
     "title": "Laravel-Multi-Tenancy",
-    "desc": "A Laravel multi-tenancy platform that provisions isolated databases per tenant with custom domains, installable modules, and role-based access control.",
+    "desc": "",
     "repo_url": "https://github.com/bhonewai-bot/Laravel-Multi-Tenancy",
-    "live_url": "https://demo.tenantsmith.bhonewai.cc.cd",
-    "slides_raw": "https://raw.githubusercontent.com/bhonewai-bot/Laravel-Multi-Tenancy/main/slides/intro.md",
+    "live_url": "https://demo.tenantsmith.bhonewai.cc.cd/",
+    "slides_raw": "https://raw.githubusercontent.com/bhonewai-bot/Laravel-Multi-Tenancy/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/bhonewai-bot/Laravel-Multi-Tenancy/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/bhonewai-bot/Laravel-Multi-Tenancy/main/screenshots/tenant-roles.png",
     "screenshots": [
@@ -225,7 +225,7 @@
       "PHP",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "billy1437",
@@ -1037,15 +1037,15 @@
     "live_url": "https://pisilist-app.web.app/",
     "slides_raw": "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/01-login.png",
+    "screenshot_url": "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/01_login.png",
     "screenshots": [
-      "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/01-login.png",
-      "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/02-signup.png",
-      "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/07-settings.png",
-      "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/04-dashboard.png",
-      "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/05-card-detail.png",
-      "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/06-invitations.png",
-      "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/03-reset-password.png"
+      "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/01_login.png",
+      "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/02_signup.png",
+      "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/07_profile.png",
+      "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/03_reset_password.png",
+      "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/06_card_detail_done_task.png",
+      "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/04_home_page_card_preview.png",
+      "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/05_card_detail_collab_reminder.png"
     ],
     "type": "mobile",
     "stack": [
