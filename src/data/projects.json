@@ -122,10 +122,10 @@
     "github": "aungyephyo2215",
     "name": "aungyephyo2215",
     "title": "vct-visitor-registration-system",
-    "desc": "A QR-based digital visitor registration system that replaces paper visitor logs with secure check-in/check-out, invitation workflows, and real-time notifications for condos, apartments, offices, and warehouses.",
+    "desc": "",
     "repo_url": "https://github.com/aungyephyo2215/vct-visitor-registration-system",
     "live_url": "https://vct-visitor-registration-system.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/aungyephyo2215/vct-visitor-registration-system/main/slides/intro.md",
+    "slides_raw": "https://raw.githubusercontent.com/aungyephyo2215/vct-visitor-registration-system/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/aungyephyo2215/vct-visitor-registration-system/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/aungyephyo2215/vct-visitor-registration-system/main/docs/screenshots/01-login.png",
     "screenshots": [
@@ -146,7 +146,7 @@
       "Shell",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "ayenyeinsan22",
@@ -2170,7 +2170,10 @@
       "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/04.png",
       "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/05.png",
       "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/06.png",
-      "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/07.png"
+      "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/07.png",
+      "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/02-meet-mobile.png",
+      "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/01-meet-desktop.png",
+      "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/07-meet-desktop.png"
     ],
     "type": "web-app",
     "stack": [
