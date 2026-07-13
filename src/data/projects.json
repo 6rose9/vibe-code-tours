@@ -1377,13 +1377,18 @@
       "https://raw.githubusercontent.com/nanaungoo/latrinalia/main/public/screenshot-stall.png",
       "https://raw.githubusercontent.com/nanaungoo/latrinalia/main/public/screenshot-stall2.png",
       "https://raw.githubusercontent.com/nanaungoo/latrinalia/main/public/screenshot-compose.png",
-      "https://raw.githubusercontent.com/nanaungoo/latrinalia/main/public/screenshot-janitor.png"
+      "https://raw.githubusercontent.com/nanaungoo/latrinalia/main/public/screenshot-janitor.png",
+      "https://raw.githubusercontent.com/nanaungoo/latrinalia/main/public/screenshot-lobby-mobile.png",
+      "https://raw.githubusercontent.com/nanaungoo/latrinalia/main/public/screenshot-stall-mobile.png",
+      "https://raw.githubusercontent.com/nanaungoo/latrinalia/main/public/screenshot-lobby-desktop.png",
+      "https://raw.githubusercontent.com/nanaungoo/latrinalia/main/public/screenshot-stall-desktop.png",
+      "https://raw.githubusercontent.com/nanaungoo/latrinalia/main/public/screenshot-stall2-mobile.png"
     ],
     "type": "web-app",
     "stack": [
       "JavaScript",
       "CSS",
-      "TypeScript"
+      "HTML"
     ],
     "chapter": 5
   },
