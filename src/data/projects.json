@@ -22,10 +22,10 @@
     "github": "ahk1542001-wq",
     "name": "ahk1542001-wq",
     "title": "url-shortener-api",
-    "desc": "A premium, self-hosted URL shortener with built-in click tracking, custom vanity codes, and military-grade security.",
+    "desc": "",
     "repo_url": "https://github.com/ahk1542001-wq/url-shortener-api",
     "live_url": "https://swoo-sh.onrender.com",
-    "slides_raw": "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/01.png",
     "screenshots": [
@@ -39,7 +39,7 @@
       "HTML",
       "Python"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "ammdevl",
