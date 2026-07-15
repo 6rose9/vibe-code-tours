@@ -1632,9 +1632,9 @@
       "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/15-error-logs.png",
       "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/05-child-detail.png",
       "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/14-results-full.png",
+      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/ui-update-02-login.png",
       "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/07-pdf-results-page.png",
-      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/17-form-submit-test.png",
-      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/06-assessment-results.png"
+      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/17-form-submit-test.png"
     ],
     "type": "web-app",
     "stack": [
@@ -2391,7 +2391,10 @@
       "https://raw.githubusercontent.com/zinmar2626/my-protfolio/main/screenshots/about.png",
       "https://raw.githubusercontent.com/zinmar2626/my-protfolio/main/screenshots/contact.png",
       "https://raw.githubusercontent.com/zinmar2626/my-protfolio/main/screenshots/project.png",
-      "https://raw.githubusercontent.com/zinmar2626/my-protfolio/main/screenshots/experience.png"
+      "https://raw.githubusercontent.com/zinmar2626/my-protfolio/main/screenshots/v2/home.png",
+      "https://raw.githubusercontent.com/zinmar2626/my-protfolio/main/screenshots/v2/about.png",
+      "https://raw.githubusercontent.com/zinmar2626/my-protfolio/main/screenshots/experience.png",
+      "https://raw.githubusercontent.com/zinmar2626/my-protfolio/main/screenshots/v2/project.png"
     ],
     "type": "web-app",
     "stack": [
