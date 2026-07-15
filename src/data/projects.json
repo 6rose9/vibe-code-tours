@@ -1340,7 +1340,7 @@
     "github": "naitar",
     "name": "naitar",
     "title": "income-expense-app",
-    "desc": "Track your income and expenses in MMK to effectively manage your personal finances.",
+    "desc": "မြန်မာကျပ်ငွေ (MMK) ဖြင့် ဝင်ငွေ/ထွက်ငွေ မှတ်တမ်းတင်ပြီး  မိမိ၏ဝင်ငွေကို စီမံခန့်ခွဲနိုင်ပါသည်။",
     "repo_url": "https://github.com/naitar/income-expense-app",
     "live_url": "https://mmbalance.vercel.app/",
     "slides_raw": "https://raw.githubusercontent.com/naitar/income-expense-app/Main/slides/intro.md",
@@ -1361,7 +1361,7 @@
       "HTML",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "nanaungoo",
