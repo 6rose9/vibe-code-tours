@@ -1032,10 +1032,10 @@
     "github": "lwinmoe51",
     "name": "lwinmoe51",
     "title": "pisilist",
-    "desc": "A minimal Google Keep-inspired collaborative task management app built with React Native, Expo, and Firebase.",
+    "desc": "Google Keep-inspired collaborative task management app — React Native, Expo, Firebase. Chapter 3 Assignment for Vibe Code Tours bootcamp.",
     "repo_url": "https://github.com/lwinmoe51/pisilist",
     "live_url": "https://pisilist-app.web.app/",
-    "slides_raw": "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/lwinmoe51/pisilist/main/screenshots/01_login.png",
     "screenshots": [
@@ -1053,7 +1053,7 @@
       "HTML",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "mangsuan",
