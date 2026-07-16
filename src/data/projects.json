@@ -27,18 +27,18 @@
     "live_url": "https://swoo-sh.onrender.com",
     "slides_raw": "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/02_login_desktop.png",
+    "screenshot_url": "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/02_login_mobile.png",
     "screenshots": [
+      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/02_login_mobile.png",
       "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/02_login_desktop.png",
-      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/10_landing_mobile.png",
+      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/01_landing_mobile.png",
       "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/01_landing_desktop.png",
-      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/12_public_tree_mobile.png",
-      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/09_public_tree_desktop.png",
-      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/11_tree_dashboard_mobile.png",
-      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/04_dashboard_empty_desktop.png",
-      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/06_profile_creation_desktop.png",
-      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/03_feature_selection_desktop.png",
-      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/05_dashboard_populated_desktop.png"
+      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/10_qr_modal_mobile.png",
+      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/08_shortener_mobile.png",
+      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/09_portfolio_mobile.png",
+      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/10_qr_modal_desktop.png",
+      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/11_edit_link_mobile.png",
+      "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/08_shortener_desktop.png"
     ],
     "type": "web-app",
     "stack": [
