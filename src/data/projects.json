@@ -19,6 +19,32 @@
     "chapter": 5
   },
   {
+    "github": "absolute-aungkomyint",
+    "name": "absolute-aungkomyint",
+    "title": "athapyar-htote-web",
+    "desc": "A fast, lightweight, offline-first personal budget management application designed specifically for Myanmar citizens.",
+    "repo_url": "https://github.com/absolute-aungkomyint/athapyar-htote-web",
+    "live_url": "https://absolute-aungkomyint.github.io/athapyar-htote-web/",
+    "slides_raw": "https://raw.githubusercontent.com/absolute-aungkomyint/athapyar-htote-web/main/slides/atph.md",
+    "slides_base": "https://raw.githubusercontent.com/absolute-aungkomyint/athapyar-htote-web/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/absolute-aungkomyint/athapyar-htote-web/main/assets/screenshots/Debt.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/absolute-aungkomyint/athapyar-htote-web/main/assets/screenshots/Debt.png",
+      "https://raw.githubusercontent.com/absolute-aungkomyint/athapyar-htote-web/main/assets/screenshots/Budget.png",
+      "https://raw.githubusercontent.com/absolute-aungkomyint/athapyar-htote-web/main/assets/screenshots/settings.png",
+      "https://raw.githubusercontent.com/absolute-aungkomyint/athapyar-htote-web/main/assets/screenshots/Dashboard.png",
+      "https://raw.githubusercontent.com/absolute-aungkomyint/athapyar-htote-web/main/assets/screenshots/Transaction.png",
+      "https://raw.githubusercontent.com/absolute-aungkomyint/athapyar-htote-web/main/assets/screenshots/Financial_Goal.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "chapter": 4
+  },
+  {
     "github": "ahk1542001-wq",
     "name": "ahk1542001-wq",
     "title": "url-shortener-api",
@@ -1307,7 +1333,10 @@
       "https://raw.githubusercontent.com/myoaung/School-Information-System/main/screenshots/01-homepage.png",
       "https://raw.githubusercontent.com/myoaung/School-Information-System/main/screenshots/03-register.png",
       "https://raw.githubusercontent.com/myoaung/School-Information-System/main/screenshots/07-dashboard.png",
-      "https://raw.githubusercontent.com/myoaung/School-Information-System/main/screenshots/04-announcements.png"
+      "https://raw.githubusercontent.com/myoaung/School-Information-System/main/screenshots/04-announcements.png",
+      "https://raw.githubusercontent.com/myoaung/School-Information-System/main/ch-6/myoaung/screenshots/02-login.png",
+      "https://raw.githubusercontent.com/myoaung/School-Information-System/main/ch-6/myoaung/screenshots/06-contact.png",
+      "https://raw.githubusercontent.com/myoaung/School-Information-System/main/ch-6/myoaung/screenshots/01-homepage.png"
     ],
     "type": "web-app",
     "stack": [
