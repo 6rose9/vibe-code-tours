@@ -896,8 +896,8 @@
     ],
     "type": "web-app",
     "stack": [
-      "JavaScript",
       "CSS",
+      "JavaScript",
       "HTML"
     ],
     "chapter": 5
@@ -911,12 +911,21 @@
     "live_url": "https://github.com/kingquiet-bot/qr-training-manager/releases/tag/v1.0.0",
     "slides_raw": "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/https://github.com/kingquiet-bot/qr-training-manager/blob/main/Slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/https://github.com/kingquiet-bot/qr-training-manager/blob/main/Slides/",
-    "screenshot_url": null,
-    "screenshots": [],
+    "screenshot_url": "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/screenshots/06-scanner-mobile.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/screenshots/06-scanner-mobile.png",
+      "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/screenshots/05-dashboard-mobile.png",
+      "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/screenshots/01-dashboard-desktop.png",
+      "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/screenshots/07-self-checkin-mobile.png",
+      "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/screenshots/02-create-event-desktop.png",
+      "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/screenshots/03-event-detail-desktop.png",
+      "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/screenshots/04-self-checkin-desktop.png"
+    ],
     "type": "web-app",
     "stack": [
       "HTML",
-      "Python"
+      "Python",
+      "Dockerfile"
     ],
     "chapter": 5
   },
@@ -993,10 +1002,10 @@
     "github": "komyo335",
     "name": "komyo335",
     "title": "M-Pro",
-    "desc": "POS System for a small Cafe",
+    "desc": "",
     "repo_url": "https://github.com/komyo335/M-Pro",
-    "live_url": "https://m-pro-git-main-myo335074-6768s-projects.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/komyo335/M-Pro/main/Slides/pitch.md",
+    "live_url": "https://m-pro-git-main-myo335074-6768s-projects.vercel.app",
+    "slides_raw": "https://raw.githubusercontent.com/komyo335/M-Pro/main/Slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/komyo335/M-Pro/main/Slides/",
     "screenshot_url": "https://raw.githubusercontent.com/komyo335/M-Pro/main/screenshots/1.Login Form.png",
     "screenshots": [
@@ -1015,7 +1024,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "kyawminht",
