@@ -935,8 +935,8 @@
     "type": "web-app",
     "stack": [
       "TypeScript",
-      "PLpgSQL",
-      "HTML"
+      "HTML",
+      "PLpgSQL"
     ],
     "chapter": 5
   },
