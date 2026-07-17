@@ -1589,7 +1589,12 @@
       "https://raw.githubusercontent.com/pyone-cho/second-brain-claude/main/screenshots/05-memo.png",
       "https://raw.githubusercontent.com/pyone-cho/second-brain-claude/main/screenshots/01-login.png",
       "https://raw.githubusercontent.com/pyone-cho/second-brain-claude/main/screenshots/04-process.png",
-      "https://raw.githubusercontent.com/pyone-cho/second-brain-claude/main/screenshots/02-dashboard.png"
+      "https://raw.githubusercontent.com/pyone-cho/second-brain-claude/main/screenshots/02-dashboard.png",
+      "https://raw.githubusercontent.com/pyone-cho/second-brain-claude/main/docs/screenshots/todo-mobile.png",
+      "https://raw.githubusercontent.com/pyone-cho/second-brain-claude/main/docs/screenshots/todo-desktop.png",
+      "https://raw.githubusercontent.com/pyone-cho/second-brain-claude/main/docs/screenshots/kanban-mobile.png",
+      "https://raw.githubusercontent.com/pyone-cho/second-brain-claude/main/docs/screenshots/login-desktop.png",
+      "https://raw.githubusercontent.com/pyone-cho/second-brain-claude/main/docs/screenshots/kanban-desktop.png"
     ],
     "type": "web-app",
     "stack": [
@@ -1762,9 +1767,9 @@
       "https://raw.githubusercontent.com/sandarma/Interview-Coach-AI/main/screenshots/Welcome_Screen.png",
       "https://raw.githubusercontent.com/sandarma/Interview-Coach-AI/main/screenshots/Feedback_Screen.png",
       "https://raw.githubusercontent.com/sandarma/Interview-Coach-AI/main/screenshots/Practice_Screen.png",
-      "https://raw.githubusercontent.com/sandarma/Interview-Coach-AI/main/screenshots/question_screen.png",
-      "https://raw.githubusercontent.com/sandarma/Interview-Coach-AI/main/screenshots/evaluation_screen.png",
-      "https://raw.githubusercontent.com/sandarma/Interview-Coach-AI/main/screenshots/followup_question.jpeg"
+      "https://raw.githubusercontent.com/sandarma/Interview-Coach-AI/main/old_screenshots/question_screen.png",
+      "https://raw.githubusercontent.com/sandarma/Interview-Coach-AI/main/old_screenshots/evaluation_screen.png",
+      "https://raw.githubusercontent.com/sandarma/Interview-Coach-AI/main/old_screenshots/followup_question.jpeg"
     ],
     "type": "web-app",
     "stack": [
