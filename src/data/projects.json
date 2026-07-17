@@ -1833,6 +1833,36 @@
     "chapter": 4
   },
   {
+    "github": "sithutun-mdy",
+    "name": "sithutun-mdy",
+    "title": "fast-order",
+    "desc": "Simple Food Ordering Web App. Menu with Categories, Cart View, Checkout and Order Status Pages.",
+    "repo_url": "https://github.com/SiThuTun-mdy/fast-order",
+    "live_url": "https://fast-order-demo.vercel.app/",
+    "slides_raw": "https://raw.githubusercontent.com/SiThuTun-mdy/fast-order/main/slides/pitch.md",
+    "slides_base": "https://raw.githubusercontent.com/SiThuTun-mdy/fast-order/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/SiThuTun-mdy/fast-order/main/screenshots/03-Cart-View.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/SiThuTun-mdy/fast-order/main/screenshots/03-Cart-View.png",
+      "https://raw.githubusercontent.com/SiThuTun-mdy/fast-order/main/screenshots/06-Login-Page.png",
+      "https://raw.githubusercontent.com/SiThuTun-mdy/fast-order/main/screenshots/04-Check-Out-Page.png",
+      "https://raw.githubusercontent.com/SiThuTun-mdy/fast-order/main/screenshots/09-Chef-View-Page.png",
+      "https://raw.githubusercontent.com/SiThuTun-mdy/fast-order/main/screenshots/01-Order-Menu-Page.png",
+      "https://raw.githubusercontent.com/SiThuTun-mdy/fast-order/main/screenshots/02-Order-Selection.png",
+      "https://raw.githubusercontent.com/SiThuTun-mdy/fast-order/main/screenshots/05-Order-Status-Page.png",
+      "https://raw.githubusercontent.com/SiThuTun-mdy/fast-order/main/screenshots/07-Cashier-View-Page.png",
+      "https://raw.githubusercontent.com/SiThuTun-mdy/fast-order/main/screenshots/10-Order-Ready-Status.png",
+      "https://raw.githubusercontent.com/SiThuTun-mdy/fast-order/main/screenshots/Verification/01_HomePage.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "JavaScript",
+      "TypeScript",
+      "PLpgSQL"
+    ],
+    "chapter": 4
+  },
+  {
     "github": "soe-yee-mon-htet",
     "name": "soe-yee-mon-htet",
     "title": "symh-portfolio",
