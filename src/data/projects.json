@@ -51,7 +51,7 @@
     "desc": "",
     "repo_url": "https://github.com/ahk1542001-wq/url-shortener-api",
     "live_url": "https://swoo-sh.onrender.com",
-    "slides_raw": "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/ahk1542001-wq/url-shortener-api/main/screenshots/02_login_mobile.png",
     "screenshots": [
@@ -72,7 +72,7 @@
       "JavaScript",
       "HTML"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "ammdevl",
@@ -158,7 +158,7 @@
     "desc": "",
     "repo_url": "https://github.com/aungyephyo2215/vct-visitor-registration-system",
     "live_url": "https://vct-visitor-registration-system.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/aungyephyo2215/vct-visitor-registration-system/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/aungyephyo2215/vct-visitor-registration-system/main/slides/ch3-pechakucha-20x20.md",
     "slides_base": "https://raw.githubusercontent.com/aungyephyo2215/vct-visitor-registration-system/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/aungyephyo2215/vct-visitor-registration-system/main/docs/screenshots/01-login.png",
     "screenshots": [
@@ -179,7 +179,7 @@
       "Shell",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "ayenyeinsan22",
@@ -258,7 +258,7 @@
       "PHP",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "billy1437",
@@ -747,7 +747,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "iamyeaung",
@@ -777,7 +777,7 @@
       "Shell",
       "PowerShell"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "jolly30",
@@ -786,7 +786,7 @@
     "desc": "",
     "repo_url": "https://github.com/Jolly30/Quote-Auto-Poster",
     "live_url": "https://www.tiktok.com/@mr.cheese202",
-    "slides_raw": "https://raw.githubusercontent.com/Jolly30/Quote-Auto-Poster/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/Jolly30/Quote-Auto-Poster/main/slides/intro.md",
     "slides_base": "https://raw.githubusercontent.com/Jolly30/Quote-Auto-Poster/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/Jolly30/Quote-Auto-Poster/main/screenshots/01.png",
     "screenshots": [
@@ -798,7 +798,7 @@
     "stack": [
       "Python"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "kaung-myat-code",
@@ -877,7 +877,7 @@
       "PHP",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "khinmyatthu2193",
@@ -885,8 +885,8 @@
     "title": "May_Mays_Latt_Swal-Cooking-Assistant-Web-App",
     "desc": "AI-powered Myanmar recipe assistant using MCP + Claude Agent for fast meal decisions.",
     "repo_url": "https://github.com/khinmyatthu2193/May_Mays_Latt_Swal-Cooking-Assistant-Web-App",
-    "live_url": "https://may-mays-latt-swal-cooking-assistant-web-app.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/khinmyatthu2193/May_Mays_Latt_Swal-Cooking-Assistant-Web-App/main/slides/tech-stack.md",
+    "live_url": "https://may-mays-latt-swal-cooking-assistan-two.vercel.app/",
+    "slides_raw": "https://raw.githubusercontent.com/khinmyatthu2193/May_Mays_Latt_Swal-Cooking-Assistant-Web-App/main/slides/6x20.md",
     "slides_base": "https://raw.githubusercontent.com/khinmyatthu2193/May_Mays_Latt_Swal-Cooking-Assistant-Web-App/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/khinmyatthu2193/May_Mays_Latt_Swal-Cooking-Assistant-Web-App/main/screenshots/01-home.png",
     "screenshots": [
@@ -900,7 +900,7 @@
       "JavaScript",
       "HTML"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "kingquiet-bot",
@@ -908,9 +908,9 @@
     "title": "qr-training-manager",
     "desc": "",
     "repo_url": "https://github.com/kingquiet-bot/qr-training-manager",
-    "live_url": "https://github.com/kingquiet-bot/qr-training-manager/releases/tag/v1.0.0",
-    "slides_raw": "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/https://github.com/kingquiet-bot/qr-training-manager/blob/main/Slides/tech-stack.md",
-    "slides_base": "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/https://github.com/kingquiet-bot/qr-training-manager/blob/main/Slides/",
+    "live_url": "https://qr-training-manager.onrender.com",
+    "slides_raw": "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/presentation.md",
+    "slides_base": "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/",
     "screenshot_url": "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/screenshots/06-scanner-mobile.png",
     "screenshots": [
       "https://raw.githubusercontent.com/kingquiet-bot/qr-training-manager/main/screenshots/06-scanner-mobile.png",
@@ -927,7 +927,7 @@
       "Python",
       "Dockerfile"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "kizinno",
@@ -1068,7 +1068,7 @@
       "Python",
       "Dockerfile"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "lwinmoe51",
@@ -1125,7 +1125,7 @@
       "C",
       "Cython"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "mhkaungpyae",
@@ -1254,7 +1254,7 @@
     "desc": "A lightweight developer utility built with React, Node.js, and Express that wraps the Anthropic Claude API for seamless, zero-config code documentation and analysis.",
     "repo_url": "https://github.com/mryeminaung/documentation-assistant",
     "live_url": "https://documentation-assistant.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/slides/project-intro.md",
     "slides_base": "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/mryeminaung/documentation-assistant/main/screenshots/01-explain-code.png",
     "screenshots": [
@@ -1271,7 +1271,7 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "mshninwuttyi",
@@ -1293,6 +1293,31 @@
       "JavaScript",
       "CSS",
       "HTML"
+    ],
+    "chapter": 4
+  },
+  {
+    "github": "myathtetkyaw",
+    "name": "myathtetkyaw",
+    "title": "tech-news-digest",
+    "desc": "Fetches the top 10 trending Hacker News stories, groups them by topic and displays them in a dark-themed web page.",
+    "repo_url": "https://github.com/MyatHtetKyaw/tech-news-digest",
+    "live_url": "https://ai-tech-news-digest.vercel.app/",
+    "slides_raw": "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/slides/pitch.md",
+    "slides_base": "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/screenshots/01.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/screenshots/01.png",
+      "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/screenshots/02.png",
+      "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/screenshots/03.png",
+      "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/screenshots/04.png",
+      "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/screenshots/05.png"
+    ],
+    "type": "api",
+    "stack": [
+      "TypeScript",
+      "EJS",
+      "JavaScript"
     ],
     "chapter": 4
   },
@@ -1331,7 +1356,7 @@
     "title": "School-Information-System",
     "desc": "Full-stack School Information System with AI-powered chatbot, natural language queries, predictive analytics, report generation, and auto scheduling. Built for Myanmar schools.",
     "repo_url": "https://github.com/myoaung/School-Information-System",
-    "live_url": "https://schoolhub-mu.vercel.app",
+    "live_url": "https://schoolhub-mm.vercel.app",
     "slides_raw": "https://raw.githubusercontent.com/myoaung/School-Information-System/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/myoaung/School-Information-System/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/myoaung/School-Information-System/main/screenshots/02-login.png",
@@ -1353,7 +1378,7 @@
       "Python",
       "PLpgSQL"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "myominlin",
@@ -1414,8 +1439,8 @@
     "title": "latrinalia",
     "desc": "Digital toilet graffiti wall — a PWA for anonymous stall-side scribbling",
     "repo_url": "https://github.com/nanaungoo/latrinalia",
-    "live_url": "https://latrinalia-production.up.railway.app",
-    "slides_raw": "https://raw.githubusercontent.com/nanaungoo/latrinalia/main/slides/tech-stack.md",
+    "live_url": "https://latrinalia.nannaungoo.workers.dev",
+    "slides_raw": "https://raw.githubusercontent.com/nanaungoo/latrinalia/main/slides/pechakucha-6x20.md",
     "slides_base": "https://raw.githubusercontent.com/nanaungoo/latrinalia/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/nanaungoo/latrinalia/main/public/screenshot-lobby.png",
     "screenshots": [
@@ -1436,7 +1461,7 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "naw2",
@@ -1581,7 +1606,7 @@
     "desc": "",
     "repo_url": "https://github.com/pyone-cho/second-brain-claude",
     "live_url": "https://second-brain-claude.vercel.app/login",
-    "slides_raw": "https://raw.githubusercontent.com/pyone-cho/second-brain-claude/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/pyone-cho/second-brain-claude/main/slides/product-intro.md",
     "slides_base": "https://raw.githubusercontent.com/pyone-cho/second-brain-claude/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/pyone-cho/second-brain-claude/main/screenshots/03-todo.png",
     "screenshots": [
@@ -1602,7 +1627,7 @@
       "Python",
       "Shell"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "rolexstar27",
@@ -1751,7 +1776,7 @@
       "TypeScript",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "sandarma",
@@ -1777,7 +1802,7 @@
       "JavaScript",
       "HTML"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "shinnthantkyaw",
@@ -1807,7 +1832,7 @@
       "CSS",
       "Python"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "shirleyshyun-lgtm",
@@ -1859,7 +1884,7 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "susandarlin",
@@ -1992,7 +2017,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "thedevpp",
@@ -2119,14 +2144,20 @@
       "https://raw.githubusercontent.com/thuzarthaungsein/csv-cleaner/main/screenshots/1.png",
       "https://raw.githubusercontent.com/thuzarthaungsein/csv-cleaner/main/screenshots/2.png",
       "https://raw.githubusercontent.com/thuzarthaungsein/csv-cleaner/main/screenshots/3.png",
-      "https://raw.githubusercontent.com/thuzarthaungsein/csv-cleaner/main/screenshots/4.png"
+      "https://raw.githubusercontent.com/thuzarthaungsein/csv-cleaner/main/screenshots/4.png",
+      "https://raw.githubusercontent.com/thuzarthaungsein/csv-cleaner/main/screenshots/dark-mobile-0.png",
+      "https://raw.githubusercontent.com/thuzarthaungsein/csv-cleaner/main/screenshots/dark-mobile-1.png",
+      "https://raw.githubusercontent.com/thuzarthaungsein/csv-cleaner/main/screenshots/dark-desktop-0.png",
+      "https://raw.githubusercontent.com/thuzarthaungsein/csv-cleaner/main/screenshots/dark-desktop-1.png",
+      "https://raw.githubusercontent.com/thuzarthaungsein/csv-cleaner/main/screenshots/light-mobile-0.png",
+      "https://raw.githubusercontent.com/thuzarthaungsein/csv-cleaner/main/screenshots/light-mobile-1.png"
     ],
     "type": "other",
     "stack": [
       "TypeScript",
       "Dockerfile"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "vibecode-ting",
@@ -2137,26 +2168,15 @@
     "live_url": "https://app.myanmardev.com",
     "slides_raw": "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/slides/intro.md",
     "slides_base": "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/screenshoots/01_main.png",
-    "screenshots": [
-      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/screenshoots/01_main.png",
-      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/screenshoots/01_main_mm.png",
-      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/screenshoots/09_DOMAINS.png",
-      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/screenshoots/05_avaliable_domains.png",
-      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/screenshoots/image.png",
-      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/screenshoots/02_cmd.png",
-      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/screenshoots/04_check.png",
-      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/screenshoots/07_roadmap.png",
-      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/screenshoots/10_DNS_Records.png",
-      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/screenshoots/03_what_we_ship.png"
-    ],
+    "screenshot_url": null,
+    "screenshots": [],
     "type": "web-app",
     "stack": [
       "TypeScript",
       "Astro",
-      "Shell"
+      "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "wailynn351",
@@ -2235,7 +2255,7 @@
       "HTML",
       "CSS"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "wint-theingi-aung",
@@ -2244,7 +2264,7 @@
     "desc": "",
     "repo_url": "https://github.com/Wint-Theingi-Aung/ubuntu-localization",
     "live_url": "https://ubuntu-localization.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/slides/slides.html",
     "slides_base": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/guide-page.png",
     "screenshots": [
@@ -2265,7 +2285,7 @@
       "TypeScript",
       "Python"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "wythwin",
@@ -2429,7 +2449,7 @@
     "desc": "My protfolio",
     "repo_url": "https://github.com/zinmar2626/my-protfolio",
     "live_url": "https://zinmarwin.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/zinmar2626/my-protfolio/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/zinmar2626/my-protfolio/main/slides/pechakucha-6x20.md",
     "slides_base": "https://raw.githubusercontent.com/zinmar2626/my-protfolio/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/zinmar2626/my-protfolio/main/screenshots/home.png",
     "screenshots": [
@@ -2448,7 +2468,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "zinmimi",
@@ -2457,7 +2477,7 @@
     "desc": "Live Demo",
     "repo_url": "https://github.com/ZinMiMi/ai-maintenance-ticket-assistant",
     "live_url": "https://zinmimi.github.io/ai-maintenance-ticket-assistant/",
-    "slides_raw": "https://raw.githubusercontent.com/ZinMiMi/ai-maintenance-ticket-assistant/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/ZinMiMi/ai-maintenance-ticket-assistant/main/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/ZinMiMi/ai-maintenance-ticket-assistant/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/ZinMiMi/ai-maintenance-ticket-assistant/main/docs/screenshots/login.png",
     "screenshots": [
@@ -2472,6 +2492,6 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 5
+    "chapter": 6
   }
 ]
