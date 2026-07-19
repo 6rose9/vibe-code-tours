@@ -1204,8 +1204,8 @@
     "title": "bookwithyou",
     "desc": "A social reading tracker. Create reading sessions with chapter progress tracking, flat discussion threads, and emoji reactions — built with React, TypeScript, and Supabase.",
     "repo_url": "https://github.com/MrMyintMyatAung/bookwithyou",
-    "live_url": "https://bookwithyou.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/MrMyintMyatAung/bookwithyou/main/slides/tech-stack.md",
+    "live_url": "https://mrmyintmyataung.github.io/bookwithyou/",
+    "slides_raw": "https://raw.githubusercontent.com/MrMyintMyatAung/bookwithyou/main/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/MrMyintMyatAung/bookwithyou/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/MrMyintMyatAung/bookwithyou/main/screenshots/login.png",
     "screenshots": [
@@ -1221,7 +1221,7 @@
       "HTML",
       "PLpgSQL"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "mrmyothet",
