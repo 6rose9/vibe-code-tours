@@ -1799,9 +1799,9 @@
     ],
     "type": "web-app",
     "stack": [
+      "HTML",
       "TypeScript",
-      "JavaScript",
-      "HTML"
+      "JavaScript"
     ],
     "chapter": 6
   },
