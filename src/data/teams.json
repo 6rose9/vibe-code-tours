@@ -89,9 +89,9 @@
     "drive_url": "https://drive.google.com/file/d/1IvWWZMRp5yuX7rFnxT9IWTFVP_bDYwGm/view",
     "drive_id": "1IvWWZMRp5yuX7rFnxT9IWTFVP_bDYwGm",
     "uploaded": "Done",
-    "live_url": "https://team-06-app.netlify.app/",
+    "live_url": "https://team-06-app.vercel.app/",
     "repo_url": "https://github.com/vibe-code-tours/Team-06-app",
-    "notes": null,
+    "notes": "Vercel link ကို ချိန်းထားပါတယ်",
     "type": "web-app",
     "stack": []
   },
