@@ -78,9 +78,9 @@
     "github": "ammdevl",
     "name": "ammdevl",
     "title": "vibe-match",
-    "desc": "A tool for searching MCPs, SKILLs adn AGENTs for Vibe-Code Projects. Describe what you want --> Get what you need.",
+    "desc": "A tool for searching MCPs, SKILLs adn AGENTs for Vibe-Code Projects. Describe what you want --> Get what you need",
     "repo_url": "https://github.com/ammdevl/vibe-match",
-    "live_url": "https://vibe-match-nine.vercel.app",
+    "live_url": "https://vibe-match-ammdevl.vercel.app",
     "slides_raw": "https://raw.githubusercontent.com/ammdevl/vibe-match/main/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/ammdevl/vibe-match/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/ammdevl/vibe-match/main/screenshots/01-landing.png",
@@ -92,11 +92,11 @@
     ],
     "type": "web-app",
     "stack": [
+      "Python",
       "JavaScript",
-      "CSS",
-      "HTML"
+      "CSS"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "anthtooaung",
@@ -185,10 +185,10 @@
     "github": "ayenyeinsan22",
     "name": "ayenyeinsan22",
     "title": "linguify",
-    "desc": "Linguify is an AI-powered English learning platform that helps learners improve speaking, writing, grammar, vocabulary, and translation through personalized coaching.",
+    "desc": "Linguify is a platform for English Learners where they can enhance language proficiency.",
     "repo_url": "https://github.com/AyeNyeinSan22/linguify",
     "live_url": "https://linguify-eta.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/AyeNyeinSan22/linguify/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/AyeNyeinSan22/linguify/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/AyeNyeinSan22/linguify/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/AyeNyeinSan22/linguify/main/screenshots/home.png",
     "screenshots": [
@@ -205,7 +205,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "bhonepyisone",
@@ -289,10 +289,10 @@
     "github": "builtby-ap",
     "name": "builtby-ap",
     "title": "beancalculator",
-    "desc": "Bilingual (Burmese/English) settlement calculator for Myanmar farmers and traders to record bean sales, compute weights in viss, and generate invoices.",
+    "desc": "",
     "repo_url": "https://github.com/builtby-ap/beancalculator",
     "live_url": "https://beancalculator.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/builtby-ap/beancalculator/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/builtby-ap/beancalculator/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/builtby-ap/beancalculator/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/builtby-ap/beancalculator/main/screenshots/beans.png",
     "screenshots": [
@@ -309,7 +309,7 @@
       "HTML",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "celineyng2-sudo",
@@ -465,9 +465,9 @@
     "title": "warehouse",
     "desc": "",
     "repo_url": "https://github.com/GadayHtun/warehouse",
-    "live_url": "https://warehouse-mesm.onrender.com",
-    "slides_raw": "https://raw.githubusercontent.com/GadayHtun/warehouse/main/slides/tech-stack.md",
-    "slides_base": "https://raw.githubusercontent.com/GadayHtun/warehouse/main/slides/",
+    "live_url": "https://warehouse-mesm.onrender.com/",
+    "slides_raw": "https://raw.githubusercontent.com/GadayHtun/warehouse/main/https://github.com/GadayHtun/warehouse/blob/main/slides/polish.md",
+    "slides_base": "https://raw.githubusercontent.com/GadayHtun/warehouse/main/https://github.com/GadayHtun/warehouse/blob/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/GadayHtun/warehouse/main/screenshots/04-stock-in.png",
     "screenshots": [
       "https://raw.githubusercontent.com/GadayHtun/warehouse/main/screenshots/04-stock-in.png",
@@ -475,10 +475,11 @@
       "https://raw.githubusercontent.com/GadayHtun/warehouse/main/screenshots/02-dashboard.png",
       "https://raw.githubusercontent.com/GadayHtun/warehouse/main/screenshots/05-stock-out.png",
       "https://raw.githubusercontent.com/GadayHtun/warehouse/main/screenshots/01-login-page.png",
-      "https://raw.githubusercontent.com/GadayHtun/warehouse/main/screenshots/03-stock-overview.png",
-      "https://raw.githubusercontent.com/GadayHtun/warehouse/main/screenshots/06-reconciliation.png",
-      "https://raw.githubusercontent.com/GadayHtun/warehouse/main/screenshots/screenshot-defined.png",
-      "https://raw.githubusercontent.com/GadayHtun/warehouse/main/screenshots/08-reconciliation-create.png"
+      "https://raw.githubusercontent.com/GadayHtun/warehouse/main/screenshots/09-mobile-stock.png",
+      "https://raw.githubusercontent.com/GadayHtun/warehouse/main/screenshots/14-mobile-login.png",
+      "https://raw.githubusercontent.com/GadayHtun/warehouse/main/screenshots/02-desktop-stock.png",
+      "https://raw.githubusercontent.com/GadayHtun/warehouse/main/screenshots/07-desktop-login.png",
+      "https://raw.githubusercontent.com/GadayHtun/warehouse/main/screenshots/03-stock-overview.png"
     ],
     "type": "web-app",
     "stack": [
@@ -486,7 +487,7 @@
       "Blade",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "hanminmyat",
@@ -521,11 +522,11 @@
     "live_url": "https://beans-app-iota.vercel.app",
     "slides_raw": "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots-documents/voucher1v2.png",
+    "screenshot_url": "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots/beans1.png",
     "screenshots": [
-      "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots-documents/voucher1v2.png",
-      "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots-documents/arrivals1v2.png",
-      "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots-documents/dashboard1v2.png"
+      "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots/beans1.png",
+      "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots/beans2.png",
+      "https://raw.githubusercontent.com/haymannko/Beans-Inventory/main/screenshots/beans3.png"
     ],
     "type": "web-app",
     "stack": [
@@ -1438,7 +1439,7 @@
       "HTML",
       "CSS"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "nanaungoo",
@@ -1540,10 +1541,10 @@
     "github": "nyeinchan-lwin",
     "name": "nyeinchan-lwin",
     "title": "wordguess",
-    "desc": "A browser-based Wordle-style game where you guess a hidden 5-letter word in six tries, with colour-coded letter feedback.",
+    "desc": "Wordle-style word-guessing game",
     "repo_url": "https://github.com/nyeinchan-lwin/wordguess",
     "live_url": "https://nyeinchan-lwin.github.io/wordguess/",
-    "slides_raw": "https://raw.githubusercontent.com/nyeinchan-lwin/wordguess/main/slides/intro.md",
+    "slides_raw": "https://raw.githubusercontent.com/nyeinchan-lwin/wordguess/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/nyeinchan-lwin/wordguess/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/nyeinchan-lwin/wordguess/main/screenshots/01-menu.png",
     "screenshots": [
@@ -1557,7 +1558,7 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "oliverhenry-dev",
@@ -1969,36 +1970,6 @@
     "chapter": 5
   },
   {
-    "github": "thantz-cloud",
-    "name": "thantz-cloud",
-    "title": "Earthquake-Recovery",
-    "desc": "A web platform for real-time earthquake monitoring, disaster preparedness, and recovery resources.",
-    "repo_url": "https://github.com/ThantZ-cloud/Earthquake-Recovery",
-    "live_url": "https://earthquake-recovery-six.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/slides/tech-stack.md",
-    "slides_base": "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (42).png",
-    "screenshots": [
-      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (42).png",
-      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (43).png",
-      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (44).png",
-      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (45).png",
-      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (46).png",
-      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (47).png",
-      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (48).png",
-      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (49).png",
-      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (50).png",
-      "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/screenshots/Screenshot (51).png"
-    ],
-    "type": "web-app",
-    "stack": [
-      "JavaScript",
-      "CSS",
-      "HTML"
-    ],
-    "chapter": 5
-  },
-  {
     "github": "thaz1naung",
     "name": "thaz1naung",
     "title": "Pomodoro-Timer",
@@ -2301,10 +2272,10 @@
     "github": "yarzarmyomin97",
     "name": "yarzarmyomin97",
     "title": "dev_portfolio",
-    "desc": "A modern developer portfolio built with Next.js 16, React 19, and Tailwind CSS 4 — featuring glassmorphism design, animated aurora gradients, and a 3-theme system with light/dark mode.<!-- what your project does, in one plain sentence -->",
+    "desc": "A modern developer portfolio built with Next.js 16, React 19, and Tailwind CSS 4 — featuring glassmorphism design, animated aurora gradients, and a 3-theme system with light/dark mode.",
     "repo_url": "https://github.com/Yarzarmyomin97/dev_portfolio",
     "live_url": "https://yarzarmyomin.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/Yarzarmyomin97/dev_portfolio/main/slides/intro.md",
+    "slides_raw": "https://raw.githubusercontent.com/Yarzarmyomin97/dev_portfolio/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/Yarzarmyomin97/dev_portfolio/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/Yarzarmyomin97/dev_portfolio/main/screenshots/mobile-hero.png",
     "screenshots": [
@@ -2323,9 +2294,9 @@
     "stack": [
       "HTML",
       "Python",
-      "Shell"
+      "TypeScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "ye-lynn-htet",
