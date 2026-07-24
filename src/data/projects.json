@@ -564,10 +564,10 @@
     "github": "heinhtet-zaw12",
     "name": "heinhtet-zaw12",
     "title": "BiteBalance",
-    "desc": "Bite Balance is an AI-powered food tracker that analyzes your meals, calculates calories, and provides personalized health insights based on your BMI.",
+    "desc": "AI-powered calorie tracking app that analyzes meals from photos or text, classifies healthy vs junk food, tracks daily and monthly calorie intake, and provides BMI-based health insights with smart notifications.",
     "repo_url": "https://github.com/heinhtet-zaw12/BiteBalance",
     "live_url": "https://bite-balance-88.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/assets/screenshots/01.png",
     "screenshots": [
@@ -584,7 +584,7 @@
       "JavaScript",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "heinkhantphyoe",
@@ -648,10 +648,10 @@
     "github": "hlahtunthein09",
     "name": "hlahtunthein09",
     "title": "kill_the_laziness",
-    "desc": "A gamified productivity dashboard + browser extension that blocks distractions and tracks focus time through timed tasks with XP rewards.",
+    "desc": "Parent project repository created via GitHub MCP server",
     "repo_url": "https://github.com/hlahtunthein09/kill_the_laziness",
     "live_url": "https://kill-the-laziness.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Timer.png",
     "screenshots": [
@@ -668,7 +668,7 @@
       "HTML",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "htetaungkyaw-gicjp",
@@ -945,7 +945,10 @@
     "screenshots": [
       "https://raw.githubusercontent.com/KiZINnO/MINOS/main/screenshots/about.png",
       "https://raw.githubusercontent.com/KiZINnO/MINOS/main/screenshots/analyze.png",
-      "https://raw.githubusercontent.com/KiZINnO/MINOS/main/screenshots/desktop.png"
+      "https://raw.githubusercontent.com/KiZINnO/MINOS/main/screenshots/desktop.png",
+      "https://raw.githubusercontent.com/KiZINnO/MINOS/main/screenshots/home-1280x800.png",
+      "https://raw.githubusercontent.com/KiZINnO/MINOS/main/screenshots/about-1280x800.png",
+      "https://raw.githubusercontent.com/KiZINnO/MINOS/main/screenshots/analyze-1280x800.png"
     ],
     "type": "web-app",
     "stack": [
@@ -953,7 +956,7 @@
       "TypeScript",
       "CSS"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "kohtun386",
@@ -1969,7 +1972,7 @@
     "github": "thantz-cloud",
     "name": "thantz-cloud",
     "title": "Earthquake-Recovery",
-    "desc": "school website",
+    "desc": "A web platform for real-time earthquake monitoring, disaster preparedness, and recovery resources.",
     "repo_url": "https://github.com/ThantZ-cloud/Earthquake-Recovery",
     "live_url": "https://earthquake-recovery-six.vercel.app/",
     "slides_raw": "https://raw.githubusercontent.com/ThantZ-cloud/Earthquake-Recovery/main/slides/tech-stack.md",
@@ -2389,13 +2392,13 @@
       "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/01-login.png",
       "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/03-bills.png",
       "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/04-upload.png",
-      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/07-search.png",
-      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/06-sidebar.png",
       "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/08-profile.png",
       "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/06-calendar.png",
       "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/07-settings.png",
       "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/02-dashboard.png",
-      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/05-analytics.png"
+      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/05-analytics.png",
+      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/slides/screenshots/01-login.png",
+      "https://raw.githubusercontent.com/youuu199/phyat-paing/main/slides/screenshots/03-bills.png"
     ],
     "type": "web-app",
     "stack": [
@@ -2403,7 +2406,7 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "zawthetzt",
