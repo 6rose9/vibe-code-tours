@@ -105,7 +105,7 @@
     "desc": "",
     "repo_url": "https://github.com/anthtooaung/my-diary",
     "live_url": "https://my-diary-bqbj.onrender.com/",
-    "slides_raw": "https://raw.githubusercontent.com/anthtooaung/my-diary/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/anthtooaung/my-diary/main/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/anthtooaung/my-diary/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/anthtooaung/my-diary/main/screenshots/digit.png",
     "screenshots": [
@@ -114,11 +114,11 @@
       "https://raw.githubusercontent.com/anthtooaung/my-diary/main/screenshots/goal-1.png",
       "https://raw.githubusercontent.com/anthtooaung/my-diary/main/screenshots/goal-2.png",
       "https://raw.githubusercontent.com/anthtooaung/my-diary/main/screenshots/search.png",
+      "https://raw.githubusercontent.com/anthtooaung/my-diary/main/screenshots/01-login.png",
+      "https://raw.githubusercontent.com/anthtooaung/my-diary/main/screenshots/04-goals.png",
+      "https://raw.githubusercontent.com/anthtooaung/my-diary/main/screenshots/07-stats.png",
       "https://raw.githubusercontent.com/anthtooaung/my-diary/main/screenshots/calendar.png",
-      "https://raw.githubusercontent.com/anthtooaung/my-diary/main/screenshots/static-1.png",
-      "https://raw.githubusercontent.com/anthtooaung/my-diary/main/screenshots/static-2.png",
-      "https://raw.githubusercontent.com/anthtooaung/my-diary/main/screenshots/static-3.png",
-      "https://raw.githubusercontent.com/anthtooaung/my-diary/main/screenshots/dashboard.png"
+      "https://raw.githubusercontent.com/anthtooaung/my-diary/main/screenshots/static-1.png"
     ],
     "type": "web-app",
     "stack": [
@@ -126,7 +126,7 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "aungkyawminhtet",
@@ -936,11 +936,11 @@
     "github": "kizinno",
     "name": "kizinno",
     "title": "MINOS",
-    "desc": "MINOS — Auto-Triage SOC Bot MINOS extracts Indicators of Compromise (IoCs) from raw security logs, queries them against threat intelligence APIs, and produces a clean, scorable triage report — in Markdown or JSON.",
+    "desc": "MINOS — Auto-Triage SOC Bot MINOS extracts Indicators of Compromise (IoCs) from raw security logs, queries them against threat intelligence APIs, and produces a clean, scorable triage report — in Markdown or JSON.  Named after the mythological king who judged the dead. MINOS judges your logs.",
     "repo_url": "https://github.com/KiZINnO/MINOS",
     "live_url": "https://minos-mu.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/KiZINnO/MINOS/main/https://github.com/KiZINnO/MINOS/blob/main/slides/pitch.md",
-    "slides_base": "https://raw.githubusercontent.com/KiZINnO/MINOS/main/https://github.com/KiZINnO/MINOS/blob/main/slides/",
+    "slides_raw": "https://raw.githubusercontent.com/KiZINnO/MINOS/main/slides/pitch.md",
+    "slides_base": "https://raw.githubusercontent.com/KiZINnO/MINOS/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/KiZINnO/MINOS/main/screenshots/about.png",
     "screenshots": [
       "https://raw.githubusercontent.com/KiZINnO/MINOS/main/screenshots/about.png",
@@ -953,7 +953,7 @@
       "TypeScript",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "kohtun386",
@@ -2379,10 +2379,10 @@
     "github": "youuu199",
     "name": "youuu199",
     "title": "phyat-paing",
-    "desc": "AI-powered bill organizer that extracts data from utility bill photos using OCR and AI, with real-time currency conversion and spending analytics.",
+    "desc": "",
     "repo_url": "https://github.com/youuu199/phyat-paing",
     "live_url": "https://phyat-paing.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/youuu199/phyat-paing/main/slides/presentation.md",
+    "slides_raw": "https://raw.githubusercontent.com/youuu199/phyat-paing/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/youuu199/phyat-paing/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/youuu199/phyat-paing/main/screenshots/01-login.png",
     "screenshots": [
@@ -2403,7 +2403,7 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "zawthetzt",
