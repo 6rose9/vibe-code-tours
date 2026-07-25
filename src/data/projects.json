@@ -218,11 +218,11 @@
     "github": "bhonepyisone",
     "name": "bhonepyisone",
     "title": "PayProof",
-    "desc": "https://payproof-production.up.railway.app/",
+    "desc": "Open-source OCR module that ANY software (POS, ERP, web, mobile) can plug into to read payment confirmation screenshots/photos and link them to orders. Fully on-device, privacy-first, zero cloud dependency.",
     "repo_url": "https://github.com/bhonepyisone/PayProof",
-    "live_url": "https://payproof-production.up.railway.app/",
-    "slides_raw": "https://raw.githubusercontent.com/bhonepyisone/PayProof/main/slides.md",
-    "slides_base": "https://raw.githubusercontent.com/bhonepyisone/PayProof/main/",
+    "live_url": "https://payproof.fly.dev/",
+    "slides_raw": "https://raw.githubusercontent.com/bhonepyisone/PayProof/main/slides/tech-stack.md",
+    "slides_base": "https://raw.githubusercontent.com/bhonepyisone/PayProof/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/bhonepyisone/PayProof/main/docs/screenshot-scanner.png",
     "screenshots": [
       "https://raw.githubusercontent.com/bhonepyisone/PayProof/main/docs/screenshot-scanner.png",
@@ -238,7 +238,7 @@
       "Python",
       "Shell"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "bhonewai-bot",
@@ -1175,21 +1175,19 @@
     "desc": "",
     "repo_url": "https://github.com/MileFisher/daily-tech-digest",
     "live_url": "https://milefisher.github.io/daily-tech-digest/",
-    "slides_raw": "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/slides/pechakucha.md",
     "slides_base": "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/mobile-dark.png",
+    "screenshot_url": "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/mobile-390x844.png",
     "screenshots": [
-      "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/mobile-dark.png",
-      "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/desktop-dark.png",
-      "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/mobile-light.png",
-      "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/desktop-light.png",
-      "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/desktop-burmese.png"
+      "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/mobile-390x844.png",
+      "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/desktop-1280x800.png",
+      "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/desktop-dark-1280x800.png"
     ],
     "type": "web-app",
     "stack": [
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "minntayza",
@@ -1933,9 +1931,9 @@
     "github": "swan1792",
     "name": "swan1792",
     "title": "PA",
-    "desc": "A full-stack personal productivity platform that consolidates task management, habit tracking, goal setting, journaling, expense tracking, and more into a single unified Neobrutalism-styled web application.",
+    "desc": "this project is for personal use",
     "repo_url": "https://github.com/swan1792/PA",
-    "live_url": "https://frontend-psi-sage-11.vercel.app/",
+    "live_url": "https://pa-henna-alpha.vercel.app",
     "slides_raw": "https://raw.githubusercontent.com/swan1792/PA/main/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/swan1792/PA/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/swan1792/PA/main/screenshots/01-home.png",
@@ -1957,7 +1955,7 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "swezinpreciousai-sys",
@@ -1980,7 +1978,7 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "thaz1naung",
@@ -2154,10 +2152,10 @@
     "github": "wailynn351",
     "name": "wailynn351",
     "title": "wc2026-world-cup-predictor",
-    "desc": "WC2026 Live score and Predictor",
+    "desc": "",
     "repo_url": "https://github.com/Wailynn351/wc2026-world-cup-predictor",
-    "live_url": "https://github.com/Wailynn351/wc2026-world-cup-predictor/releases",
-    "slides_raw": "https://raw.githubusercontent.com/Wailynn351/wc2026-world-cup-predictor/main/slides/intro.md",
+    "live_url": "https://wailynn351.github.io/wc2026-world-cup-predictor/",
+    "slides_raw": "https://raw.githubusercontent.com/Wailynn351/wc2026-world-cup-predictor/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/Wailynn351/wc2026-world-cup-predictor/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/Wailynn351/wc2026-world-cup-predictor/main/screenshots/127.0.0.1_8080_.png",
     "screenshots": [
@@ -2172,7 +2170,7 @@
       "Python",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "winnaingsoe6666",
