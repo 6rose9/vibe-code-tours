@@ -271,10 +271,10 @@
     "github": "billy1437",
     "name": "billy1437",
     "title": "kilo_carrier",
-    "desc": "A peer-to-peer cargo marketplace where travellers between Yangon and Bangkok sell their spare luggage space to people who need to send parcels — cheaper than courier, with zero platform fees.",
+    "desc": "",
     "repo_url": "https://github.com/Billy1437/kilo_carrier",
-    "live_url": "https://kilocarrier.com",
-    "slides_raw": "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/slides/pitch.md",
+    "live_url": "https://kilocarrier.com/",
+    "slides_raw": "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/Billy1437/kilo_carrier/main/screenshots/post.png",
     "screenshots": [
@@ -290,7 +290,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "builtby-ap",
@@ -574,7 +574,7 @@
     "title": "BiteBalance",
     "desc": "AI-powered calorie tracking app that analyzes meals from photos or text, classifies healthy vs junk food, tracks daily and monthly calorie intake, and provides BMI-based health insights with smart notifications.",
     "repo_url": "https://github.com/heinhtet-zaw12/BiteBalance",
-    "live_url": "https://bite-balance-88.vercel.app/",
+    "live_url": "https://bite-balance-88.vercel.app",
     "slides_raw": "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/heinhtet-zaw12/BiteBalance/main/assets/screenshots/01.png",
@@ -592,7 +592,7 @@
       "JavaScript",
       "HTML"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "heinkhantphyoe",
@@ -661,14 +661,18 @@
     "live_url": "https://kill-the-laziness.vercel.app",
     "slides_raw": "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Timer.png",
+    "screenshot_url": "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Timer_dark mode.png",
     "screenshots": [
-      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Timer.png",
-      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Setting.png",
-      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Projects.png",
-      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Dashboard.png",
-      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Extension_Popup.png",
-      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Extension_Notification.png"
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Timer_dark mode.png",
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Timer_lightmode.png",
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Projects_darkmode.png",
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Settings_darkmode.png",
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Dashboard_darkmode.png",
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Projects_lightmode.png",
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Settings_lightmode.png",
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Dashboard_lightmode.png",
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Extension_notifications_darkmode.png",
+      "https://raw.githubusercontent.com/hlahtunthein09/kill_the_laziness/main/screenshots/Extension_notifications_lightmode.png"
     ],
     "type": "web-app",
     "stack": [
@@ -676,7 +680,7 @@
       "HTML",
       "CSS"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "htetaungkyaw-gicjp",
