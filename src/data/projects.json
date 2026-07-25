@@ -6,17 +6,24 @@
     "desc": "A professional networking and marketplace platform for Myanmar's rice industry.",
     "repo_url": "https://github.com/6rose9/rice-agent",
     "live_url": "https://rice-agent.vercel.app/feed",
-    "slides_raw": "https://raw.githubusercontent.com/6rose9/rice-agent/master/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/6rose9/rice-agent/master/slides/intro.md",
     "slides_base": "https://raw.githubusercontent.com/6rose9/rice-agent/master/slides/",
-    "screenshot_url": null,
-    "screenshots": [],
+    "screenshot_url": "https://raw.githubusercontent.com/6rose9/rice-agent/master/screenshots/01_home.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/6rose9/rice-agent/master/screenshots/01_home.png",
+      "https://raw.githubusercontent.com/6rose9/rice-agent/master/screenshots/05_network.png",
+      "https://raw.githubusercontent.com/6rose9/rice-agent/master/screenshots/10_setting.png",
+      "https://raw.githubusercontent.com/6rose9/rice-agent/master/screenshots/04_create_post.png",
+      "https://raw.githubusercontent.com/6rose9/rice-agent/master/screenshots/07_profile_post.png",
+      "https://raw.githubusercontent.com/6rose9/rice-agent/master/screenshots/08_profile_network.png"
+    ],
     "type": "web-app",
     "stack": [
       "TypeScript",
       "Python",
       "PLpgSQL"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "absolute-aungkomyint",
@@ -202,8 +209,8 @@
     "type": "web-app",
     "stack": [
       "TypeScript",
-      "CSS",
-      "JavaScript"
+      "Python",
+      "CSS"
     ],
     "chapter": 5
   },
@@ -1161,10 +1168,10 @@
     "github": "milefisher",
     "name": "milefisher",
     "title": "daily-tech-digest",
-    "desc": "Fetches top tech stories from Hacker News and Lobsters, filters out the noise, and writes a clean markdown digest — in English and Burmese",
+    "desc": "",
     "repo_url": "https://github.com/MileFisher/daily-tech-digest",
     "live_url": "https://milefisher.github.io/daily-tech-digest/",
-    "slides_raw": "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/slides/pechakucha.md",
+    "slides_raw": "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/MileFisher/daily-tech-digest/main/screenshots/mobile-dark.png",
     "screenshots": [
@@ -1178,7 +1185,7 @@
     "stack": [
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "minntayza",
@@ -1550,7 +1557,9 @@
     "screenshots": [
       "https://raw.githubusercontent.com/nyeinchan-lwin/wordguess/main/screenshots/01-menu.png",
       "https://raw.githubusercontent.com/nyeinchan-lwin/wordguess/main/screenshots/02-game.png",
-      "https://raw.githubusercontent.com/nyeinchan-lwin/wordguess/main/screenshots/03-result.png"
+      "https://raw.githubusercontent.com/nyeinchan-lwin/wordguess/main/screenshots/03-result.png",
+      "https://raw.githubusercontent.com/nyeinchan-lwin/wordguess/main/screenshots/04-mobile-menu.png",
+      "https://raw.githubusercontent.com/nyeinchan-lwin/wordguess/main/screenshots/05-mobile-game.png"
     ],
     "type": "web-app",
     "stack": [
@@ -1941,8 +1950,8 @@
     "type": "web-app",
     "stack": [
       "TypeScript",
-      "CSS",
-      "JavaScript"
+      "JavaScript",
+      "CSS"
     ],
     "chapter": 4
   },
@@ -2275,7 +2284,7 @@
     "desc": "A modern developer portfolio built with Next.js 16, React 19, and Tailwind CSS 4 — featuring glassmorphism design, animated aurora gradients, and a 3-theme system with light/dark mode.",
     "repo_url": "https://github.com/Yarzarmyomin97/dev_portfolio",
     "live_url": "https://yarzarmyomin.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/Yarzarmyomin97/dev_portfolio/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/Yarzarmyomin97/dev_portfolio/main/slides/intro.md",
     "slides_base": "https://raw.githubusercontent.com/Yarzarmyomin97/dev_portfolio/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/Yarzarmyomin97/dev_portfolio/main/screenshots/mobile-hero.png",
     "screenshots": [
@@ -2296,7 +2305,7 @@
       "Python",
       "TypeScript"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "ye-lynn-htet",
