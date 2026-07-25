@@ -349,18 +349,18 @@
     "live_url": "https://specflow-lite.vercel.app",
     "slides_raw": "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/03-dashboard.png",
+    "screenshot_url": "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/03-search.png",
     "screenshots": [
+      "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/03-search.png",
+      "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/02-projects.png",
+      "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/search-page.png",
+      "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/01-dashboard.png",
+      "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/02-dashboard.png",
       "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/03-dashboard.png",
       "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/01-login-page.png",
       "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/14-tasks-list.png",
-      "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/06-project-info.png",
-      "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/02-projects-list.png",
-      "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/12-new-task-form.png",
-      "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/04-project-detail.png",
-      "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/05-new-project-form.png",
-      "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/07-requirements-list.png",
-      "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/13-requirement-detail.png"
+      "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/04-search-page.png",
+      "https://raw.githubusercontent.com/ChanOoDev/specflow-lite/main/screenshots/05-project-info.png"
     ],
     "type": "web-app",
     "stack": [
@@ -368,7 +368,7 @@
       "Shell",
       "PLpgSQL"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "cidtechmm002",
@@ -435,7 +435,8 @@
     "screenshots": [
       "https://raw.githubusercontent.com/DylanFriday/flashcard-ai-generator/main/screenshots/01.png",
       "https://raw.githubusercontent.com/DylanFriday/flashcard-ai-generator/main/screenshots/02.png",
-      "https://raw.githubusercontent.com/DylanFriday/flashcard-ai-generator/main/screenshots/03.png"
+      "https://raw.githubusercontent.com/DylanFriday/flashcard-ai-generator/main/screenshots/03.png",
+      "https://raw.githubusercontent.com/DylanFriday/flashcard-ai-generator/main/screenshots/04.png"
     ],
     "type": "web-app",
     "stack": [
@@ -997,10 +998,10 @@
     "github": "kokaunghtet",
     "name": "kokaunghtet",
     "title": "vibecode-dailyplanner",
-    "desc": "A personal daily planner with task management, calendar view, and dark/light mode, backed by Firebase Firestore.",
+    "desc": "VibeCodeTour Personal Project",
     "repo_url": "https://github.com/kokaunghtet/vibecode-dailyplanner",
     "live_url": "https://vibecode-dailyplanner.web.app/",
-    "slides_raw": "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/slides/intro.md",
+    "slides_raw": "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/login.png",
     "screenshots": [
@@ -1010,11 +1011,11 @@
     ],
     "type": "web-app",
     "stack": [
-      "TypeScript",
       "Vue",
+      "TypeScript",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 5
   },
   {
     "github": "komyo335",
@@ -1043,25 +1044,6 @@
       "JavaScript"
     ],
     "chapter": 5
-  },
-  {
-    "github": "kyawminht",
-    "name": "kyawminht",
-    "title": "road-safety",
-    "desc": "A mobile-first learning app that teaches road safety to Myanmar children through visual flip cards and interactive games",
-    "repo_url": "https://github.com/kyawminht/road-safety",
-    "live_url": "https://road-safety-mm.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/kyawminht/road-safety/main/slides/pitch.md",
-    "slides_base": "https://raw.githubusercontent.com/kyawminht/road-safety/main/slides/",
-    "screenshot_url": null,
-    "screenshots": [],
-    "type": "web-app",
-    "stack": [
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
-    "chapter": 4
   },
   {
     "github": "linletlettun",
@@ -1243,13 +1225,16 @@
     "github": "mrmyothet",
     "name": "mrmyothet",
     "title": "zach-hair-studio",
-    "desc": "Zach Hair Studio — A full-stack salon platform for booking hair styling/coloring appointments, managing staff schedules, and selling hair products.",
+    "desc": "Vibe Code Tours - Personal Project",
     "repo_url": "https://github.com/mrmyothet/zach-hair-studio",
     "live_url": "https://zachhairstudio.vercel.app/",
     "slides_raw": "https://raw.githubusercontent.com/mrmyothet/zach-hair-studio/main/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/mrmyothet/zach-hair-studio/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/mrmyothet/zach-hair-studio/main/landing-page/screenshots/screenshot-1.png",
+    "screenshot_url": "https://raw.githubusercontent.com/mrmyothet/zach-hair-studio/main/screenshots/screenshot-1.jpg",
     "screenshots": [
+      "https://raw.githubusercontent.com/mrmyothet/zach-hair-studio/main/screenshots/screenshot-1.jpg",
+      "https://raw.githubusercontent.com/mrmyothet/zach-hair-studio/main/screenshots/screenshot-2.jpg",
+      "https://raw.githubusercontent.com/mrmyothet/zach-hair-studio/main/screenshots/screenshot-3.jpg",
       "https://raw.githubusercontent.com/mrmyothet/zach-hair-studio/main/landing-page/screenshots/screenshot-1.png",
       "https://raw.githubusercontent.com/mrmyothet/zach-hair-studio/main/landing-page/screenshots/screenshot-2.png",
       "https://raw.githubusercontent.com/mrmyothet/zach-hair-studio/main/landing-page/screenshots/screenshot-3.png",
@@ -1262,7 +1247,7 @@
       "C#",
       "TypeScript"
     ],
-    "chapter": 4
+    "chapter": 6
   },
   {
     "github": "mryeminaung",
@@ -1553,7 +1538,7 @@
     "desc": "Wordle-style word-guessing game",
     "repo_url": "https://github.com/nyeinchan-lwin/wordguess",
     "live_url": "https://nyeinchan-lwin.github.io/wordguess/",
-    "slides_raw": "https://raw.githubusercontent.com/nyeinchan-lwin/wordguess/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/nyeinchan-lwin/wordguess/main/slides/intro.md",
     "slides_base": "https://raw.githubusercontent.com/nyeinchan-lwin/wordguess/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/nyeinchan-lwin/wordguess/main/screenshots/01-menu.png",
     "screenshots": [
@@ -1569,7 +1554,7 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "oliverhenry-dev",
@@ -1716,12 +1701,8 @@
       "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/01-landing.png",
       "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/03-register.png",
       "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/04-dashboard.png",
-      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/15-error-logs.png",
       "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/05-child-detail.png",
-      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/14-results-full.png",
-      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/ui-update-02-login.png",
-      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/07-pdf-results-page.png",
-      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/17-form-submit-test.png"
+      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/06-assessment-results.png"
     ],
     "type": "web-app",
     "stack": [
@@ -1933,7 +1914,7 @@
     "title": "PA",
     "desc": "this project is for personal use",
     "repo_url": "https://github.com/swan1792/PA",
-    "live_url": "https://pa-henna-alpha.vercel.app",
+    "live_url": "https://pa-app.vercel.app",
     "slides_raw": "https://raw.githubusercontent.com/swan1792/PA/main/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/swan1792/PA/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/swan1792/PA/main/screenshots/01-home.png",
@@ -1955,7 +1936,7 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "swezinpreciousai-sys",
