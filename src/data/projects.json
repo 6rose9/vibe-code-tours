@@ -90,7 +90,7 @@
     "title": "vibe-match",
     "desc": "A tool for searching MCPs, SKILLs adn AGENTs for Vibe-Code Projects. Describe what you want --> Get what you need",
     "repo_url": "https://github.com/ammdevl/vibe-match",
-    "live_url": "https://vibe-match-ammdevl.vercel.app",
+    "live_url": "https://vibe-match-nine.vercel.app/",
     "slides_raw": "https://raw.githubusercontent.com/ammdevl/vibe-match/main/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/ammdevl/vibe-match/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/ammdevl/vibe-match/main/screenshots/01-landing.png",
@@ -106,7 +106,7 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 5,
+    "chapter": 6,
     "team": 12
   },
   {
@@ -725,12 +725,16 @@
     "desc": "",
     "repo_url": "https://github.com/HlaingThinPhyu/skincare-bestie",
     "live_url": "https://skincare-bestie.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/slides/intro.md",
     "slides_base": "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-homepage.jpg",
     "screenshots": [
       "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-homepage.jpg",
       "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-languages.jpg",
+      "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-homepage-dark.jpg",
+      "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-homepage-light.jpg",
+      "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-resultProducts-1.jpg",
+      "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-resultProducts-2.jpg",
       "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-recommendProducts-1.jpg",
       "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-recommendProducts-2.jpg",
       "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-recommendProducts-3.jpg"
@@ -741,7 +745,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 5,
+    "chapter": 6,
     "team": 11
   },
   {
@@ -1402,8 +1406,11 @@
     "screenshot_url": "https://raw.githubusercontent.com/mshninwuttyi/Student_Coding_Stress_Tracker/main/screenshots/1-start-page.png",
     "screenshots": [
       "https://raw.githubusercontent.com/mshninwuttyi/Student_Coding_Stress_Tracker/main/screenshots/1-start-page.png",
+      "https://raw.githubusercontent.com/mshninwuttyi/Student_Coding_Stress_Tracker/main/screenshots/4-start-page.png",
       "https://raw.githubusercontent.com/mshninwuttyi/Student_Coding_Stress_Tracker/main/screenshots/3-after-analyze.png",
-      "https://raw.githubusercontent.com/mshninwuttyi/Student_Coding_Stress_Tracker/main/screenshots/2-before-analyze.png"
+      "https://raw.githubusercontent.com/mshninwuttyi/Student_Coding_Stress_Tracker/main/screenshots/2-before-analyze.png",
+      "https://raw.githubusercontent.com/mshninwuttyi/Student_Coding_Stress_Tracker/main/screenshots/5-before-analyze.png",
+      "https://raw.githubusercontent.com/mshninwuttyi/Student_Coding_Stress_Tracker/main/screenshots/6-softened-stress-gauge.png"
     ],
     "type": "web-app",
     "stack": [
@@ -1411,7 +1418,7 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 5,
+    "chapter": 6,
     "team": 17
   },
   {
@@ -1447,7 +1454,7 @@
     "desc": "Customized clay jewelry website",
     "repo_url": "https://github.com/MyatSuMon253/charm-and-crumb",
     "live_url": "https://charm-and-crumb.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/slides/gallery.md",
     "slides_base": "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/MyatSuMon253/charm-and-crumb/main/screenshots/step-1.png",
     "screenshots": [
@@ -1468,7 +1475,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 5,
+    "chapter": 6,
     "team": 16
   },
   {
@@ -2061,10 +2068,7 @@
     "screenshots": [
       "https://raw.githubusercontent.com/susandarlin/trip_planner/main/screenshots/screenshot-daily-plan.png",
       "https://raw.githubusercontent.com/susandarlin/trip_planner/main/screenshots/screenshot-sample-data.png",
-      "https://raw.githubusercontent.com/susandarlin/trip_planner/main/screenshots/screenshot-default-view.png",
-      "https://raw.githubusercontent.com/susandarlin/trip_planner/main/ch-6/screenshots/screenshot-daily-plan.png",
-      "https://raw.githubusercontent.com/susandarlin/trip_planner/main/ch-6/screenshots/screenshot-sample-data.png",
-      "https://raw.githubusercontent.com/susandarlin/trip_planner/main/ch-6/screenshots/screenshot-default-view.png"
+      "https://raw.githubusercontent.com/susandarlin/trip_planner/main/screenshots/screenshot-default-view.png"
     ],
     "type": "web-app",
     "stack": [
@@ -2359,12 +2363,13 @@
     "desc": "ShareShelf is a community-powered tool library that helps people borrow and lend rarely used tools and equipment within their neighborhood, apartment, university, or local community. Instead of buying items used only a few times a year, members can share resources, save money, and reduce waste together.",
     "repo_url": "https://github.com/winnaingsoe6666/ShareShelf",
     "live_url": "https://share-shelf-ashen.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/winnaingsoe6666/ShareShelf/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/winnaingsoe6666/ShareShelf/main/slides/ShareShelf_product_intro.md",
     "slides_base": "https://raw.githubusercontent.com/winnaingsoe6666/ShareShelf/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/winnaingsoe6666/ShareShelf/main/screenshots/01.png",
     "screenshots": [
       "https://raw.githubusercontent.com/winnaingsoe6666/ShareShelf/main/screenshots/01.png",
       "https://raw.githubusercontent.com/winnaingsoe6666/ShareShelf/main/screenshots/02.png",
+      "https://raw.githubusercontent.com/winnaingsoe6666/ShareShelf/main/screenshots/03.png",
       "https://raw.githubusercontent.com/winnaingsoe6666/ShareShelf/main/screenshots/04-borrow.png",
       "https://raw.githubusercontent.com/winnaingsoe6666/ShareShelf/main/screenshots/05-profile.png",
       "https://raw.githubusercontent.com/winnaingsoe6666/ShareShelf/main/screenshots/01-homepage.png",
@@ -2377,7 +2382,7 @@
       "Kotlin",
       "HTML"
     ],
-    "chapter": 5,
+    "chapter": 6,
     "team": 5
   },
   {
