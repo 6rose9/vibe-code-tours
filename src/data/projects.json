@@ -23,7 +23,8 @@
       "Python",
       "PLpgSQL"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 11
   },
   {
     "github": "absolute-aungkomyint",
@@ -49,7 +50,8 @@
       "HTML",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 2
   },
   {
     "github": "ahk1542001-wq",
@@ -79,7 +81,8 @@
       "JavaScript",
       "HTML"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 2
   },
   {
     "github": "ammdevl",
@@ -103,7 +106,8 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 12
   },
   {
     "github": "anthtooaung",
@@ -133,7 +137,8 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 9
   },
   {
     "github": "aungkyawminhtet",
@@ -156,7 +161,8 @@
       "Python",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 11
   },
   {
     "github": "aungyephyo2215",
@@ -186,7 +192,8 @@
       "Shell",
       "JavaScript"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 14
   },
   {
     "github": "ayenyeinsan22",
@@ -212,7 +219,8 @@
       "Python",
       "CSS"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 18
   },
   {
     "github": "bhonepyisone",
@@ -238,7 +246,8 @@
       "Python",
       "Shell"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 18
   },
   {
     "github": "bhonewai-bot",
@@ -265,7 +274,8 @@
       "PHP",
       "JavaScript"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 19
   },
   {
     "github": "billy1437",
@@ -290,7 +300,8 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 10
   },
   {
     "github": "builtby-ap",
@@ -316,7 +327,8 @@
       "HTML",
       "CSS"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 19
   },
   {
     "github": "celineyng2-sudo",
@@ -338,7 +350,8 @@
       "HTML",
       "CSS"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 15
   },
   {
     "github": "chanoodev",
@@ -368,7 +381,8 @@
       "Shell",
       "PLpgSQL"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 12
   },
   {
     "github": "cidtechmm002",
@@ -394,7 +408,8 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 8
   },
   {
     "github": "david-sang96",
@@ -420,7 +435,8 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 6
   },
   {
     "github": "dylanfriday",
@@ -444,7 +460,8 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 13
   },
   {
     "github": "furryforwhat",
@@ -465,7 +482,8 @@
     "stack": [
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 2
   },
   {
     "github": "gadayhtun",
@@ -495,7 +513,8 @@
       "Blade",
       "JavaScript"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 17
   },
   {
     "github": "hanminmyat",
@@ -519,7 +538,8 @@
       "HTML",
       "Python"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 2
   },
   {
     "github": "haymannko",
@@ -542,7 +562,8 @@
       "Python",
       "Shell"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 1
   },
   {
     "github": "haymarhlaing",
@@ -567,7 +588,8 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 2
   },
   {
     "github": "heinhtet-zaw12",
@@ -593,7 +615,8 @@
       "JavaScript",
       "HTML"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 8
   },
   {
     "github": "heinkhantphyoe",
@@ -621,7 +644,8 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 3
   },
   {
     "github": "heinthaw-dev",
@@ -651,7 +675,8 @@
       "TypeScript",
       "CSS"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 9
   },
   {
     "github": "hlahtunthein09",
@@ -681,7 +706,8 @@
       "HTML",
       "CSS"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 6
   },
   {
     "github": "htetaungkyaw-gicjp",
@@ -711,7 +737,8 @@
       "JavaScript",
       "PLpgSQL"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 14
   },
   {
     "github": "htetlin27",
@@ -736,7 +763,8 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 16
   },
   {
     "github": "htunaungkyaw73",
@@ -760,7 +788,8 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 19
   },
   {
     "github": "iamyeaung",
@@ -790,7 +819,8 @@
       "Shell",
       "PowerShell"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 10
   },
   {
     "github": "jolly30",
@@ -811,7 +841,8 @@
     "stack": [
       "Python"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 11
   },
   {
     "github": "kaung-myat-code",
@@ -837,7 +868,8 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 8
   },
   {
     "github": "kaung101",
@@ -863,7 +895,8 @@
       "JavaScript",
       "C#"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 16
   },
   {
     "github": "kaykhaingmyint6170",
@@ -893,7 +926,8 @@
       "PHP",
       "JavaScript"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 14
   },
   {
     "github": "khinmyatthu2193",
@@ -916,7 +950,8 @@
       "JavaScript",
       "HTML"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 8
   },
   {
     "github": "kingquiet-bot",
@@ -943,7 +978,8 @@
       "Python",
       "Dockerfile"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 18
   },
   {
     "github": "kizinno",
@@ -969,7 +1005,8 @@
       "TypeScript",
       "CSS"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 7
   },
   {
     "github": "kohtun386",
@@ -992,7 +1029,8 @@
       "HTML",
       "PLpgSQL"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 7
   },
   {
     "github": "kokaunghtet",
@@ -1015,7 +1053,8 @@
       "TypeScript",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 13
   },
   {
     "github": "komyo335",
@@ -1043,7 +1082,8 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 19
   },
   {
     "github": "linletlettun",
@@ -1068,7 +1108,8 @@
       "Python",
       "Dockerfile"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 1
   },
   {
     "github": "lwinmoe51",
@@ -1095,7 +1136,8 @@
       "HTML",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 20
   },
   {
     "github": "mangsuan",
@@ -1125,7 +1167,8 @@
       "C",
       "Cython"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 3
   },
   {
     "github": "mhkaungpyae",
@@ -1148,7 +1191,8 @@
       "Python",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 6
   },
   {
     "github": "milefisher",
@@ -1169,7 +1213,8 @@
     "stack": [
       "JavaScript"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 17
   },
   {
     "github": "minntayza",
@@ -1194,7 +1239,8 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 9
   },
   {
     "github": "mrmyintmyataung",
@@ -1219,7 +1265,8 @@
       "HTML",
       "PLpgSQL"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 15
   },
   {
     "github": "mrmyothet",
@@ -1247,7 +1294,8 @@
       "C#",
       "TypeScript"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 15
   },
   {
     "github": "mryeminaung",
@@ -1273,7 +1321,8 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 17
   },
   {
     "github": "mshninwuttyi",
@@ -1296,7 +1345,8 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 17
   },
   {
     "github": "myathtetkyaw",
@@ -1321,7 +1371,8 @@
       "EJS",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 18
   },
   {
     "github": "myatsumon253",
@@ -1350,7 +1401,8 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 16
   },
   {
     "github": "myoaung",
@@ -1380,7 +1432,8 @@
       "Python",
       "PLpgSQL"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 18
   },
   {
     "github": "myominlin",
@@ -1406,7 +1459,8 @@
       "HTML",
       "Shell"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 16
   },
   {
     "github": "naitar",
@@ -1433,7 +1487,8 @@
       "HTML",
       "CSS"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 15
   },
   {
     "github": "nanaungoo",
@@ -1463,7 +1518,8 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 14
   },
   {
     "github": "naw2",
@@ -1484,7 +1540,8 @@
     "stack": [
       "Python"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 13
   },
   {
     "github": "noobfrommm",
@@ -1506,7 +1563,8 @@
       "Python",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 12
   },
   {
     "github": "nyein-sat-thaw",
@@ -1529,7 +1587,8 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 20
   },
   {
     "github": "nyeinchan-lwin",
@@ -1554,7 +1613,8 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 11
   },
   {
     "github": "oliverhenry-dev",
@@ -1577,7 +1637,8 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 7
   },
   {
     "github": "phyu1788",
@@ -1601,7 +1662,8 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 3
   },
   {
     "github": "pyone-cho",
@@ -1631,7 +1693,8 @@
       "Python",
       "Shell"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 3
   },
   {
     "github": "rolexstar27",
@@ -1661,7 +1724,8 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 20
   },
   {
     "github": "rover-aungkhine",
@@ -1684,7 +1748,8 @@
       "CSS",
       "Python"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 6
   },
   {
     "github": "royallyre7",
@@ -1710,7 +1775,8 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 3
   },
   {
     "github": "saiwaiyanphyo",
@@ -1729,7 +1795,8 @@
       "PLpgSQL",
       "CSS"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 4
   },
   {
     "github": "samm24tt",
@@ -1752,7 +1819,8 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 5
   },
   {
     "github": "sandar577",
@@ -1776,7 +1844,8 @@
       "TypeScript",
       "JavaScript"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 16
   },
   {
     "github": "sandarma",
@@ -1802,7 +1871,8 @@
       "TypeScript",
       "JavaScript"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 20
   },
   {
     "github": "shinnthantkyaw",
@@ -1832,16 +1902,17 @@
       "CSS",
       "Python"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 8
   },
   {
     "github": "shirleyshyun-lgtm",
     "name": "shirleyshyun-lgtm",
     "title": "MoodPlaylist",
-    "desc": "Describe your mood in plain English and get a curated playlist of real songs with album art and YouTube links.",
+    "desc": "Playlist based on Mood",
     "repo_url": "https://github.com/shirleyshyun-lgtm/MoodPlaylist",
-    "live_url": "https://mood-playlist-tan.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/shirleyshyun-lgtm/MoodPlaylist/main/slides/intro.md",
+    "live_url": "https://moodplaylist.vercel.app",
+    "slides_raw": "https://raw.githubusercontent.com/shirleyshyun-lgtm/MoodPlaylist/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/shirleyshyun-lgtm/MoodPlaylist/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/shirleyshyun-lgtm/MoodPlaylist/main/public/screenshots/home.png",
     "screenshots": [
@@ -1855,7 +1926,8 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 4
+    "chapter": 5,
+    "team": 11
   },
   {
     "github": "soe-yee-mon-htet",
@@ -1884,7 +1956,8 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 14
   },
   {
     "github": "susandarlin",
@@ -1906,7 +1979,8 @@
       "JavaScript",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 17
   },
   {
     "github": "swan1792",
@@ -1936,7 +2010,8 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 18
   },
   {
     "github": "swezinpreciousai-sys",
@@ -1959,7 +2034,8 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 19
   },
   {
     "github": "thaz1naung",
@@ -1987,16 +2063,17 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 17
   },
   {
     "github": "thedevpp",
     "name": "thedevpp",
     "title": "quiz-generator",
-    "desc": "A health education quiz platform for teenagers in Myanmar that generates doctor-reviewed multiple-choice, true/false, and scenario questions from verified medical handbooks using Claude API — with zero user data collection.",
+    "desc": "Health education quiz platform for teenagers in Myanmar — doctor-reviewed questions, Claude API, MCP server, zero data collection",
     "repo_url": "https://github.com/TheDevPP/quiz-generator",
-    "live_url": "https://quiz-generator-rugz.onrender.com/",
-    "slides_raw": "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/slides/intro.md",
+    "live_url": "https://quiz-generator-rugz.onrender.com",
+    "slides_raw": "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/TheDevPP/quiz-generator/main/screenshots/quiz-screen.png",
     "screenshots": [
@@ -2013,10 +2090,11 @@
     "type": "web-app",
     "stack": [
       "JavaScript",
-      "CSS",
-      "HTML"
+      "Shell",
+      "CSS"
     ],
-    "chapter": 4
+    "chapter": 5,
+    "team": 10
   },
   {
     "github": "thet-naing-lin",
@@ -2046,7 +2124,8 @@
       "PHP",
       "Blade"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 9
   },
   {
     "github": "thetzinsoe",
@@ -2075,7 +2154,8 @@
       "C#",
       "HTML"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 13
   },
   {
     "github": "thuyein-thet",
@@ -2098,7 +2178,8 @@
       "TypeScript",
       "CSS"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 7
   },
   {
     "github": "thuzarthaungsein",
@@ -2127,7 +2208,8 @@
       "TypeScript",
       "Dockerfile"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 6
   },
   {
     "github": "wailynn351",
@@ -2151,7 +2233,8 @@
       "Python",
       "HTML"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 1
   },
   {
     "github": "winnaingsoe6666",
@@ -2176,7 +2259,8 @@
       "Kotlin",
       "HTML"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 5
   },
   {
     "github": "winpapathu1994",
@@ -2206,7 +2290,8 @@
       "HTML",
       "CSS"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 6
   },
   {
     "github": "wint-theingi-aung",
@@ -2236,7 +2321,8 @@
       "TypeScript",
       "Python"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 7
   },
   {
     "github": "wythwin",
@@ -2258,7 +2344,8 @@
       "HTML",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 1
   },
   {
     "github": "yarzarmyomin97",
@@ -2288,7 +2375,8 @@
       "Python",
       "TypeScript"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 13
   },
   {
     "github": "ye-lynn-htet",
@@ -2311,7 +2399,8 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 15
   },
   {
     "github": "yeminko-me",
@@ -2339,7 +2428,8 @@
     "stack": [
       "Java"
     ],
-    "chapter": 5
+    "chapter": 5,
+    "team": 16
   },
   {
     "github": "youuu199",
@@ -2369,7 +2459,8 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 19
   },
   {
     "github": "zawthetzt",
@@ -2391,7 +2482,8 @@
       "Python",
       "Shell"
     ],
-    "chapter": 4
+    "chapter": 4,
+    "team": 16
   },
   {
     "github": "zinmar2626",
@@ -2419,7 +2511,8 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 14
   },
   {
     "github": "zinmimi",
@@ -2443,6 +2536,7 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 6
+    "chapter": 6,
+    "team": 13
   }
 ]
