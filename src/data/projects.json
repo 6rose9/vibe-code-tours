@@ -144,10 +144,10 @@
     "github": "aungkyawminhtet",
     "name": "aungkyawminhtet",
     "title": "personal-planner",
-    "desc": "An AI-powered personal planner that converts goals into structured, gamified roadmaps with a context-aware study mentor chat.",
+    "desc": "",
     "repo_url": "https://github.com/aungkyawminhtet/personal-planner",
     "live_url": "https://personal-planner-nine-phi.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/aungkyawminhtet/personal-planner/main/slides/pitch.md",
+    "slides_raw": "https://raw.githubusercontent.com/aungkyawminhtet/personal-planner/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/aungkyawminhtet/personal-planner/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/aungkyawminhtet/personal-planner/main/screenshots/01_map_path.png",
     "screenshots": [
@@ -161,7 +161,7 @@
       "Python",
       "CSS"
     ],
-    "chapter": 4,
+    "chapter": 5,
     "team": 11
   },
   {
@@ -318,14 +318,18 @@
       "https://raw.githubusercontent.com/builtby-ap/beancalculator/main/screenshots/login.png",
       "https://raw.githubusercontent.com/builtby-ap/beancalculator/main/screenshots/history.png",
       "https://raw.githubusercontent.com/builtby-ap/beancalculator/main/screenshots/invoice.png",
+      "https://raw.githubusercontent.com/builtby-ap/beancalculator/main/screenshots/01-login.png",
+      "https://raw.githubusercontent.com/builtby-ap/beancalculator/main/screenshots/06-beans.png",
       "https://raw.githubusercontent.com/builtby-ap/beancalculator/main/screenshots/dashboard.png",
+      "https://raw.githubusercontent.com/builtby-ap/beancalculator/main/screenshots/03-invoice.png",
+      "https://raw.githubusercontent.com/builtby-ap/beancalculator/main/screenshots/05-history.png",
       "https://raw.githubusercontent.com/builtby-ap/beancalculator/main/screenshots/calculator.png"
     ],
     "type": "web-app",
     "stack": [
       "JavaScript",
-      "HTML",
-      "CSS"
+      "Shell",
+      "HTML"
     ],
     "chapter": 5,
     "team": 19
@@ -708,6 +712,32 @@
     ],
     "chapter": 6,
     "team": 6
+  },
+  {
+    "github": "hlaingthinphyu",
+    "name": "hlaingthinphyu",
+    "title": "skincare-bestie",
+    "desc": "",
+    "repo_url": "https://github.com/HlaingThinPhyu/skincare-bestie",
+    "live_url": "https://skincare-bestie.vercel.app/",
+    "slides_raw": "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/slides/tech-stack.md",
+    "slides_base": "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-homepage.jpg",
+    "screenshots": [
+      "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-homepage.jpg",
+      "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-languages.jpg",
+      "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-recommendProducts-1.jpg",
+      "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-recommendProducts-2.jpg",
+      "https://raw.githubusercontent.com/HlaingThinPhyu/skincare-bestie/main/screenshots/screenshot-recommendProducts-3.jpg"
+    ],
+    "type": "web-app",
+    "stack": [
+      "TypeScript",
+      "CSS",
+      "JavaScript"
+    ],
+    "chapter": 5,
+    "team": 11
   },
   {
     "github": "htetaungkyaw-gicjp",
@@ -1222,8 +1252,8 @@
     "title": "pdf_summarizer",
     "desc": "",
     "repo_url": "https://github.com/minntayza/pdf_summarizer",
-    "live_url": "https://pdf-summarizer-topaz.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/minntayza/pdf_summarizer/main/slides/tech-stack.md",
+    "live_url": "https://pdf-summarizer-topaz.vercel.app/",
+    "slides_raw": "https://raw.githubusercontent.com/minntayza/pdf_summarizer/main/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/minntayza/pdf_summarizer/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/minntayza/pdf_summarizer/main/screenshots/01.png",
     "screenshots": [
@@ -1239,7 +1269,7 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 5,
+    "chapter": 6,
     "team": 9
   },
   {
@@ -1641,6 +1671,31 @@
     "team": 7
   },
   {
+    "github": "phyophyo2397",
+    "name": "phyophyo2397",
+    "title": "YT-Japanese-flashcard",
+    "desc": "",
+    "repo_url": "https://github.com/PHYOPHYO2397/YT-Japanese-flashcard",
+    "live_url": "https://yt-japanese-flashcard.vercel.app/",
+    "slides_raw": "https://raw.githubusercontent.com/PHYOPHYO2397/YT-Japanese-flashcard/main/slides/slides.md",
+    "slides_base": "https://raw.githubusercontent.com/PHYOPHYO2397/YT-Japanese-flashcard/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/PHYOPHYO2397/YT-Japanese-flashcard/main/screenshots/01.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/PHYOPHYO2397/YT-Japanese-flashcard/main/screenshots/01.png",
+      "https://raw.githubusercontent.com/PHYOPHYO2397/YT-Japanese-flashcard/main/screenshots/02.png",
+      "https://raw.githubusercontent.com/PHYOPHYO2397/YT-Japanese-flashcard/main/screenshots/03.png",
+      "https://raw.githubusercontent.com/PHYOPHYO2397/YT-Japanese-flashcard/main/screenshots/04.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "Shell",
+      "Python",
+      "HTML"
+    ],
+    "chapter": 6,
+    "team": 6
+  },
+  {
     "github": "phyu1788",
     "name": "phyu1788",
     "title": "phyu-portfolio",
@@ -1700,10 +1755,10 @@
     "github": "rolexstar27",
     "name": "rolexstar27",
     "title": "Portfolio",
-    "desc": "A modern, animated personal portfolio website built with Next.js 14, Tailwind CSS, and Framer Motion.",
+    "desc": "Modern animated portfolio built with Next.js 14, Tailwind CSS & Framer Motion — featuring light/dark themes, glassmorphism, and smooth scroll animations.",
     "repo_url": "https://github.com/rolexstar27/Portfolio",
     "live_url": "https://hmm-portfolio.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/rolexstar27/Portfolio/main/slides/intro.md",
+    "slides_raw": "https://raw.githubusercontent.com/rolexstar27/Portfolio/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/rolexstar27/Portfolio/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/rolexstar27/Portfolio/main/screenshots/portfolio.png",
     "screenshots": [
@@ -1724,7 +1779,7 @@
       "JavaScript",
       "CSS"
     ],
-    "chapter": 4,
+    "chapter": 5,
     "team": 20
   },
   {
@@ -2302,8 +2357,9 @@
     "live_url": "https://ubuntu-localization.vercel.app",
     "slides_raw": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/slides/slides.html",
     "slides_base": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/guide-page.png",
+    "screenshot_url": "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/shot.png",
     "screenshots": [
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/shot.png",
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/guide-page.png",
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/guide-karen.png",
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/template-shan.png",
@@ -2312,8 +2368,7 @@
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/translate-page.png",
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/contributors-mm.png",
       "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/dashboard-mobile.png",
-      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/dashboard-dark-en.png",
-      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/dashboard-screenshot.png"
+      "https://raw.githubusercontent.com/Wint-Theingi-Aung/ubuntu-localization/main/screenshots/dashboard-dark-en.png"
     ],
     "type": "web-app",
     "stack": [
