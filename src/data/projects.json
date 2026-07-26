@@ -194,7 +194,7 @@
     "title": "linguify",
     "desc": "Linguify is a platform for English Learners where they can enhance language proficiency.",
     "repo_url": "https://github.com/AyeNyeinSan22/linguify",
-    "live_url": "https://linguify-eta.vercel.app",
+    "live_url": "https://linguify-eta.vercel.app/",
     "slides_raw": "https://raw.githubusercontent.com/AyeNyeinSan22/linguify/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/AyeNyeinSan22/linguify/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/AyeNyeinSan22/linguify/main/screenshots/home.png",
@@ -212,7 +212,7 @@
       "Python",
       "CSS"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "bhonepyisone",
@@ -429,7 +429,7 @@
     "desc": "personal project",
     "repo_url": "https://github.com/DylanFriday/flashcard-ai-generator",
     "live_url": "https://flashcard-ai-generator-eyfyydi2d-khezudevs-projects.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/DylanFriday/flashcard-ai-generator/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/DylanFriday/flashcard-ai-generator/main/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/DylanFriday/flashcard-ai-generator/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/DylanFriday/flashcard-ai-generator/main/screenshots/01.png",
     "screenshots": [
@@ -444,7 +444,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 5
+    "chapter": 6
   },
   {
     "github": "furryforwhat",
