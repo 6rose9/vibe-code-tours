@@ -1901,11 +1901,12 @@
     "live_url": "https://personal-project-xi-coral.vercel.app/",
     "slides_raw": "https://raw.githubusercontent.com/Samm24TT/Personal-Project/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/Samm24TT/Personal-Project/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/Samm24TT/Personal-Project/main/screenshots/gameplay.png",
+    "screenshot_url": "https://raw.githubusercontent.com/Samm24TT/Personal-Project/main/screenshots/game-play.png",
     "screenshots": [
-      "https://raw.githubusercontent.com/Samm24TT/Personal-Project/main/screenshots/gameplay.png",
+      "https://raw.githubusercontent.com/Samm24TT/Personal-Project/main/screenshots/game-play.png",
       "https://raw.githubusercontent.com/Samm24TT/Personal-Project/main/screenshots/leaderboard.png",
-      "https://raw.githubusercontent.com/Samm24TT/Personal-Project/main/screenshots/start-screen.png"
+      "https://raw.githubusercontent.com/Samm24TT/Personal-Project/main/screenshots/start-screen.png",
+      "https://raw.githubusercontent.com/Samm24TT/Personal-Project/main/screenshots/custome-player.png"
     ],
     "type": "web-app",
     "stack": [
@@ -1913,7 +1914,7 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 5,
+    "chapter": 6,
     "team": 5
   },
   {
