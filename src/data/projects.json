@@ -1100,8 +1100,8 @@
     "type": "web-app",
     "stack": [
       "TypeScript",
-      "HTML",
-      "PLpgSQL"
+      "Python",
+      "HTML"
     ],
     "chapter": 6,
     "team": 7
@@ -2152,11 +2152,14 @@
     "live_url": "https://wutt-ai-stylist.vercel.app/",
     "slides_raw": "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/landing.png",
+    "screenshot_url": "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/login.png",
     "screenshots": [
+      "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/login.png",
       "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/landing.png",
       "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/profile.png",
-      "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/wardrobe.png"
+      "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/wardrobe.png",
+      "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/shoppingnoti.png",
+      "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/aistylistchat.png"
     ],
     "type": "web-app",
     "stack": [
