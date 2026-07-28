@@ -634,7 +634,7 @@
     "desc": "TripGenie — a React single-page application for trip/travel planning",
     "repo_url": "https://github.com/Heinkhantphyoe/Trip-Genie",
     "live_url": "https://ai-trip-genie-77.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/Heinkhantphyoe/Trip-Genie/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/Heinkhantphyoe/Trip-Genie/main/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/Heinkhantphyoe/Trip-Genie/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/Heinkhantphyoe/Trip-Genie/main/screenshots/home.png",
     "screenshots": [
@@ -653,7 +653,7 @@
       "CSS",
       "HTML"
     ],
-    "chapter": 5,
+    "chapter": 6,
     "team": 3
   },
   {
@@ -1103,7 +1103,7 @@
       "HTML",
       "PLpgSQL"
     ],
-    "chapter": 5,
+    "chapter": 6,
     "team": 7
   },
   {
