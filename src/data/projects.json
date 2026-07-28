@@ -649,9 +649,9 @@
     ],
     "type": "web-app",
     "stack": [
+      "Python",
       "JavaScript",
-      "CSS",
-      "HTML"
+      "CSS"
     ],
     "chapter": 6,
     "team": 3
