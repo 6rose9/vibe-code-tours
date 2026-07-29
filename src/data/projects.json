@@ -2149,7 +2149,7 @@
     "title": "wutt",
     "desc": "",
     "repo_url": "https://github.com/tainsinmoe04/wutt",
-    "live_url": "https://wutt-ai-stylist.vercel.app/",
+    "live_url": "https://wutt-frontend.onrender.com/",
     "slides_raw": "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/login.png",
@@ -2167,7 +2167,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 5,
+    "chapter": 6,
     "team": 19
   },
   {
