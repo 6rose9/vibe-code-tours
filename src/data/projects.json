@@ -1650,6 +1650,31 @@
     "team": 12
   },
   {
+    "github": "nyan-dev",
+    "name": "nyan-dev",
+    "title": "wishing-well",
+    "desc": "a digital wishing well",
+    "repo_url": "https://github.com/nyan-dev/wishing-well",
+    "live_url": "https://nyan-dev.github.io/wishing-well/",
+    "slides_raw": "https://raw.githubusercontent.com/nyan-dev/wishing-well/main/slides/tech-stack.md",
+    "slides_base": "https://raw.githubusercontent.com/nyan-dev/wishing-well/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/nyan-dev/wishing-well/main/screenshots/screen01.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/nyan-dev/wishing-well/main/screenshots/screen01.png",
+      "https://raw.githubusercontent.com/nyan-dev/wishing-well/main/screenshots/screen02.png",
+      "https://raw.githubusercontent.com/nyan-dev/wishing-well/main/screenshots/screen03.png",
+      "https://raw.githubusercontent.com/nyan-dev/wishing-well/main/screenshots/screen04.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "chapter": 5,
+    "team": 12
+  },
+  {
     "github": "nyein-sat-thaw",
     "name": "nyein-sat-thaw",
     "title": "myanmar-quiz-game",
@@ -2513,6 +2538,33 @@
     ],
     "chapter": 6,
     "team": 13
+  },
+  {
+    "github": "yayyaylay1996",
+    "name": "yayyaylay1996",
+    "title": "DigitalSellingProduct-bot",
+    "desc": "A Telegram bot that runs a real digital-subscription reselling business — customers browse products, pay, get admin-verified, and receive their accounts automatically.",
+    "repo_url": "https://github.com/yayyaylay1996/DigitalSellingProduct-bot",
+    "live_url": "https://t.me/GoingForwardDigitalShopBot",
+    "slides_raw": "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/slides/intro.md",
+    "slides_base": "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/1.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/1.png",
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/2.png",
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/3.png",
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/4.png",
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/5.png",
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/7.png",
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/9.png",
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/10.png"
+    ],
+    "type": "bot",
+    "stack": [
+      "JavaScript"
+    ],
+    "chapter": 4,
+    "team": 14
   },
   {
     "github": "ye-lynn-htet",
