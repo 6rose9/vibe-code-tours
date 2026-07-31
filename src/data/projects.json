@@ -1511,9 +1511,9 @@
     ],
     "type": "web-app",
     "stack": [
+      "HTML",
       "JavaScript",
-      "Python",
-      "PLpgSQL"
+      "Python"
     ],
     "chapter": 6,
     "team": 18
@@ -2424,37 +2424,6 @@
     "team": 5
   },
   {
-    "github": "winpapathu1994",
-    "name": "winpapathu1994",
-    "title": "meet-tab",
-    "desc": "A privacy-first meeting cost timer. Pick roles, not salaries. Share a link, hit start.",
-    "repo_url": "https://github.com/winpapathu1994/meet-tab",
-    "live_url": "https://meet-tab.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/slides/tech-stack.md",
-    "slides_base": "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/01.png",
-    "screenshots": [
-      "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/01.png",
-      "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/02.png",
-      "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/03.png",
-      "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/04.png",
-      "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/05.png",
-      "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/06.png",
-      "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/07.png",
-      "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/02-meet-mobile.png",
-      "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/01-meet-desktop.png",
-      "https://raw.githubusercontent.com/winpapathu1994/meet-tab/main/screenshots/07-meet-desktop.png"
-    ],
-    "type": "web-app",
-    "stack": [
-      "TypeScript",
-      "HTML",
-      "CSS"
-    ],
-    "chapter": 6,
-    "team": 6
-  },
-  {
     "github": "wint-theingi-aung",
     "name": "wint-theingi-aung",
     "title": "ubuntu-localization",
@@ -2565,30 +2534,6 @@
     ],
     "chapter": 5,
     "team": 14
-  },
-  {
-    "github": "ye-lynn-htet",
-    "name": "ye-lynn-htet",
-    "title": "ylh-portfolio",
-    "desc": "",
-    "repo_url": "https://github.com/ye-lynn-htet/ylh-portfolio",
-    "live_url": "https://ye-lynn-htet.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/ye-lynn-htet/ylh-portfolio/main/slides/tech-stack.md",
-    "slides_base": "https://raw.githubusercontent.com/ye-lynn-htet/ylh-portfolio/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/ye-lynn-htet/ylh-portfolio/main/screenshots/home.png",
-    "screenshots": [
-      "https://raw.githubusercontent.com/ye-lynn-htet/ylh-portfolio/main/screenshots/home.png",
-      "https://raw.githubusercontent.com/ye-lynn-htet/ylh-portfolio/main/screenshots/skills.png",
-      "https://raw.githubusercontent.com/ye-lynn-htet/ylh-portfolio/main/screenshots/projects.png"
-    ],
-    "type": "web-app",
-    "stack": [
-      "TypeScript",
-      "CSS",
-      "JavaScript"
-    ],
-    "chapter": 5,
-    "team": 15
   },
   {
     "github": "yeminko-me",
